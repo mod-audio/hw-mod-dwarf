@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name bottom-board-rescue)(type Legacy)(uri ${KIPRJMOD}/bottom-board-rescue.lib)(options "")(descr ""))
+  (lib (name itead)(type Legacy)(uri /home/ricardo/devel/mod/mod-hw-duo/hw-design/lib/symbols/itead.lib)(options "")(descr ""))
+  (lib (name local-components)(type Legacy)(uri /home/ricardo/devel/mod/mod-hw-duo/hw-design/lib/symbols/local-components.lib)(options "")(descr ""))
+  (lib (name local-components2)(type Legacy)(uri C:/Users/Lenovo/Documents/GitHub/mod-hw-duo_duox/hw-design/lib/symbols/local-components.lib)(options "")(descr ""))
+  (lib (name CODECODER-WM8731SEDS_V_SSOP28_)(type Legacy)(uri "/home/jan/Mod Github HW/hw-mod-uno/hw-design/lib/symbols/CODECODER-WM8731SEDS_V_SSOP28_.lib")(options "")(descr ""))
+)
