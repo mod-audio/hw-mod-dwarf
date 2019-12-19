@@ -148,7 +148,7 @@ AR Path="/5DFE1600" Ref="H?"  Part="1"
 AR Path="/55FC02AF/5DFE1600" Ref="H8"  Part="1" 
 F 0 "H8" H 5100 1220 50  0000 C CNN
 F 1 "HOLE" H 5100 1570 50  0000 C CNN
-F 2 "MountingHole:MountingHole_2mm" H 5100 1400 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3mm" H 5100 1400 60  0001 C CNN
 F 3 "" H 5100 1400 60  0000 C CNN
 	1    5100 1400
 	1    0    0    -1  
@@ -161,7 +161,7 @@ AR Path="/5DFE1606" Ref="H?"  Part="1"
 AR Path="/55FC02AF/5DFE1606" Ref="H9"  Part="1" 
 F 0 "H9" H 5450 1220 50  0000 C CNN
 F 1 "HOLE" H 5450 1570 50  0000 C CNN
-F 2 "MountingHole:MountingHole_2mm" H 5450 1400 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3mm" H 5450 1400 60  0001 C CNN
 F 3 "" H 5450 1400 60  0000 C CNN
 	1    5450 1400
 	1    0    0    -1  
