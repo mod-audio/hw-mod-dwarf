@@ -5,12 +5,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 11
-Title "MOD Uno - Main Board"
+Title "MOD Dwarf - Main Board"
 Date "2019-08-16"
-Rev "0.1"
+Rev "0.2"
 Comp "MOD Devices GmbH"
-Comment1 "Uno Audio processing board"
-Comment2 "https://github.com/moddevices/hw-mod-uno"
+Comment1 "Dwarf Audio processing board"
+Comment2 "https://github.com/moddevices/hw-mod-dwarf"
 Comment3 "Inp Power: 12V 500mA"
 Comment4 "USB outp Power: 500mA"
 $EndDescr
@@ -314,18 +314,14 @@ OUT2_DETECT
 Text GLabel 3625 2800 3    60   Input ~ 0
 MIC_SELECT
 $Comp
-L bottom-board-rescue:AS0A823-H4SB-7H J1
+L bottom-board-rescue:AS0A823-H4SB-7H P4
 U 1 1 5DF9F54A
 P 5525 3075
-F 0 "J1" V 5529 6205 50  0000 L CNN
+F 0 "P4" V 5529 6205 50  0000 L CNN
 F 1 "AS0A823-H4SB-7H" V 5620 6205 50  0000 L CNN
 F 2 "Uno:FOXCONN_AS0A823-H4SB-7H" H 5525 3075 50  0001 L BNN
-F 3 "None" H 5525 3075 50  0001 L BNN
-F 4 "AS0A823-H4SB-7H" H 5525 3075 50  0001 L BNN "Field4"
-F 5 "AS Series 260 Pin Single Row DDR4 SODIMM Connector" H 5525 3075 50  0001 L BNN "Field5"
-F 6 "Foxconn" H 5525 3075 50  0001 L BNN "Field6"
-F 7 "Unavailable" H 5525 3075 50  0001 L BNN "Field7"
-F 8 "None" H 5525 3075 50  0001 L BNN "Field8"
+F 3 "-" H 5525 3075 50  0001 L BNN
+F 4 "2309407-1" V 5525 3075 50  0001 C CNN "MPN"
 	1    5525 3075
 	0    1    1    0   
 $EndComp
@@ -1015,21 +1011,10 @@ U 1 1 5EBF60DB
 P 10450 5450
 F 0 "TP2" H 10508 5568 50  0000 L CNN
 F 1 "TestPoint" H 10508 5477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 10650 5450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10650 5450 50  0001 C CNN
 F 3 "~" H 10650 5450 50  0001 C CNN
 	1    10450 5450
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5EBFB73E
-P 10450 5050
-F 0 "TP1" H 10392 5076 50  0000 R CNN
-F 1 "TestPoint" H 10392 5167 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 10650 5050 50  0001 C CNN
-F 3 "~" H 10650 5050 50  0001 C CNN
-	1    10450 5050
-	-1   0    0    1   
 $EndComp
 Text GLabel 10450 4975 1    50   Input ~ 0
 UBOOT_BUTTON
@@ -1038,11 +1023,12 @@ L bottom-board-rescue:R_Small RA?
 U 1 1 5EC0EEF5
 P 10450 5650
 AR Path="/54F72C8D/5EC0EEF5" Ref="RA?"  Part="1" 
-AR Path="/54F725AE/5EC0EEF5" Ref="RA1"  Part="1" 
-F 0 "RA1" H 10500 5700 50  0000 L CNN
-F 1 "10" H 10500 5600 50  0000 L CNN
+AR Path="/54F725AE/5EC0EEF5" Ref="R30"  Part="1" 
+F 0 "R30" H 10500 5700 50  0000 L CNN
+F 1 "10R" H 10500 5600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10450 5650 60  0001 C CNN
 F 3 "" H 10450 5650 60  0000 C CNN
+F 4 "CRGCQ0603J10R" H 10450 5650 50  0001 C CNN "MPN"
 	1    10450 5650
 	-1   0    0    1   
 $EndComp
@@ -1089,4 +1075,15 @@ Wire Wire Line
 	5925 2800 5925 2775
 Wire Wire Line
 	5825 2800 5825 2775
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5EBFB73E
+P 10450 5050
+F 0 "TP1" H 10392 5076 50  0000 R CNN
+F 1 "TestPoint" H 10392 5167 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10650 5050 50  0001 C CNN
+F 3 "~" H 10650 5050 50  0001 C CNN
+	1    10450 5050
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
