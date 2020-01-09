@@ -252,8 +252,6 @@ Wire Wire Line
 	4100 3850 4100 3950
 Wire Wire Line
 	3250 3750 3450 3750
-Wire Wire Line
-	3250 4350 1800 4350
 Wire Notes Line
 	1600 2750 5450 2750
 Wire Notes Line
@@ -302,8 +300,6 @@ Wire Wire Line
 	3800 3150 3700 3150
 Wire Wire Line
 	3700 3150 3700 3200
-Wire Wire Line
-	1800 4350 1800 3550
 Connection ~ 7950 3550
 Connection ~ 8500 3850
 Connection ~ 4100 3150
@@ -331,25 +327,15 @@ $EndComp
 $Comp
 L Connector:AudioJack3 P6
 U 1 1 5D15D509
-P 2250 3750
-F 0 "P6" V 2278 3520 50  0000 R CNN
-F 1 "AudioJack3" V 1950 3900 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 2250 3750 50  0001 C CNN
-F 3 "~" H 2250 3750 50  0001 C CNN
-F 4 "SJ-3523-SMT-TR" V 2250 3750 50  0001 C CNN "MPN"
-	1    2250 3750
-	0    -1   -1   0   
+P 2275 3275
+F 0 "P6" V 2303 3045 50  0000 R CNN
+F 1 "AudioJack3" V 1975 3425 50  0000 R CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 2275 3275 50  0001 C CNN
+F 3 "~" H 2275 3275 50  0001 C CNN
+F 4 "SJ-3523-SMT-TR" V 2275 3275 50  0001 C CNN "MPN"
+	1    2275 3275
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2350 3550 2750 3550
-Wire Wire Line
-	1950 3550 1950 3450
-Wire Wire Line
-	1950 3450 2250 3450
-Wire Wire Line
-	2250 3450 2250 3550
-Wire Wire Line
-	1800 3550 1950 3550
 Wire Wire Line
 	7150 3550 7600 3550
 Wire Wire Line
@@ -370,7 +356,7 @@ Wire Wire Line
 	6900 3500 6950 3500
 Wire Wire Line
 	6950 3500 6950 3550
-NoConn ~ 2150 3550
+NoConn ~ 2375 3475
 $Comp
 L Diode:1N4148 D?
 U 1 1 5D5B626A
@@ -430,4 +416,12 @@ F 4 "RL73N1JR22JTD" H -3450 200 50  0001 C CNN "MPN"
 	1    2850 3550
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3250 4350 2175 4350
+Wire Wire Line
+	2175 4350 2175 3475
+Wire Wire Line
+	2750 3550 2275 3550
+Wire Wire Line
+	2275 3550 2275 3475
 $EndSCHEMATC
