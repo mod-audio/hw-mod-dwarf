@@ -1,0 +1,573 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 12
+Title "MOD Uno - Main Board"
+Date "2019-08-16"
+Rev "0.1"
+Comp "MOD Devices GmbH"
+Comment1 "Uno Audio processing board"
+Comment2 "https://github.com/moddevices/hw-mod-uno"
+Comment3 "Inp Power: 12V 500mA"
+Comment4 "USB outp Power: 500mA"
+$EndDescr
+$Comp
+L bottom-board-rescue:CONN_02X10 P8
+U 1 1 550C4B50
+P 9250 1650
+F 0 "P8" H 9250 2200 50  0000 C CNN
+F 1 "HMI_DATA" V 9250 1650 50  0000 C CNN
+F 2 "Uno:Pin_Header_Straight_2x10_Shrouded" H 9250 450 60  0001 C CNN
+F 3 "" H 9250 450 60  0000 C CNN
+F 4 "SBH11-PBPC-D10-ST-BK" H 50  -150 50  0001 C CNN "MPN"
+	1    9250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:CONN_01X03 P9
+U 1 1 550C52C0
+P 9750 2650
+AR Path="/550C52C0" Ref="P9"  Part="1" 
+AR Path="/54F72FB8/550C52C0" Ref="P9"  Part="1" 
+F 0 "P9" H 9750 2850 50  0000 C CNN
+F 1 "SERIAL_DEBUG" V 9850 2650 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9750 2650 60  0001 C CNN
+F 3 "" H 9750 2650 60  0000 C CNN
+F 4 "DO NOT PLACE" H 9750 2650 50  0001 C CNN "MPN"
+	1    9750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0155
+U 1 1 550C9AAB
+P 7950 5150
+F 0 "#PWR0155" H 7950 4900 50  0001 C CNN
+F 1 "GNDD" H 7950 5000 50  0000 C CNN
+F 2 "" H 7950 5150 60  0000 C CNN
+F 3 "" H 7950 5150 60  0000 C CNN
+	1    7950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:CP_Small C56
+U 1 1 550C9E8B
+P 6950 4950
+F 0 "C56" H 7000 4850 50  0000 L CNN
+F 1 "10uF" V 7000 5000 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 6950 4950 60  0001 C CNN
+F 3 "" H 6950 4950 60  0000 C CNN
+F 4 "UWX1E100MCL1GB" H -800 0   50  0001 C CNN "MPN"
+	1    6950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0156
+U 1 1 550CA830
+P 7050 5200
+F 0 "#PWR0156" H 7050 4950 50  0001 C CNN
+F 1 "GNDD" H 7050 5050 50  0000 C CNN
+F 2 "" H 7050 5200 60  0000 C CNN
+F 3 "" H 7050 5200 60  0000 C CNN
+	1    7050 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0160
+U 1 1 550D6CF9
+P 2400 5500
+AR Path="/550D6CF9" Ref="#PWR0160"  Part="1" 
+AR Path="/54F72FB8/550D6CF9" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 2400 5250 50  0001 C CNN
+F 1 "GNDA" H 2400 5350 50  0000 C CNN
+F 2 "" H 2400 5500 60  0000 C CNN
+F 3 "" H 2400 5500 60  0000 C CNN
+	1    2400 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0161
+U 1 1 550D7285
+P 2350 4650
+AR Path="/550D7285" Ref="#PWR0161"  Part="1" 
+AR Path="/54F72FB8/550D7285" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 2350 4400 50  0001 C CNN
+F 1 "GNDA" H 2350 4500 50  0000 C CNN
+F 2 "" H 2350 4650 60  0000 C CNN
+F 3 "" H 2350 4650 60  0000 C CNN
+	1    2350 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0163
+U 1 1 550DEDBA
+P 9500 2850
+F 0 "#PWR0163" H 9500 2600 50  0001 C CNN
+F 1 "GNDD" H 9500 2700 50  0000 C CNN
+F 2 "" H 9500 2850 60  0000 C CNN
+F 3 "" H 9500 2850 60  0000 C CNN
+	1    9500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0164
+U 1 1 550AE498
+P 8900 2200
+F 0 "#PWR0164" H 8900 1950 50  0001 C CNN
+F 1 "GNDD" H 8900 2050 50  0000 C CNN
+F 2 "" H 8900 2200 60  0000 C CNN
+F 3 "" H 8900 2200 60  0000 C CNN
+	1    8900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0165
+U 1 1 550B207C
+P 9600 2150
+F 0 "#PWR0165" H 9600 1900 50  0001 C CNN
+F 1 "GNDD" H 9600 2000 50  0000 C CNN
+F 2 "" H 9600 2150 60  0000 C CNN
+F 3 "" H 9600 2150 60  0000 C CNN
+	1    9600 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 4550 0    50   Output ~ 0
+RS485_RX+
+Text GLabel 7900 4850 0    50   Output ~ 0
+RS485_RX-
+Text GLabel 7900 4350 0    50   Input ~ 0
+RS485_TX+
+Text GLabel 7900 4450 0    50   Input ~ 0
+RS485_TX-
+Text GLabel 2450 4850 2    50   Output ~ 0
+LEFT_AUDIO_INPUT
+Text GLabel 2450 5700 2    50   Output ~ 0
+RIGHT_AUDIO_INPUT
+Text Notes 1600 4050 0    100  ~ 0
+AUDIO
+Text Notes 6950 4100 0    100  ~ 0
+CONTROL CHAIN
+Text Notes 7850 1050 0    100  ~ 0
+HMI
+Text GLabel 9350 2550 0    50   Input ~ 0
+CLI_UART_TX
+Text GLabel 9350 2650 0    50   Output ~ 0
+CLI_UART_RX
+Text GLabel 9700 2100 2    50   Output ~ 0
+HMI_UART_RX
+Text GLabel 9700 2000 2    50   Input ~ 0
+HMI_UART_TX
+Text GLabel 9700 1800 2    50   Input ~ 0
+HMI_ISP_ENABLE
+Text GLabel 9700 1900 2    50   Input ~ 0
+HMI_RESET
+Text GLabel 8300 1500 0    50   Input ~ 0
+CLI_UART_TX
+Text GLabel 8300 1600 0    50   Output ~ 0
+CLI_UART_RX
+Text GLabel 8850 1800 0    50   Output ~ 0
+POWER_BUTTON
+Text GLabel 8850 2100 0    50   BiDi ~ 0
+TWI4_SDA
+Text GLabel 8850 2000 0    50   Input ~ 0
+TWI4_SCL
+Text GLabel 8850 1900 0    50   Input ~ 0
+PM_LEDS_OE
+Wire Wire Line
+	8050 4350 7900 4350
+Wire Wire Line
+	8050 4450 7900 4450
+Wire Wire Line
+	7900 4550 8050 4550
+Wire Wire Line
+	7950 4950 7950 5050
+Wire Wire Line
+	6950 4850 6950 4650
+Wire Wire Line
+	6950 4650 7250 4650
+Wire Wire Line
+	7250 4550 7250 4650
+Wire Wire Line
+	6950 5050 6950 5150
+Wire Wire Line
+	6950 5150 7050 5150
+Wire Wire Line
+	7250 5150 7250 5050
+Wire Wire Line
+	7050 5200 7050 5150
+Wire Wire Line
+	2100 4850 2450 4850
+Wire Wire Line
+	2450 5700 2100 5700
+Wire Wire Line
+	9500 2850 9500 2750
+Wire Wire Line
+	9500 2750 9550 2750
+Wire Wire Line
+	9350 2550 9550 2550
+Wire Wire Line
+	9550 2650 9350 2650
+Wire Notes Line
+	1250 3800 6100 3800
+Wire Notes Line
+	6100 3800 6100 6800
+Wire Notes Line
+	6100 6800 1250 6800
+Wire Notes Line
+	1250 6800 1250 3800
+Wire Notes Line
+	6800 3800 10100 3800
+Wire Notes Line
+	10100 3800 10100 5750
+Wire Notes Line
+	10100 5750 6800 5750
+Wire Notes Line
+	6800 5750 6800 3800
+Wire Wire Line
+	8650 1600 9000 1600
+Wire Wire Line
+	9000 1500 8650 1500
+Wire Wire Line
+	9700 1900 9500 1900
+Wire Wire Line
+	9500 1800 9700 1800
+Wire Wire Line
+	9700 2100 9500 2100
+Wire Wire Line
+	9500 2000 9700 2000
+Wire Notes Line
+	7400 850  7400 3150
+Wire Notes Line
+	7400 3150 10900 3150
+Wire Notes Line
+	10900 3150 10900 850 
+Wire Notes Line
+	10900 850  7400 850 
+Wire Wire Line
+	9600 1200 9600 1700
+Wire Wire Line
+	9500 1700 9600 1700
+Wire Wire Line
+	9600 1200 9500 1200
+Wire Wire Line
+	8850 2000 9000 2000
+Wire Wire Line
+	8850 2100 9000 2100
+Wire Wire Line
+	9000 1700 8900 1700
+Wire Wire Line
+	9000 1800 8850 1800
+Wire Wire Line
+	8850 1900 9000 1900
+Connection ~ 7250 4650
+Connection ~ 7050 5150
+Connection ~ 9600 1700
+Connection ~ 8900 1700
+NoConn ~ 2100 4750
+NoConn ~ 2100 5600
+$Comp
+L bottom-board-rescue:+12V-power #PWR0170
+U 1 1 55FADC86
+P 7250 4550
+F 0 "#PWR0170" H 7250 4400 50  0001 C CNN
+F 1 "+12V" H 7250 4690 50  0000 C CNN
+F 2 "" H 7250 4550 60  0000 C CNN
+F 3 "" H 7250 4550 60  0000 C CNN
+	1    7250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:+12V-power #PWR0171
+U 1 1 55FAF2FE
+P 9850 1250
+F 0 "#PWR0171" H 9850 1100 50  0001 C CNN
+F 1 "+12V" H 9850 1400 50  0000 C CNN
+F 2 "" H 9850 1250 60  0000 C CNN
+F 3 "" H 9850 1250 60  0000 C CNN
+	1    9850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small R72
+U 1 1 566433EA
+P 8550 1500
+F 0 "R72" V 8500 1300 50  0000 L CNN
+F 1 "100R" V 8500 1600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8550 1500 60  0001 C CNN
+F 3 "" H 8550 1500 60  0000 C CNN
+F 4 "RMCF0603JT100R" H -200 -3850 50  0001 C CNN "MPN"
+	1    8550 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small R73
+U 1 1 566433F1
+P 8550 1600
+F 0 "R73" V 8500 1400 50  0000 L CNN
+F 1 "100R" V 8500 1700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8550 1600 60  0001 C CNN
+F 3 "" H 8550 1600 60  0000 C CNN
+F 4 "RMCF0603JT100R" H -200 -3750 50  0001 C CNN "MPN"
+	1    8550 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 1500 8300 1500
+Wire Wire Line
+	8300 1600 8450 1600
+Wire Wire Line
+	7950 4950 8050 4950
+Wire Wire Line
+	8050 5050 7950 5050
+Connection ~ 7950 5050
+Wire Wire Line
+	7250 4650 7250 4850
+Wire Wire Line
+	7050 5150 7250 5150
+Wire Wire Line
+	9600 1700 9600 2150
+Wire Wire Line
+	8900 1700 8900 2200
+Wire Wire Line
+	7950 5050 7950 5150
+$Comp
+L Connector:AudioJack3_Switch P11
+U 1 1 550C45C0
+P 1900 5500
+F 0 "P11" H 1950 5900 50  0000 C CNN
+F 1 "JACK_TRS_6PINS" H 1900 5200 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal" H 2050 5350 60  0001 C CNN
+F 3 "" H 2050 5350 60  0000 C CNN
+F 4 "NYS215" H 0   -200 50  0001 C CNN "MPN"
+	1    1900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_Switch P10
+U 1 1 550C776E
+P 1900 4650
+F 0 "P10" H 1950 5050 50  0000 C CNN
+F 1 "JACK_TRS_6PINS" H 1900 4350 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal" H 2050 4500 60  0001 C CNN
+F 3 "" H 2050 4500 60  0000 C CNN
+F 4 "NYS215" H 0   -200 50  0001 C CNN "MPN"
+	1    1900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small C57
+U 1 1 550C9E35
+P 7250 4950
+F 0 "C57" H 7300 4850 50  0000 L CNN
+F 1 "100nF" V 7300 5000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7250 4950 60  0001 C CNN
+F 3 "" H 7250 4950 60  0000 C CNN
+F 4 "C1608X7R1E104K080AA" H -800 0   50  0001 C CNN "MPN"
+	1    7250 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4450 2250 4450
+Wire Wire Line
+	2100 4950 2250 4950
+Wire Wire Line
+	2100 5300 2300 5300
+Wire Wire Line
+	2100 5500 2300 5500
+Wire Wire Line
+	2100 5800 2300 5800
+Wire Wire Line
+	2300 5800 2300 5500
+Connection ~ 2300 5500
+Wire Wire Line
+	9850 1250 9850 1300
+Wire Wire Line
+	9850 1300 9500 1300
+Wire Wire Line
+	9850 1300 9850 1400
+Wire Wire Line
+	9850 1400 9500 1400
+Connection ~ 9850 1300
+Wire Wire Line
+	9850 1400 9850 1500
+Wire Wire Line
+	9850 1500 9500 1500
+Connection ~ 9850 1400
+Wire Wire Line
+	9850 1500 9850 1600
+Wire Wire Line
+	9850 1600 9500 1600
+Connection ~ 9850 1500
+Wire Wire Line
+	9000 1200 8900 1200
+Text Notes 6200 3725 0    60   ~ 0
+This port is NOT used for ethernet, but for a serial protocol that includes power over the RJ-45 connector
+$Comp
+L bottom-board-rescue:R_Small R26
+U 1 1 5DE38437
+P 2400 4350
+F 0 "R26" H 2250 4400 50  0000 L CNN
+F 1 "100K" H 2450 4300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 4350 60  0001 C CNN
+F 3 "" H 2400 4350 60  0000 C CNN
+F 4 "CR0603-JW-104ELF" H 2400 4350 50  0001 C CNN "MPN"
+	1    2400 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 2675 4550 2    60   Input ~ 0
+IN1_DETECT
+Wire Wire Line
+	2250 4950 2250 4650
+Wire Wire Line
+	2350 4650 2250 4650
+Connection ~ 2250 4650
+Wire Wire Line
+	2250 4650 2250 4450
+Wire Wire Line
+	2100 4650 2250 4650
+Wire Wire Line
+	2675 4550 2400 4550
+Wire Wire Line
+	2400 4550 2400 4450
+Connection ~ 2400 4550
+Wire Wire Line
+	2400 4550 2100 4550
+$Comp
+L bottom-board-rescue:+5VA-power #PWR?
+U 1 1 5DE50771
+P 2400 4225
+AR Path="/54F72B97/5DE50771" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/5DE50771" Ref="#PWR?"  Part="1" 
+AR Path="/54F72FB8/5DE50771" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 2400 4075 50  0001 C CNN
+F 1 "+5VA" H 2400 4365 50  0000 C CNN
+F 2 "" H 2400 4225 60  0000 C CNN
+F 3 "" H 2400 4225 60  0000 C CNN
+	1    2400 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5300 2300 5500
+Wire Wire Line
+	2400 5500 2300 5500
+$Comp
+L bottom-board-rescue:R_Small R27
+U 1 1 5DE602E8
+P 2400 5200
+F 0 "R27" H 2250 5250 50  0000 L CNN
+F 1 "100K" H 2450 5150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 5200 60  0001 C CNN
+F 3 "" H 2400 5200 60  0000 C CNN
+F 4 "CR0603-JW-104ELF" H 2400 5200 50  0001 C CNN "MPN"
+	1    2400 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2675 5400 2400 5400
+Wire Wire Line
+	2400 5400 2400 5300
+Connection ~ 2400 5400
+Wire Wire Line
+	2400 5400 2100 5400
+$Comp
+L bottom-board-rescue:+5VA-power #PWR?
+U 1 1 5DE602F3
+P 2400 5075
+AR Path="/54F72B97/5DE602F3" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/5DE602F3" Ref="#PWR?"  Part="1" 
+AR Path="/54F72FB8/5DE602F3" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 2400 4925 50  0001 C CNN
+F 1 "+5VA" H 2400 5215 50  0000 C CNN
+F 2 "" H 2400 5075 60  0000 C CNN
+F 3 "" H 2400 5075 60  0000 C CNN
+	1    2400 5075
+	1    0    0    -1  
+$EndComp
+Text GLabel 2675 5400 2    60   Input ~ 0
+IN2_DETECT
+Wire Wire Line
+	2400 5100 2400 5075
+Wire Wire Line
+	2400 4250 2400 4225
+$Comp
+L Connector:AudioJack3 P?
+U 1 1 5DEFBB0E
+P 1625 2825
+AR Path="/54F72FB4/5DEFBB0E" Ref="P?"  Part="1" 
+AR Path="/54F72FB8/5DEFBB0E" Ref="P3"  Part="1" 
+F 0 "P3" V 1561 3013 50  0000 L CNN
+F 1 "AudioJack3" H 1400 2525 50  0000 L CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 1625 2825 50  0001 C CNN
+F 3 "~" H 1625 2825 50  0001 C CNN
+F 4 "SJ-3523-SMT-TR" V 1625 2825 50  0001 C CNN "MPN"
+	1    1625 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR?
+U 1 1 5DF00BBE
+P 1900 2725
+AR Path="/5DF00BBE" Ref="#PWR?"  Part="1" 
+AR Path="/54F72FB8/5DF00BBE" Ref="#PWR0172"  Part="1" 
+F 0 "#PWR0172" H 1900 2475 50  0001 C CNN
+F 1 "GNDA" V 1900 2525 50  0000 C CNN
+F 2 "" H 1900 2725 60  0000 C CNN
+F 3 "" H 1900 2725 60  0000 C CNN
+	1    1900 2725
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1925 2825 2    60   Input ~ 0
+HEADPHONE_LEFT
+Text GLabel 1925 2925 2    60   Input ~ 0
+HEADPHONE_RIGHT
+Wire Wire Line
+	1925 2825 1825 2825
+Wire Wire Line
+	1925 2925 1825 2925
+Text Notes 1325 2450 0    100  ~ 0
+HEADPHONE
+Wire Notes Line
+	1275 2225 3700 2225
+Wire Notes Line
+	3700 2225 3700 3300
+Wire Notes Line
+	3700 3300 1275 3300
+Wire Notes Line
+	1275 3300 1275 2225
+Wire Wire Line
+	1900 2725 1825 2725
+Wire Wire Line
+	8900 1200 8900 1700
+Text GLabel 8300 1300 0    60   Input ~ 0
+HMI_RFU_TX
+Text GLabel 8300 1400 0    60   Output ~ 0
+HMI_RFU_RX
+Wire Wire Line
+	8300 1300 9000 1300
+Wire Wire Line
+	9000 1400 8300 1400
+$Comp
+L Connector:RJ45 P14
+U 1 1 5DFAB468
+P 8450 4650
+F 0 "P14" H 8120 4654 50  0000 R CNN
+F 1 "RJ45" H 8120 4745 50  0000 R CNN
+F 2 "digikey-footprints:Ethernet_Jack_54602-908LF" V 8450 4675 50  0001 C CNN
+F 3 "~" V 8450 4675 50  0001 C CNN
+F 4 "54602-908LF" H 8450 4650 50  0001 C CNN "MPN"
+	1    8450 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7250 4650 7975 4650
+Wire Wire Line
+	8050 4750 7975 4750
+Wire Wire Line
+	7975 4750 7975 4650
+Connection ~ 7975 4650
+Wire Wire Line
+	7975 4650 8050 4650
+Wire Wire Line
+	7900 4850 8050 4850
+$EndSCHEMATC

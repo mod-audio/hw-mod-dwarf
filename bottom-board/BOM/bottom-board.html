@@ -1,0 +1,956 @@
+<html>
+<head>
+<style>
+body{
+    background-color: #ededed;
+    min-width: 842px;
+}
+#BOMInfoID {
+    padding: 15px;
+    display: inline-block;
+}
+#BOMInfoID strong {
+    float: left;
+    width: 250px;
+    padding: 5px;
+    padding-bottom: 15px;
+    min-height: 80px;
+    text-transform: uppercase;	
+}
+#BOMInfoID h1 {
+    font-size: 16px;
+    color: #444;
+    padding-left: 10px;
+    text-transform: initial;
+}
+hr{
+    padding: 0;
+    margin: 0;
+}
+.group, .Header, .group_head{
+    width:100%;
+}
+.column, .Head{
+    float: left;
+    width: 285px;
+    height: auto;
+    text-align: center;
+     margin: 10px;
+}
+.HeadQtyTag{
+    width: 20px;
+}
+.partRow{
+    display: table;
+    font-size: 14px;
+     width: 100%;
+}
+.group .partRow:hover{
+    background-color: #ededed;
+}
+#TableId{
+    background-color: white;
+    width: 1300px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 10px 50px rgba(0,0,0,0.2);
+}
+.footer, .Header{
+    padding:5px;
+    text-align: center;
+}
+.footer,
+.Header a,
+.group_title,
+.Head{
+    color: #444;
+    display: block;
+    font-size: 0.5em;
+    text-decoration: none;
+}
+.Header a{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    float: left;
+    width: 50%;
+    margin: 15px;
+}
+.Head{
+    font-size: 20px;
+}
+.group_title{
+    text-align: center;
+    font-size: 1.5em;
+}
+.group_C:after{
+    content:"Capacitors";
+}
+.group_D:after{
+    content:"Diodes";
+}
+.group_F:after{
+    content:"Fuse";
+}
+.group_L:after{
+    content:"Inductors";
+}
+.group_P:after{
+    content:"Connectors";
+}
+.group_CN:after{
+    content:"Connectors";
+}
+.group_Q:after{
+    content:"Transistors";
+}
+.group_R:after{
+    content:"Resistors";
+}
+.group_U:after{
+    content:"Semiconductors";
+}
+.group_IC:after{
+    content:"Integrated Circuit";
+}
+.group_V:after{
+    content:"Varistors";
+}
+.group_X:after{
+    content:"Crystals";
+}
+.group_SW:after{
+    content:"Switches";
+}
+.group_H:after{
+    content:"Mounting Holes";
+}
+.group_CA:after{
+    content:"Precision Capacitors";
+}
+.group_RA:after{
+    content:"Precision Resistors";
+}
+.group .group_title{
+    color: #444;
+}
+/*image what convert to css uri at http://www.askapache.com/online-tools/base64-image-converter/*/
+#logo { 
+	background-image: url("data:image/png;base64,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");
+    width: 400;
+    height: 100;
+    display: inline-block;
+    float: right;
+    margin-top: 45px;
+    margin-right: 120px;
+    background-size: contain;
+}
+</style>
+</head>
+<body>
+    <div id="main">
+        <div id="TableId">
+            <div class="Header"><a href="https://github.com/moddevices/hw-mod-dwarf"><h1>MOD Dwarf - Main Board BOM <br>Rev 0.2</h1></a> <div id="logo"></div></div>
+            <div id="BOMInfoID">
+                <strong>Date<h1> 2019-12-18</h1></strong>
+                <strong>Company<h1> MOD Devices GmbH</h1></strong>
+                <strong>Comment 1<h1> Dwarf Audio processing board</h1></strong>
+                <strong>Comment 2<h1> https://github.com/moddevices/hw-mod-dwarf</h1></strong>
+                <strong>Comment 3<h1> Inp Power: 12V 500mA</h1></strong>
+                <strong>Comment 4<h1> USB outp Power: 500mA</h1></strong>
+                <strong>Total Parts<h1> 258 (Unique 76)</h1></strong>
+            </div>
+
+            <div class="group_head"><div class="partRow"><div class='Head HeadRefTag'>Ref</div>
+<div class='Head HeadQtyTag'>Qty</div>
+<div class='Head HeadValueTag'>Value</div>
+<div class='Head HeadFootprintTag'>Footprint</div>
+<div class='Head '>MPN</div>
+</div></div>
+            <hr>
+<div class="group group_title group_C">
+[C] -
+</div>
+<hr>
+<div class="group">
+	<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">C1 C4 C5 C7 C9 C10 C12 C13 C31 C48 C50 C51 C52 C54 C59 C60 C62 C72 </div>
+    <div class="column HeadQtyTag">18</div>
+    <div class="column HeadValueTag">100nF</div>
+    <div class="column HeadFootprintTag">Capacitor_SMD:C_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">C1608X7R1E104K080AA</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">C2 C6 C53 C74 </div>
+    <div class="column HeadQtyTag">4</div>
+    <div class="column HeadValueTag">1000uF</div>
+    <div class="column HeadFootprintTag">Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</div>
+    
+<div class="column FiledClass Field_MPN">108CKS016M</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">C3 C32 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">470uF</div>
+    <div class="column HeadFootprintTag">Capacitor_SMD:CP_Elec_8x10.5</div>
+    
+<div class="column FiledClass Field_MPN">UWT1C471MNL1GS</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">C8 C11 C25 C30 C49 C58 </div>
+    <div class="column HeadQtyTag">6</div>
+    <div class="column HeadValueTag">10uF</div>
+    <div class="column HeadFootprintTag">Capacitor_SMD:C_0805_2012Metric</div>
+    
+<div class="column FiledClass Field_MPN">GRM219R61E106KA12D</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">C14 C20 C35 C37 C38 C41 C45 C67 C69 </div>
+    <div class="column HeadQtyTag">9</div>
+    <div class="column HeadValueTag">10uF</div>
+    <div class="column HeadFootprintTag">Capacitor_SMD:C_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">CL10A106MQ8NNNC</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">C15 C16 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">2.2nF</div>
+    <div class="column HeadFootprintTag">Capacitor_SMD:C_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">GRM1885C1H222JA01D</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">C17 C19 C21 C22 C23 C36 C39 C43 C68 </div>
+    <div class="column HeadQtyTag">9</div>
+    <div class="column HeadValueTag">100nF</div>
+    <div class="column HeadFootprintTag">Capacitor_SMD:C_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">GCM188R71C104KA37D</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">C18 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">47uF</div>
+    <div class="column HeadFootprintTag">Capacitor_SMD:CP_Elec_5x5.4</div>
+    
+<div class="column FiledClass Field_MPN">EDK476M016A9DAA</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">C24 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">1uF</div>
+    <div class="column HeadFootprintTag">Capacitor_SMD:C_0805_2012Metric</div>
+    
+<div class="column FiledClass Field_MPN">C2012X7R1E105K125AB</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">C26 C27 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">1uF</div>
+    <div class="column HeadFootprintTag">Capacitor_SMD:C_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">FCA1210C105M-G2</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">C28 C29 C44 C46 </div>
+    <div class="column HeadQtyTag">4</div>
+    <div class="column HeadValueTag">100pF</div>
+    <div class="column HeadFootprintTag">Capacitor_SMD:C_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">C0603C101J3GACTU</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">C33 C34 C40 C42 C47 C55 C63 C64 C65 C66 </div>
+    <div class="column HeadQtyTag">10</div>
+    <div class="column HeadValueTag">10uF</div>
+    <div class="column HeadFootprintTag">Capacitor_SMD:CP_Elec_4x5.7</div>
+    
+<div class="column FiledClass Field_MPN">EEE-HB1C100R</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">C56 C57 C70 C71 </div>
+    <div class="column HeadQtyTag">4</div>
+    <div class="column HeadValueTag">100uF</div>
+    <div class="column HeadFootprintTag">Capacitor_SMD:CP_Elec_6.3x7.7</div>
+    
+<div class="column FiledClass Field_MPN">UWX1C101MCL1GB</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">C61 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">10uF</div>
+    <div class="column HeadFootprintTag">Capacitor_SMD:CP_Elec_5x5.3</div>
+    
+<div class="column FiledClass Field_MPN">UWX1E100MCL1GB</div>
+
+</div>
+
+</div>
+<hr>
+<div class="group group_title group_D">
+[D] -
+</div>
+<hr>
+<div class="group">
+	<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">D1 D2 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">MBR230</div>
+    <div class="column HeadFootprintTag">Diode_SMD:D_SOD-123F</div>
+    
+<div class="column FiledClass Field_MPN">MBR230LSFT1G</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">D3 D4 D5 D6 D8 D9 </div>
+    <div class="column HeadQtyTag">6</div>
+    <div class="column HeadValueTag">1N4148</div>
+    <div class="column HeadFootprintTag">Diode_SMD:D_SOD-323</div>
+    
+<div class="column FiledClass Field_MPN">1N4148WS</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">D7 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">TSSA3U45 R3G</div>
+    <div class="column HeadFootprintTag">Diode_SMD:D_MELF</div>
+    
+<div class="column FiledClass Field_MPN">	TSSA3U45 R3G</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">D10 D11 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">BAT54S</div>
+    <div class="column HeadFootprintTag">Package_TO_SOT_SMD:SOT-23</div>
+    
+<div class="column FiledClass Field_MPN">BAT54SFILM</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">D13 D14 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">PRTR5V0U2X</div>
+    <div class="column HeadFootprintTag">Package_TO_SOT_SMD:SOT-143</div>
+    
+<div class="column FiledClass Field_MPN">PRTR5V0U2X 215</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">D15 D16 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">1N4148</div>
+    <div class="column HeadFootprintTag">Diode_SMD:D_SOD-523</div>
+    
+<div class="column FiledClass Field_MPN">1N4148X-TP</div>
+
+</div>
+
+</div>
+<hr>
+<div class="group group_title group_F">
+[F] -
+</div>
+<hr>
+<div class="group">
+	<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">F1 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">FUSE</div>
+    <div class="column HeadFootprintTag">Fuse:Fuse_2920_7451Metric</div>
+    
+<div class="column FiledClass Field_MPN">0ZCF0200FF2C</div>
+
+</div>
+
+</div>
+<hr>
+<div class="group group_title group_FB">
+[FB] -
+</div>
+<hr>
+<div class="group">
+	<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">FB1 FB2 FB3 FB4 FB5 FB6 FB7 FB8 FB9 FB10 FB11 FB12 FB13 FB14 FB15 </div>
+    <div class="column HeadQtyTag">15</div>
+    <div class="column HeadValueTag">Ferrite_Bead</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">BLM18HD102SH1D</div>
+
+</div>
+
+</div>
+<hr>
+<div class="group group_title group_FID">
+[FID] -
+</div>
+<hr>
+<div class="group">
+	<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">FID1 FID2 FID3 </div>
+    <div class="column HeadQtyTag">3</div>
+    <div class="column HeadValueTag">FIDUCIAL</div>
+    <div class="column HeadFootprintTag">Uno:fiducial_in-circuit</div>
+    
+<div class="column FiledClass Field_MPN"> </div>
+
+</div>
+
+</div>
+<hr>
+<div class="group group_title group_H">
+[H] -
+</div>
+<hr>
+<div class="group">
+	<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">H1 H5 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">MountingHole_Pad</div>
+    <div class="column HeadFootprintTag">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</div>
+    
+<div class="column FiledClass Field_MPN"> </div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">H2 H3 H4 </div>
+    <div class="column HeadQtyTag">3</div>
+    <div class="column HeadValueTag">HOLE</div>
+    <div class="column HeadFootprintTag">Uno:Hole_3.5mm</div>
+    
+<div class="column FiledClass Field_MPN"> </div>
+
+</div>
+
+</div>
+<hr>
+<div class="group group_title group_L">
+[L] -
+</div>
+<hr>
+<div class="group">
+	<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">L2 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">47UH 2A 135 MOHM</div>
+    <div class="column HeadFootprintTag">Uno:SRN8040TA</div>
+    
+<div class="column FiledClass Field_MPN">SRN8040TA-470M</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">L3 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">1mH</div>
+    <div class="column HeadFootprintTag">Inductor_SMD:L_Bourns_SRR1260</div>
+    
+<div class="column FiledClass Field_MPN">SRR1260-102K</div>
+
+</div>
+
+</div>
+<hr>
+<div class="group group_title group_P">
+[P] -
+</div>
+<hr>
+<div class="group">
+	<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">P1 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">USB_B</div>
+    <div class="column HeadFootprintTag">Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal</div>
+    
+<div class="column FiledClass Field_MPN">61729-1011BLF</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">P2 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">USB_A</div>
+    <div class="column HeadFootprintTag">Uno:USB_A_Vertical</div>
+    
+<div class="column FiledClass Field_MPN">73725-0110BLF</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">P3 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">BARREL_JACK</div>
+    <div class="column HeadFootprintTag">Connector_BarrelJack:BarrelJack_Horizontal</div>
+    
+<div class="column FiledClass Field_MPN">PJ-002AH</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">P5 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">HMI_DATA</div>
+    <div class="column HeadFootprintTag">Uno:Pin_Header_Straight_2x10_Shrouded</div>
+    
+<div class="column FiledClass Field_MPN">SBH11-PBPC-D10-ST-BK</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">P6 P7 P14 </div>
+    <div class="column HeadQtyTag">3</div>
+    <div class="column HeadValueTag">AudioJack3</div>
+    <div class="column HeadFootprintTag">Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal</div>
+    
+<div class="column FiledClass Field_MPN">SJ-3523-SMT-TR</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">P8 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">SERIAL_DEBUG</div>
+    <div class="column HeadFootprintTag">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</div>
+    
+<div class="column FiledClass Field_MPN">DO NOT PLACE</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">P9 P10 P11 P12 </div>
+    <div class="column HeadQtyTag">4</div>
+    <div class="column HeadValueTag">JACK_TRS_6PINS</div>
+    <div class="column HeadFootprintTag">Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal</div>
+    
+<div class="column FiledClass Field_MPN">NYS215</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">P13 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">RJ45</div>
+    <div class="column HeadFootprintTag">digikey-footprints:Ethernet_Jack_54602-908LF</div>
+    
+<div class="column FiledClass Field_MPN">54602-908LF</div>
+
+</div>
+
+</div>
+<hr>
+<div class="group group_title group_Q">
+[Q] -
+</div>
+<hr>
+<div class="group">
+	<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">Q1 Q2 Q7 Q8 Q12 Q13 </div>
+    <div class="column HeadQtyTag">6</div>
+    <div class="column HeadValueTag">2N7002</div>
+    <div class="column HeadFootprintTag">Package_TO_SOT_SMD:SOT-23</div>
+    
+<div class="column FiledClass Field_MPN">2N7002P 215</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">Q3 Q4 Q5 Q6 Q9 Q10 </div>
+    <div class="column HeadQtyTag">6</div>
+    <div class="column HeadValueTag">J110</div>
+    <div class="column HeadFootprintTag">Package_TO_SOT_SMD:SOT-23</div>
+    
+<div class="column FiledClass Field_MPN">PMBFJ110 215</div>
+
+</div>
+
+</div>
+<hr>
+<div class="group group_title group_R">
+[R] -
+</div>
+<hr>
+<div class="group">
+	<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">R1 R2 R11 R43 R46 R51 R52 R57 R58 </div>
+    <div class="column HeadQtyTag">9</div>
+    <div class="column HeadValueTag">10k</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RMCF0603JT10K0</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">R3 R4 R5 R6 R7 R94 R95 </div>
+    <div class="column HeadQtyTag">7</div>
+    <div class="column HeadValueTag">22R</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RMCF0603JT22R0</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">R8 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">10R</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_1206_3216Metric</div>
+    
+<div class="column FiledClass Field_MPN">ESR18EZPJ100</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">R9 R10 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">22R</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RMCF0603JT100R</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">R12 R13 R55 R56 R63 </div>
+    <div class="column HeadQtyTag">5</div>
+    <div class="column HeadValueTag">100R</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RMCF0603JT100R</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">R14 R15 R88 R89 </div>
+    <div class="column HeadQtyTag">4</div>
+    <div class="column HeadValueTag">100K</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">CR0603-JW-104ELF</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">R16 R19 R21 R64 R66 R68 R69 R70 R71 R72 R73 R74 R75 R76 R77 R78 R79 </div>
+    <div class="column HeadQtyTag">17</div>
+    <div class="column HeadValueTag">10K</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RR0816P-103-D</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">R17 R18 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">47R 1%</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RT0603DRE0747RL</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">R20 R22 R65 R67 </div>
+    <div class="column HeadQtyTag">4</div>
+    <div class="column HeadValueTag">2K7</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RMCF0603JT2K70</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">R23 R24 R27 R28 R29 R31 R40 R44 </div>
+    <div class="column HeadQtyTag">8</div>
+    <div class="column HeadValueTag">1M 1%</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RT0603BRD071ML</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">R25 R26 R53 R54 </div>
+    <div class="column HeadQtyTag">4</div>
+    <div class="column HeadValueTag">100K</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RMCF0603JT100K</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">R30 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">10R</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">CRGCQ0603J10R</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">R32 R33 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">5K6 1%</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">CRGCQ0603F5K6</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">R34 R35 R81 R83 </div>
+    <div class="column HeadQtyTag">4</div>
+    <div class="column HeadValueTag">22K 1%</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RC0603FR-0722KL</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">R36 R37 R38 R39 </div>
+    <div class="column HeadQtyTag">4</div>
+    <div class="column HeadValueTag">4K7 1%</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RC0603FR-074K7L</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">R41 R45 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">100R 1%</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RR0816P-101-D</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">R42 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">5K6</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RMCF0603JT5K60</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">R47 R49 R50 </div>
+    <div class="column HeadQtyTag">3</div>
+    <div class="column HeadValueTag">220R</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RL73N1JR22JTD</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">R59 R60 R61 R62 </div>
+    <div class="column HeadQtyTag">4</div>
+    <div class="column HeadValueTag">56R</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">ERJ-P6WJ560V</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">R80 R82 R84 R86 </div>
+    <div class="column HeadQtyTag">4</div>
+    <div class="column HeadValueTag">33R</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RC0603FR-0733RL</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">R85 R87 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">68R</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RK73H1JTTD68R0F</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">R90 R91 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">1M </div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RT0603BRD071ML</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">R92 R93 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">56K</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RMCF0603FT56K0</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">R96 R97 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">75K 1%</div>
+    <div class="column HeadFootprintTag">Resistor_SMD:R_0603_1608Metric</div>
+    
+<div class="column FiledClass Field_MPN">RR0816P-753-D</div>
+
+</div>
+
+</div>
+<hr>
+<div class="group group_title group_TP">
+[TP] -
+</div>
+<hr>
+<div class="group">
+	<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">TP1 TP1 TP1 TP2 </div>
+    <div class="column HeadQtyTag">4</div>
+    <div class="column HeadValueTag">TestPoint</div>
+    <div class="column HeadFootprintTag">TestPoint:TestPoint_Pad_D1.5mm</div>
+    
+<div class="column FiledClass Field_MPN"> </div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">TP3 TP4 TP5 TP6 </div>
+    <div class="column HeadQtyTag">4</div>
+    <div class="column HeadValueTag">TestPoint</div>
+    <div class="column HeadFootprintTag">TestPoint:TestPoint_Pad_D1.0mm</div>
+    
+<div class="column FiledClass Field_MPN"> </div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">TP7 TP8 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">TestPoint</div>
+    <div class="column HeadFootprintTag">TestPoint:TestPoint_Pad_D2.0mm</div>
+    
+<div class="column FiledClass Field_MPN"> </div>
+
+</div>
+
+</div>
+<hr>
+<div class="group group_title group_U">
+[U] -
+</div>
+<hr>
+<div class="group">
+	<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">U1 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">TS2596</div>
+    <div class="column HeadFootprintTag">Package_TO_SOT_SMD:TO-263-5_TabPin3</div>
+    
+<div class="column FiledClass Field_MPN">TS2596CM550 RNG</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">U2 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">LD1117S50TR_SOT223</div>
+    <div class="column HeadFootprintTag">Package_TO_SOT_SMD:SOT-223-3_TabPin2</div>
+    
+<div class="column FiledClass Field_MPN">NCP1117DT50G</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">U3 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">CS4265</div>
+    <div class="column HeadFootprintTag">Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm</div>
+    
+<div class="column FiledClass Field_MPN">CS4265-CNZ</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">U4 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">AT24CS08-STUM</div>
+    <div class="column HeadFootprintTag">Package_TO_SOT_SMD:SOT-23-5</div>
+    
+<div class="column FiledClass Field_MPN">AT24CS08-STUM</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">U5 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">LM4562</div>
+    <div class="column HeadFootprintTag">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</div>
+    
+<div class="column FiledClass Field_MPN">LM4562MAX/NOPB</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">U6 U7 </div>
+    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadValueTag">TL082</div>
+    <div class="column HeadFootprintTag">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</div>
+    
+<div class="column FiledClass Field_MPN">TL082CDR</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">U8 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">LM4811</div>
+    <div class="column HeadFootprintTag">Package_SO:TSSOP-10_3x3mm_P0.5mm</div>
+    
+<div class="column FiledClass Field_MPN">LM4811MM/NOPB</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">U9 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">GR30-SOM</div>
+    <div class="column HeadFootprintTag">gr-30:GR30SOM</div>
+    
+<div class="column FiledClass Field_MPN"> </div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">U10 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">RT9742MNGJ5</div>
+    <div class="column HeadFootprintTag">Package_TO_SOT_SMD:SOT-23-5</div>
+    
+<div class="column FiledClass Field_MPN">RT9742MNGJ5</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">U11 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">6N137S</div>
+    <div class="column HeadFootprintTag">Package_DIP:DIP-8_W7.62mm_SMDSocket_SmallPads</div>
+    
+<div class="column FiledClass Field_MPN">6N137S</div>
+
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">U12 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">ISL83491</div>
+    <div class="column HeadFootprintTag">Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</div>
+    
+<div class="column FiledClass Field_MPN">ISL83491IBZ</div>
+
+</div>
+<div class="partRow RowEvenTag">
+    <div class="column HeadRefTag">U13 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">AP2120N-3.3</div>
+    <div class="column HeadFootprintTag">Package_TO_SOT_SMD:SOT-23</div>
+    
+<div class="column FiledClass Field_MPN">AP2120N-3.3TRG1</div>
+
+</div>
+
+</div>
+
+            <hr>
+
+            <div class="group footer"><h1>Property of <a href="https://www.moddevices.com/">MOD Devices GmbH</a><br>(Generated Thu 09 Jul 2020 12:20:08 PM CEST)</h1></div>
+        </div>
+    </div>
+</body>
+</html>

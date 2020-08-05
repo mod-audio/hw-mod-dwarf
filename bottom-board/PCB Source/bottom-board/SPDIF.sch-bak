@@ -1,0 +1,172 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 3530 3575 0    60   ~ 0
+Everything in this sheet is optional, the pads are on the PCB for users to DIY the spdif circuit
+$Comp
+L Device:Transformer_1P_1S_SO8 T1
+U 1 1 5F95A79B
+P 6125 4145
+F 0 "T1" H 6130 4560 50  0000 C CNN
+F 1 "Transformer_1P_1S_SO8" H 6125 4465 50  0000 C CNN
+F 2 "Uno:PE-65812NL" H 6200 3890 50  0000 C CNN
+F 3 "~" H 6125 4145 50  0001 C CNN
+F 4 "PE-65812NL" H 6125 4145 50  0001 C CNN "MPN"
+	1    6125 4145
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J1
+U 1 1 5F95C5D0
+P 7090 3945
+F 0 "J1" H 6910 3878 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 6910 3969 50  0000 R CNN
+F 2 "Uno:MJ-3536N" H 7090 3945 50  0001 C CNN
+F 3 "~" H 7090 3945 50  0001 C CNN
+F 4 "MJ-3536N" H 7090 3945 50  0001 C CNN "MPN"
+	1    7090 3945
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F9647B5
+P 5235 3945
+AR Path="/54F72C8D/5F9647B5" Ref="R?"  Part="1" 
+AR Path="/5F95A4BD/5F9647B5" Ref="R98"  Part="1" 
+F 0 "R98" V 5039 3945 50  0000 C CNN
+F 1 "243R" V 5130 3945 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5235 3945 50  0001 C CNN
+F 3 "~" H 5235 3945 50  0001 C CNN
+F 4 "RC0603FR-07243RL" V 5235 3945 50  0001 C CNN "MPN"
+	1    5235 3945
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F9647BC
+P 5420 4100
+AR Path="/54F72C8D/5F9647BC" Ref="R?"  Part="1" 
+AR Path="/5F95A4BD/5F9647BC" Ref="R99"  Part="1" 
+F 0 "R99" H 5361 4054 50  0000 R CNN
+F 1 "107R" H 5375 4130 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5420 4100 50  0001 C CNN
+F 3 "~" H 5420 4100 50  0001 C CNN
+F 4 "RC0603FR-07107RL" V 5420 4100 50  0001 C CNN "MPN"
+	1    5420 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small C?
+U 1 1 5F9647C3
+P 6770 4530
+AR Path="/54F72B97/5F9647C3" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5F9647C3" Ref="C?"  Part="1" 
+AR Path="/5F95A4BD/5F9647C3" Ref="C73"  Part="1" 
+F 0 "C73" H 6840 4555 50  0000 L CNN
+F 1 "22pF" H 6835 4475 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6770 4530 60  0001 C CNN
+F 3 "" H 6770 4530 60  0000 C CNN
+F 4 "C0603C220K4GACTU" H 1470 -820 50  0001 C CNN "MPN"
+	1    6770 4530
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small C?
+U 1 1 5F9647CF
+P 4935 3945
+AR Path="/54F72B97/5F9647CF" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5F9647CF" Ref="C?"  Part="1" 
+AR Path="/5F95A4BD/5F9647CF" Ref="C72"  Part="1" 
+F 0 "C72" V 4800 3890 50  0000 L CNN
+F 1 "10nF" V 5050 3865 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4935 3945 60  0001 C CNN
+F 3 "" H 4935 3945 60  0000 C CNN
+F 4 "CL10B103KA8NNNC" H -365 -1405 50  0001 C CNN "MPN"
+	1    4935 3945
+	0    1    1    0   
+$EndComp
+Text GLabel 4730 3945 0    60   Input ~ 0
+CODEC_SPDIF_OUT
+Wire Wire Line
+	5825 3945 5420 3945
+Wire Wire Line
+	5420 3945 5420 4000
+Wire Wire Line
+	5420 3945 5335 3945
+Connection ~ 5420 3945
+Wire Wire Line
+	5135 3945 5035 3945
+Wire Wire Line
+	4835 3945 4730 3945
+$Comp
+L bottom-board-rescue:GNDD-power #PWR?
+U 1 1 5F96FF62
+P 5420 4225
+AR Path="/54F7244B/5F96FF62" Ref="#PWR?"  Part="1" 
+AR Path="/5F95A4BD/5F96FF62" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 5420 3975 50  0001 C CNN
+F 1 "GNDD" H 5420 4075 50  0000 C CNN
+F 2 "" H 5420 4225 60  0000 C CNN
+F 3 "" H 5420 4225 60  0000 C CNN
+	1    5420 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5420 4225 5420 4200
+$Comp
+L bottom-board-rescue:GNDD-power #PWR?
+U 1 1 5F97090C
+P 5785 4370
+AR Path="/54F7244B/5F97090C" Ref="#PWR?"  Part="1" 
+AR Path="/5F95A4BD/5F97090C" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 5785 4120 50  0001 C CNN
+F 1 "GNDD" H 5785 4220 50  0000 C CNN
+F 2 "" H 5785 4370 60  0000 C CNN
+F 3 "" H 5785 4370 60  0000 C CNN
+	1    5785 4370
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR?
+U 1 1 5F970BAF
+P 6770 4665
+AR Path="/54F7244B/5F970BAF" Ref="#PWR?"  Part="1" 
+AR Path="/5F95A4BD/5F970BAF" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 6770 4415 50  0001 C CNN
+F 1 "GNDD" H 6770 4515 50  0000 C CNN
+F 2 "" H 6770 4665 60  0000 C CNN
+F 3 "" H 6770 4665 60  0000 C CNN
+	1    6770 4665
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6890 3845
+Wire Wire Line
+	6425 3945 6890 3945
+Wire Wire Line
+	6890 4045 6770 4045
+Wire Wire Line
+	6770 4045 6770 4345
+Wire Wire Line
+	6425 4345 6770 4345
+Connection ~ 6770 4345
+Wire Wire Line
+	6770 4345 6770 4430
+Wire Wire Line
+	6770 4665 6770 4630
+Wire Wire Line
+	5785 4370 5785 4345
+Wire Wire Line
+	5785 4345 5825 4345
+$EndSCHEMATC

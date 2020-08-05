@@ -1,0 +1,1634 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L bottom-board-rescue:CP_Small-Device CA17
+U 1 1 5B54B09B
+P 5300 1750
+F 0 "CA17" V 5475 1700 50  0000 L CNN
+F 1 "100uF" V 5400 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 5300 1750 60  0001 C CNN
+F 3 "" H 5300 1750 60  0000 C CNN
+F 4 "UWX1C101MCL1GB" H -50 100 50  0001 C CNN "MPN"
+	1    5300 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device RA27
+U 1 1 5B54B0A3
+P 5900 1750
+F 0 "RA27" H 5850 1800 50  0000 R CNN
+F 1 "66.5R 1%" H 5850 1700 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 1750 60  0001 C CNN
+F 3 "" H 5900 1750 60  0000 C CNN
+F 4 "RR0816Q-66R5-D-80R" H -50 100 50  0001 C CNN "MPN"
+	1    5900 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device RA28
+U 1 1 5B54B0AB
+P 5900 2500
+F 0 "RA28" H 5950 2550 50  0000 L CNN
+F 1 "33R" H 5950 2450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 2500 60  0001 C CNN
+F 3 "" H 5900 2500 60  0000 C CNN
+F 4 "RT0603DRE0733RL" H -50 100 50  0001 C CNN "MPN"
+	1    5900 2500
+	0    1    -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0124
+U 1 1 5B54B0BA
+P 5600 2900
+F 0 "#PWR0124" H 5600 2650 50  0001 C CNN
+F 1 "GNDA" H 5600 2750 50  0000 C CNN
+F 2 "" H 5600 2900 60  0000 C CNN
+F 3 "" H 5600 2900 60  0000 C CNN
+	1    5600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0123
+U 1 1 5B54B0C0
+P 5600 2150
+F 0 "#PWR0123" H 5600 1900 50  0001 C CNN
+F 1 "GNDA" H 5600 2000 50  0000 C CNN
+F 2 "" H 5600 2150 60  0000 C CNN
+F 3 "" H 5600 2150 60  0000 C CNN
+	1    5600 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 1550 0    50   Input ~ 0
+CODEC_DAC_A
+$Comp
+L bottom-board-rescue:AudioJack3_Switch-Connector J9
+U 1 1 5B54B112
+P 9150 2050
+F 0 "J9" H 9150 1550 50  0000 C CNN
+F 1 "NYS215" H 9150 1625 50  0000 C CNN
+F 2 "footprints:NMJ6HCD2" H 9400 2150 50  0001 C CNN
+F 3 "" H 9400 2150 50  0001 C CNN
+F 4 "NYS215" H 9150 2050 60  0001 C CNN "MPN"
+	1    9150 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0135
+U 1 1 5B54B119
+P 8900 2300
+F 0 "#PWR0135" H 8900 2050 50  0001 C CNN
+F 1 "GNDA" H 8900 2150 50  0000 C CNN
+F 2 "" H 8900 2300 60  0000 C CNN
+F 3 "" H 8900 2300 60  0000 C CNN
+	1    8900 2300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8950 1950
+NoConn ~ 8950 1750
+Text GLabel 1950 4450 0    50   Input ~ 0
+CODEC_DAC_B
+$Comp
+L bottom-board-rescue:R_Small-Device RA23
+U 1 1 5B54B1AC
+P 5600 1950
+F 0 "RA23" H 5650 2000 50  0000 L CNN
+F 1 "22K 1%" H 5650 1900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5600 1950 60  0001 C CNN
+F 3 "" H 5600 1950 60  0000 C CNN
+F 4 "RR0816P-223-D" H 1550 -450 50  0001 C CNN "MPN"
+	1    5600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0126
+U 1 1 5B54B20B
+P 5600 5800
+F 0 "#PWR0126" H 5600 5550 50  0001 C CNN
+F 1 "GNDA" H 5600 5650 50  0000 C CNN
+F 2 "" H 5600 5800 60  0000 C CNN
+F 3 "" H 5600 5800 60  0000 C CNN
+	1    5600 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0125
+U 1 1 5B54B211
+P 5600 5050
+F 0 "#PWR0125" H 5600 4800 50  0001 C CNN
+F 1 "GNDA" H 5600 4900 50  0000 C CNN
+F 2 "" H 5600 5050 60  0000 C CNN
+F 3 "" H 5600 5050 60  0000 C CNN
+	1    5600 5050
+	1    0    0    -1  
+$EndComp
+Text Notes 4000 7650 0    60   ~ 0
+*** The outputs are not balanced ***\n\n"""\nThe Ring pin is actually a low  impedance input, and any \nsignal on it is added to the output signal. This will make a\nbalanced input see only the signal, and provides exactly the\nsame level (and even ground loop compensation) to an \nunbalanced input.\n"""
+$Comp
+L bottom-board-rescue:Q_NMOS_GSD-Device Q1
+U 1 1 5B5A04D4
+P 8300 2900
+F 0 "Q1" H 8600 2950 50  0000 R CNN
+F 1 "2N7002" H 8800 2850 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8500 3000 29  0001 C CNN
+F 3 "" H 8300 2900 60  0000 C CNN
+F 4 "2N7002P,215" H 8300 2900 60  0001 C CNN "MPN"
+	1    8300 2900
+	-1   0    0    -1  
+$EndComp
+Text GLabel 8700 2900 2    50   Input ~ 0
+IN1_TBP
+Text GLabel 6800 1950 0    50   Input ~ 0
+IN1
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0133
+U 1 1 5B5A04ED
+P 8200 3200
+F 0 "#PWR0133" H 8200 2950 50  0001 C CNN
+F 1 "GNDA" H 8200 3050 50  0000 C CNN
+F 2 "" H 8200 3200 60  0000 C CNN
+F 3 "" H 8200 3200 60  0000 C CNN
+	1    8200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0137
+U 1 1 5B5A04F3
+P 8600 3300
+F 0 "#PWR0137" H 8600 3050 50  0001 C CNN
+F 1 "GNDA" H 8600 3150 50  0000 C CNN
+F 2 "" H 8600 3300 60  0000 C CNN
+F 3 "" H 8600 3300 60  0000 C CNN
+	1    8600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0131
+U 1 1 5B5A04F9
+P 6850 2400
+F 0 "#PWR0131" H 6850 2150 50  0001 C CNN
+F 1 "GNDA" H 6850 2250 50  0000 C CNN
+F 2 "" H 6850 2400 60  0000 C CNN
+F 3 "" H 6850 2400 60  0000 C CNN
+	1    6850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0127
+U 1 1 5B5636ED
+P 6700 3450
+F 0 "#PWR0127" H 6700 3200 50  0001 C CNN
+F 1 "GNDA" H 6700 3300 50  0000 C CNN
+F 2 "" H 6700 3450 60  0000 C CNN
+F 3 "" H 6700 3450 60  0000 C CNN
+	1    6700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:+12VA-power #PWR0129
+U 1 1 5B56C46C
+P 6800 2850
+F 0 "#PWR0129" H 6800 2700 50  0001 C CNN
+F 1 "+12VA" H 6800 2990 50  0000 C CNN
+F 2 "" H 6800 2850 60  0000 C CNN
+F 3 "" H 6800 2850 60  0000 C CNN
+	1    6800 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 8700 5800 2    50   Input ~ 0
+IN2_TBP
+Text GLabel 6800 4850 0    50   Input ~ 0
+IN2
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0134
+U 1 1 5B588312
+P 8200 6100
+F 0 "#PWR0134" H 8200 5850 50  0001 C CNN
+F 1 "GNDA" H 8200 5950 50  0000 C CNN
+F 2 "" H 8200 6100 60  0000 C CNN
+F 3 "" H 8200 6100 60  0000 C CNN
+	1    8200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0138
+U 1 1 5B588318
+P 8600 6200
+F 0 "#PWR0138" H 8600 5950 50  0001 C CNN
+F 1 "GNDA" H 8600 6050 50  0000 C CNN
+F 2 "" H 8600 6200 60  0000 C CNN
+F 3 "" H 8600 6200 60  0000 C CNN
+	1    8600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0132
+U 1 1 5B58831E
+P 6850 5300
+F 0 "#PWR0132" H 6850 5050 50  0001 C CNN
+F 1 "GNDA" H 6850 5150 50  0000 C CNN
+F 2 "" H 6850 5300 60  0000 C CNN
+F 3 "" H 6850 5300 60  0000 C CNN
+	1    6850 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0128
+U 1 1 5B588343
+P 6700 6350
+F 0 "#PWR0128" H 6700 6100 50  0001 C CNN
+F 1 "GNDA" H 6700 6200 50  0000 C CNN
+F 2 "" H 6700 6350 60  0000 C CNN
+F 3 "" H 6700 6350 60  0000 C CNN
+	1    6700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:+12VA-power #PWR0130
+U 1 1 5B588352
+P 6800 5750
+F 0 "#PWR0130" H 6800 5600 50  0001 C CNN
+F 1 "+12VA" H 6800 5890 50  0000 C CNN
+F 2 "" H 6800 5750 60  0000 C CNN
+F 3 "" H 6800 5750 60  0000 C CNN
+	1    6800 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1750 5600 1750
+Wire Wire Line
+	5600 1850 5600 1750
+Wire Wire Line
+	3550 1650 3700 1650
+Wire Wire Line
+	5600 2050 5600 2150
+Wire Wire Line
+	2700 1550 2850 1550
+Wire Wire Line
+	2350 1550 2500 1550
+Wire Wire Line
+	5600 2600 5600 2500
+Wire Wire Line
+	5600 2800 5600 2900
+Wire Wire Line
+	4250 2500 4250 2100
+Wire Wire Line
+	1950 1550 2150 1550
+Wire Wire Line
+	3150 1025 2850 1025
+Wire Wire Line
+	2850 1025 2850 1275
+Wire Wire Line
+	3150 1275 2850 1275
+Wire Wire Line
+	3350 1025 3700 1025
+Wire Wire Line
+	3700 1025 3700 1275
+Wire Wire Line
+	3350 1275 3700 1275
+Connection ~ 5600 1750
+Connection ~ 2850 1550
+Connection ~ 2850 1275
+Connection ~ 3700 1650
+Connection ~ 3700 1275
+Wire Wire Line
+	7050 1750 6000 1750
+Wire Wire Line
+	6350 2500 6000 2500
+Wire Wire Line
+	8900 2300 8900 2250
+Wire Wire Line
+	5400 4650 5600 4650
+Wire Wire Line
+	5600 4750 5600 4650
+Wire Wire Line
+	5600 4950 5600 5050
+Wire Wire Line
+	2350 4450 2500 4450
+Wire Wire Line
+	5600 5500 5600 5400
+Wire Wire Line
+	5600 5700 5600 5800
+Wire Wire Line
+	4250 5400 4250 5000
+Wire Wire Line
+	1950 4450 2150 4450
+Connection ~ 5600 4650
+Wire Wire Line
+	2850 4650 2950 4650
+Wire Wire Line
+	4250 1850 4350 1850
+Wire Wire Line
+	4250 4750 4350 4750
+Wire Wire Line
+	8200 3100 8200 3200
+Wire Wire Line
+	8500 2900 8600 2900
+Wire Wire Line
+	8600 3000 8600 2900
+Wire Wire Line
+	8600 3200 8600 3300
+Connection ~ 8600 2900
+Wire Wire Line
+	7050 1950 6800 1950
+Wire Wire Line
+	7050 2350 6850 2350
+Wire Wire Line
+	6850 2350 6850 2400
+Wire Wire Line
+	6350 2500 6350 2150
+Wire Wire Line
+	6350 2150 7050 2150
+Wire Wire Line
+	7050 2650 6950 2650
+Wire Wire Line
+	6950 2650 6950 2950
+Wire Wire Line
+	6600 2950 6800 2950
+Wire Wire Line
+	7650 2650 7750 2650
+Wire Wire Line
+	7750 2950 7500 2950
+Wire Wire Line
+	6600 3250 6600 3350
+Wire Wire Line
+	6600 3350 6700 3350
+Wire Wire Line
+	6800 3350 6800 3250
+Wire Wire Line
+	6700 3450 6700 3350
+Connection ~ 6700 3350
+Wire Wire Line
+	6600 3050 6600 2950
+Connection ~ 6950 2950
+Wire Wire Line
+	6800 2850 6800 2950
+Connection ~ 6800 2950
+Wire Wire Line
+	8200 6000 8200 6100
+Wire Wire Line
+	8500 5800 8600 5800
+Wire Wire Line
+	8600 5900 8600 5800
+Wire Wire Line
+	8600 6100 8600 6200
+Connection ~ 8600 5800
+Wire Wire Line
+	7050 4850 6800 4850
+Wire Wire Line
+	7050 5250 6850 5250
+Wire Wire Line
+	6850 5250 6850 5300
+Wire Wire Line
+	6350 5050 7050 5050
+Wire Wire Line
+	7050 5550 6950 5550
+Wire Wire Line
+	6950 5550 6950 5850
+Wire Wire Line
+	6600 5850 6800 5850
+Wire Wire Line
+	7750 5850 7500 5850
+Wire Wire Line
+	6600 6150 6600 6250
+Wire Wire Line
+	6600 6250 6700 6250
+Wire Wire Line
+	6800 6250 6800 6150
+Wire Wire Line
+	6700 6350 6700 6250
+Connection ~ 6700 6250
+Wire Wire Line
+	6600 5950 6600 5850
+Connection ~ 6950 5850
+Wire Wire Line
+	6800 5750 6800 5850
+Connection ~ 6800 5850
+Wire Wire Line
+	6000 4650 7050 4650
+Wire Wire Line
+	6350 5050 6350 5400
+Wire Wire Line
+	6350 5400 6000 5400
+Wire Wire Line
+	8200 2650 8200 2700
+Wire Wire Line
+	7750 2950 7750 2650
+Connection ~ 7750 2650
+Wire Wire Line
+	7650 5550 7750 5550
+Wire Wire Line
+	8200 5550 8200 5600
+Wire Wire Line
+	7750 5850 7750 5550
+Connection ~ 7750 5550
+Text Notes 2375 7300 0    60   ~ 0
+Op Amp Bypass capacitors
+Wire Wire Line
+	5600 1750 5800 1750
+Wire Wire Line
+	5600 2500 5800 2500
+Wire Wire Line
+	2850 1550 2950 1550
+Wire Wire Line
+	2850 1275 2850 1550
+Wire Wire Line
+	3700 1650 3875 1650
+Wire Wire Line
+	3700 1275 3700 1650
+Wire Wire Line
+	5600 4650 5800 4650
+Wire Wire Line
+	5600 5400 5800 5400
+Wire Wire Line
+	8600 2900 8700 2900
+Wire Wire Line
+	6700 3350 6800 3350
+Wire Wire Line
+	6950 2950 7200 2950
+Wire Wire Line
+	6800 2950 6950 2950
+Wire Wire Line
+	6800 2950 6800 3050
+Wire Wire Line
+	8600 5800 8700 5800
+Wire Wire Line
+	6700 6250 6800 6250
+Wire Wire Line
+	6950 5850 7200 5850
+Wire Wire Line
+	6800 5850 6950 5850
+Wire Wire Line
+	6800 5850 6800 5950
+Wire Wire Line
+	7750 2650 8200 2650
+Wire Wire Line
+	7750 5550 8200 5550
+$Comp
+L bottom-board-rescue:1N4148WS-Diode D7
+U 1 1 5B5B6B07
+P 7350 2950
+F 0 "D7" H 7350 2775 50  0000 C CNN
+F 1 "1N4148" H 7350 2850 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 7350 2775 50  0001 C CNN
+F 3 "" H 7350 2950 50  0001 C CNN
+F 4 "1N4148WX-TP" H 0   50  50  0001 C CNN "MPN"
+	1    7350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:LM4562-Amplifier_Operational U?
+U 1 1 5B61A26F
+P 3250 1650
+AR Path="/54F72C8D/5B61A26F" Ref="U?"  Part="1" 
+AR Path="/54F72CD0/5B61A26F" Ref="U11"  Part="1" 
+F 0 "U11" H 3250 1950 50  0000 C CNN
+F 1 "OPA1678" H 3250 1875 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3250 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1678.pdf" H 3250 1650 50  0001 C CNN
+F 4 "OPA1678IDR" H 0   0   50  0001 C CNN "MPN"
+	1    3250 1650
+	1    0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:LM4562-Amplifier_Operational U?
+U 3 1 5B61A27F
+P 1775 6650
+AR Path="/54F72C8D/5B61A27F" Ref="U?"  Part="3" 
+AR Path="/54F72CD0/5B61A27F" Ref="U11"  Part="3" 
+F 0 "U11" V 1775 6650 50  0000 C CNN
+F 1 "OPA1678" V 1850 6650 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1775 6650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1678.pdf" H 1775 6650 50  0001 C CNN
+F 4 "OPA1678IDR" H 775 0   50  0001 C CNN "MPN"
+	3    1775 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1675 6300 1675 6350
+Wire Wire Line
+	1675 6950 1675 7000
+Wire Wire Line
+	2075 6300 2075 6350
+Wire Wire Line
+	2075 6950 2075 7000
+$Comp
+L bottom-board-rescue:R_Small-Device RA?
+U 1 1 5B6BA607
+P 2600 1550
+AR Path="/54F7244B/5B6BA607" Ref="RA?"  Part="1" 
+AR Path="/54F72CD0/5B6BA607" Ref="RA15"  Part="1" 
+F 0 "RA15" V 2525 1475 50  0000 L CNN
+F 1 "10K 1%" V 2675 1375 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2600 1550 50  0001 C CNN
+F 3 "" H 2600 1550 50  0001 C CNN
+F 4 "RR0816P-103-D" V 2600 1550 60  0001 C CNN "MPN"
+	1    2600 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device RA?
+U 1 1 5B6C613D
+P 2600 4450
+AR Path="/54F7244B/5B6C613D" Ref="RA?"  Part="1" 
+AR Path="/54F72CD0/5B6C613D" Ref="RA16"  Part="1" 
+F 0 "RA16" V 2525 4375 50  0000 L CNN
+F 1 "10K 1%" V 2675 4275 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2600 4450 50  0001 C CNN
+F 3 "" H 2600 4450 50  0001 C CNN
+F 4 "RR0816P-103-D" V 2600 4450 60  0001 C CNN "MPN"
+	1    2600 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device RA?
+U 1 1 5B6C82BA
+P 3250 1275
+AR Path="/54F7244B/5B6C82BA" Ref="RA?"  Part="1" 
+AR Path="/54F72CD0/5B6C82BA" Ref="RA17"  Part="1" 
+F 0 "RA17" V 3175 1200 50  0000 L CNN
+F 1 "10K 1%" V 3325 1100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3250 1275 50  0001 C CNN
+F 3 "" H 3250 1275 50  0001 C CNN
+F 4 "RR0816P-103-D" V 3250 1275 60  0001 C CNN "MPN"
+	1    3250 1275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device RA?
+U 1 1 5B6C8376
+P 3975 1650
+AR Path="/54F7244B/5B6C8376" Ref="RA?"  Part="1" 
+AR Path="/54F72CD0/5B6C8376" Ref="RA19"  Part="1" 
+F 0 "RA19" V 3900 1575 50  0000 L CNN
+F 1 "10K 1%" V 4050 1475 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3975 1650 50  0001 C CNN
+F 3 "" H 3975 1650 50  0001 C CNN
+F 4 "RR0816P-103-D" V 3975 1650 60  0001 C CNN "MPN"
+	1    3975 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device RA?
+U 1 1 5B6CECC1
+P 3975 4550
+AR Path="/54F7244B/5B6CECC1" Ref="RA?"  Part="1" 
+AR Path="/54F72CD0/5B6CECC1" Ref="RA20"  Part="1" 
+F 0 "RA20" V 3900 4475 50  0000 L CNN
+F 1 "10K 1%" V 4050 4375 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3975 4550 50  0001 C CNN
+F 3 "" H 3975 4550 50  0001 C CNN
+F 4 "RR0816P-103-D" V 3975 4550 60  0001 C CNN "MPN"
+	1    3975 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:CP_Small-Device CA?
+U 1 1 5B786D97
+P 2250 1550
+AR Path="/54F72C8D/5B786D97" Ref="CA?"  Part="1" 
+AR Path="/54F72CD0/5B786D97" Ref="CA11"  Part="1" 
+F 0 "CA11" H 2325 1600 50  0000 L CNN
+F 1 "10uF" H 2325 1525 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.7" H 2250 1550 60  0001 C CNN
+F 3 "" H 2250 1550 60  0000 C CNN
+F 4 "EEE-HB1C100R" H -2850 50  50  0001 C CNN "MPN"
+	1    2250 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:CP_Small-Device CA?
+U 1 1 5B79082B
+P 2250 4450
+AR Path="/54F72C8D/5B79082B" Ref="CA?"  Part="1" 
+AR Path="/54F72CD0/5B79082B" Ref="CA12"  Part="1" 
+F 0 "CA12" H 2325 4500 50  0000 L CNN
+F 1 "10uF" H 2325 4425 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.7" H 2250 4450 60  0001 C CNN
+F 3 "" H 2250 4450 60  0000 C CNN
+F 4 "EEE-HB1C100R" H -2850 2950 50  0001 C CNN "MPN"
+	1    2250 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 5B7FF88D
+P 6600 3150
+AR Path="/54F725AE/5B7FF88D" Ref="C?"  Part="1" 
+AR Path="/54F72B97/5B7FF88D" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5B7FF88D" Ref="C?"  Part="1" 
+AR Path="/54F72CD0/5B7FF88D" Ref="C51"  Part="1" 
+F 0 "C51" V 6650 3100 50  0000 R CNN
+F 1 "100nF" V 6650 3200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6600 3150 60  0001 C CNN
+F 3 "" H 6600 3150 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H 1300 -2200 50  0001 C CNN "MPN"
+	1    6600 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 5B81215F
+P 6600 6050
+AR Path="/54F725AE/5B81215F" Ref="C?"  Part="1" 
+AR Path="/54F72B97/5B81215F" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5B81215F" Ref="C?"  Part="1" 
+AR Path="/54F72CD0/5B81215F" Ref="C52"  Part="1" 
+F 0 "C52" V 6650 6000 50  0000 R CNN
+F 1 "100nF" V 6650 6100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6600 6050 60  0001 C CNN
+F 3 "" H 6600 6050 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H 1300 700 50  0001 C CNN "MPN"
+	1    6600 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8950 2250 8900 2250
+Wire Wire Line
+	7775 2050 7775 2250
+Wire Wire Line
+	7775 2250 7650 2250
+$Comp
+L bottom-board-rescue:AudioJack3_Switch-Connector J10
+U 1 1 5B8682E0
+P 9125 4950
+F 0 "J10" H 9125 4450 50  0000 C CNN
+F 1 "NYS215" H 9125 4525 50  0000 C CNN
+F 2 "footprints:NMJ6HCD2" H 9375 5050 50  0001 C CNN
+F 3 "" H 9375 5050 50  0001 C CNN
+F 4 "NYS215" H 9125 4950 60  0001 C CNN "MPN"
+	1    9125 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0136
+U 1 1 5B8682E6
+P 8875 5200
+F 0 "#PWR0136" H 8875 4950 50  0001 C CNN
+F 1 "GNDA" H 8875 5050 50  0000 C CNN
+F 2 "" H 8875 5200 60  0000 C CNN
+F 3 "" H 8875 5200 60  0000 C CNN
+	1    8875 5200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8925 4850
+NoConn ~ 8925 4650
+Wire Wire Line
+	8875 5200 8875 5150
+Wire Wire Line
+	8925 5150 8875 5150
+Wire Wire Line
+	7775 4950 7775 5150
+Wire Wire Line
+	7775 5150 7650 5150
+$Comp
+L bottom-board-rescue:C_Small-Device CA?
+U 1 1 5B895F54
+P 3250 1025
+AR Path="/54F72C8D/5B895F54" Ref="CA?"  Part="1" 
+AR Path="/54F72CD0/5B895F54" Ref="CA13"  Part="1" 
+F 0 "CA13" V 3050 1025 50  0000 C CNN
+F 1 "100pF" V 3125 1025 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3250 1025 60  0001 C CNN
+F 3 "" H 3250 1025 60  0000 C CNN
+F 4 "C0603C101J3GACTU" H 1150 -625 50  0001 C CNN "MPN"
+	1    3250 1025
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:CP_Small-Device CA18
+U 1 1 5B8BF63F
+P 5300 4650
+F 0 "CA18" V 5475 4600 50  0000 L CNN
+F 1 "100uF" V 5400 4550 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 5300 4650 60  0001 C CNN
+F 3 "" H 5300 4650 60  0000 C CNN
+F 4 "UWX1C101MCL1GB" H -50 3000 50  0001 C CNN "MPN"
+	1    5300 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device RA25
+U 1 1 5B8C29F0
+P 5600 4850
+F 0 "RA25" H 5650 4900 50  0000 L CNN
+F 1 "22K 1%" H 5650 4800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5600 4850 60  0001 C CNN
+F 3 "" H 5600 4850 60  0000 C CNN
+F 4 "RR0816P-223-D" H 1550 2450 50  0001 C CNN "MPN"
+	1    5600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device RA24
+U 1 1 5B8CF4EC
+P 5600 2700
+F 0 "RA24" H 5650 2750 50  0000 L CNN
+F 1 "33R" H 5650 2650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5600 2700 60  0001 C CNN
+F 3 "" H 5600 2700 60  0000 C CNN
+F 4 "RT0603DRE0733RL" H -350 300 50  0001 C CNN "MPN"
+	1    5600 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device RA29
+U 1 1 5B8D1194
+P 5900 4650
+F 0 "RA29" H 5850 4700 50  0000 R CNN
+F 1 "66.5R 1%" H 5850 4600 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 4650 60  0001 C CNN
+F 3 "" H 5900 4650 60  0000 C CNN
+F 4 "RR0816Q-66R5-D-80R" H -50 3000 50  0001 C CNN "MPN"
+	1    5900 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device RA30
+U 1 1 5B8D19B7
+P 5900 5400
+F 0 "RA30" H 5950 5450 50  0000 L CNN
+F 1 "33R" H 5950 5350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 5400 60  0001 C CNN
+F 3 "" H 5900 5400 60  0000 C CNN
+F 4 "RT0603DRE0733RL" H -50 3000 50  0001 C CNN "MPN"
+	1    5900 5400
+	0    1    -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device RA26
+U 1 1 5B8D1DBF
+P 5600 5600
+F 0 "RA26" H 5650 5650 50  0000 L CNN
+F 1 "33R" H 5650 5550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5600 5600 60  0001 C CNN
+F 3 "" H 5600 5600 60  0000 C CNN
+F 4 "RT0603DRE0733RL" H -350 3200 50  0001 C CNN "MPN"
+	1    5600 5600
+	1    0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:1N4148WS-Diode D8
+U 1 1 5B8D383E
+P 7350 5850
+F 0 "D8" H 7350 5675 50  0000 C CNN
+F 1 "1N4148" H 7350 5750 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 7350 5675 50  0001 C CNN
+F 3 "" H 7350 5850 50  0001 C CNN
+F 4 "1N4148WX-TP" H 0   2950 50  0001 C CNN "MPN"
+	1    7350 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1750 5100 1750
+Wire Wire Line
+	4075 1650 4250 1650
+Wire Wire Line
+	4550 1125 4250 1125
+Wire Wire Line
+	4250 1125 4250 1375
+Wire Wire Line
+	4550 1375 4250 1375
+Wire Wire Line
+	4750 1125 5100 1125
+Wire Wire Line
+	5100 1125 5100 1375
+Wire Wire Line
+	4750 1375 5100 1375
+Connection ~ 4250 1375
+Connection ~ 5100 1375
+Wire Wire Line
+	4250 1375 4250 1650
+Wire Wire Line
+	5100 1375 5100 1750
+$Comp
+L bottom-board-rescue:R_Small-Device RA?
+U 1 1 5B91B0E5
+P 4650 1375
+AR Path="/54F7244B/5B91B0E5" Ref="RA?"  Part="1" 
+AR Path="/54F72CD0/5B91B0E5" Ref="RA21"  Part="1" 
+F 0 "RA21" V 4575 1300 50  0000 L CNN
+F 1 "10K 1%" V 4725 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4650 1375 50  0001 C CNN
+F 3 "" H 4650 1375 50  0001 C CNN
+F 4 "RR0816P-103-D" V 4650 1375 60  0001 C CNN "MPN"
+	1    4650 1375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small-Device CA?
+U 1 1 5B91B0EE
+P 4650 1125
+AR Path="/54F72C8D/5B91B0EE" Ref="CA?"  Part="1" 
+AR Path="/54F72CD0/5B91B0EE" Ref="CA15"  Part="1" 
+F 0 "CA15" V 4450 1125 50  0000 C CNN
+F 1 "100pF" V 4525 1125 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 1125 60  0001 C CNN
+F 3 "" H 4650 1125 60  0000 C CNN
+F 4 "C0603C101J3GACTU" H 2550 -525 50  0001 C CNN "MPN"
+	1    4650 1125
+	0    1    1    0   
+$EndComp
+Connection ~ 4250 1650
+Wire Wire Line
+	4250 1650 4350 1650
+Connection ~ 5100 1750
+Wire Wire Line
+	5100 1750 5200 1750
+Wire Wire Line
+	2700 4450 2850 4450
+Wire Wire Line
+	3550 4550 3700 4550
+Wire Wire Line
+	4950 4650 5100 4650
+Wire Wire Line
+	4075 4550 4250 4550
+Wire Wire Line
+	3150 3925 2850 3925
+Wire Wire Line
+	2850 3925 2850 4175
+Wire Wire Line
+	3150 4175 2850 4175
+Wire Wire Line
+	3350 3925 3700 3925
+Wire Wire Line
+	3700 3925 3700 4175
+Wire Wire Line
+	3350 4175 3700 4175
+Connection ~ 2850 4175
+Connection ~ 3700 4175
+Wire Wire Line
+	2850 4175 2850 4450
+Wire Wire Line
+	3700 4175 3700 4550
+$Comp
+L bottom-board-rescue:R_Small-Device RA?
+U 1 1 5B9340F2
+P 3250 4175
+AR Path="/54F7244B/5B9340F2" Ref="RA?"  Part="1" 
+AR Path="/54F72CD0/5B9340F2" Ref="RA18"  Part="1" 
+F 0 "RA18" V 3175 4100 50  0000 L CNN
+F 1 "10K 1%" V 3325 4000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3250 4175 50  0001 C CNN
+F 3 "" H 3250 4175 50  0001 C CNN
+F 4 "RR0816P-103-D" V 3250 4175 60  0001 C CNN "MPN"
+	1    3250 4175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small-Device CA?
+U 1 1 5B9340FB
+P 3250 3925
+AR Path="/54F72C8D/5B9340FB" Ref="CA?"  Part="1" 
+AR Path="/54F72CD0/5B9340FB" Ref="CA14"  Part="1" 
+F 0 "CA14" V 3050 3925 50  0000 C CNN
+F 1 "100pF" V 3125 3925 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3250 3925 60  0001 C CNN
+F 3 "" H 3250 3925 60  0000 C CNN
+F 4 "C0603C101J3GACTU" H 1150 2275 50  0001 C CNN "MPN"
+	1    3250 3925
+	0    1    1    0   
+$EndComp
+Connection ~ 2850 4450
+Wire Wire Line
+	2850 4450 2950 4450
+Connection ~ 3700 4550
+Wire Wire Line
+	3700 4550 3875 4550
+Wire Wire Line
+	4550 4025 4250 4025
+Wire Wire Line
+	4250 4025 4250 4275
+Wire Wire Line
+	4550 4275 4250 4275
+Wire Wire Line
+	4750 4025 5100 4025
+Wire Wire Line
+	5100 4025 5100 4275
+Wire Wire Line
+	4750 4275 5100 4275
+Connection ~ 4250 4275
+Connection ~ 5100 4275
+Wire Wire Line
+	4250 4275 4250 4550
+Wire Wire Line
+	5100 4275 5100 4650
+$Comp
+L bottom-board-rescue:R_Small-Device RA?
+U 1 1 5B93D682
+P 4650 4275
+AR Path="/54F7244B/5B93D682" Ref="RA?"  Part="1" 
+AR Path="/54F72CD0/5B93D682" Ref="RA22"  Part="1" 
+F 0 "RA22" V 4575 4200 50  0000 L CNN
+F 1 "10K 1%" V 4725 4100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4650 4275 50  0001 C CNN
+F 3 "" H 4650 4275 50  0001 C CNN
+F 4 "RR0816P-103-D" V 4650 4275 60  0001 C CNN "MPN"
+	1    4650 4275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small-Device CA?
+U 1 1 5B93D68B
+P 4650 4025
+AR Path="/54F72C8D/5B93D68B" Ref="CA?"  Part="1" 
+AR Path="/54F72CD0/5B93D68B" Ref="CA16"  Part="1" 
+F 0 "CA16" V 4450 4025 50  0000 C CNN
+F 1 "100pF" V 4525 4025 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 4025 60  0001 C CNN
+F 3 "" H 4650 4025 60  0000 C CNN
+F 4 "C0603C101J3GACTU" H 2550 2375 50  0001 C CNN "MPN"
+	1    4650 4025
+	0    1    1    0   
+$EndComp
+Connection ~ 4250 4550
+Wire Wire Line
+	4250 4550 4350 4550
+Connection ~ 5100 4650
+Wire Wire Line
+	5100 4650 5200 4650
+$Comp
+L bottom-board-rescue:Q_NMOS_GSD-Device Q2
+U 1 1 5B948D8C
+P 8300 5800
+F 0 "Q2" H 8600 5850 50  0000 R CNN
+F 1 "2N7002" H 8800 5750 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8500 5900 29  0001 C CNN
+F 3 "" H 8300 5800 60  0000 C CNN
+F 4 "2N7002P,215" H 8300 5800 60  0001 C CNN "MPN"
+	1    8300 5800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device R?
+U 1 1 5B949CDF
+P 8600 3100
+AR Path="/54F725AE/5B949CDF" Ref="R?"  Part="1" 
+AR Path="/54F72CD0/5B949CDF" Ref="R24"  Part="1" 
+F 0 "R24" H 8650 3150 50  0000 L CNN
+F 1 "10K" H 8650 3050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8600 3100 60  0001 C CNN
+F 3 "" H 8600 3100 60  0000 C CNN
+F 4 "RR0816P-103-D" H 6850 -3550 50  0001 C CNN "MPN"
+	1    8600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device R?
+U 1 1 5B953464
+P 8600 6000
+AR Path="/54F725AE/5B953464" Ref="R?"  Part="1" 
+AR Path="/54F72CD0/5B953464" Ref="R25"  Part="1" 
+F 0 "R25" H 8650 6050 50  0000 L CNN
+F 1 "10K" H 8650 5950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8600 6000 60  0001 C CNN
+F 3 "" H 8600 6000 60  0000 C CNN
+F 4 "RR0816P-103-D" H 6850 -650 50  0001 C CNN "MPN"
+	1    8600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:G6S-2-Relay K1
+U 1 1 5B961056
+P 7350 2250
+F 0 "K1" V 8117 2250 50  0000 C CNN
+F 1 "G6S-2" V 8026 2250 50  0000 C CNN
+F 2 "footprints:Relay_DPDT_Omron_G6S-2F" H 8000 2200 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 7150 2250 50  0001 C CNN
+F 4 "EE2-12NU-L" V 7350 2250 50  0001 C CNN "MPN"
+	1    7350 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:G6S-2-Relay K2
+U 1 1 5B625167
+P 7350 5150
+F 0 "K2" V 8117 5150 50  0000 C CNN
+F 1 "G6S-2" V 8026 5150 50  0000 C CNN
+F 2 "footprints:Relay_DPDT_Omron_G6S-2F" H 8000 5100 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 7150 5150 50  0001 C CNN
+F 4 "EE2-12NU-L" V 7350 5150 50  0001 C CNN "MPN"
+	1    7350 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:LM4562-Amplifier_Operational U?
+U 2 1 5B62B915
+P 4650 1750
+AR Path="/54F72C8D/5B62B915" Ref="U?"  Part="1" 
+AR Path="/54F72CD0/5B62B915" Ref="U11"  Part="2" 
+F 0 "U11" H 4650 2050 50  0000 C CNN
+F 1 "OPA1678" H 4650 1975 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4650 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1678.pdf" H 4650 1750 50  0001 C CNN
+F 4 "OPA1678IDR" H 1400 100 50  0001 C CNN "MPN"
+	2    4650 1750
+	1    0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:LM4562-Amplifier_Operational U?
+U 3 1 5B62FC7A
+P 2175 6650
+AR Path="/54F72C8D/5B62FC7A" Ref="U?"  Part="3" 
+AR Path="/54F72CD0/5B62FC7A" Ref="U12"  Part="3" 
+F 0 "U12" V 2175 6625 50  0000 C CNN
+F 1 "OPA1678" V 2250 6650 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2175 6650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1678.pdf" H 2175 6650 50  0001 C CNN
+F 4 "OPA1678IDR" H 1175 0   50  0001 C CNN "MPN"
+	3    2175 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:LM4562-Amplifier_Operational U?
+U 1 1 5B633E6E
+P 3250 4550
+AR Path="/54F72C8D/5B633E6E" Ref="U?"  Part="1" 
+AR Path="/54F72CD0/5B633E6E" Ref="U12"  Part="1" 
+F 0 "U12" H 3250 4850 50  0000 C CNN
+F 1 "OPA1678" H 3250 4775 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3250 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1678.pdf" H 3250 4550 50  0001 C CNN
+F 4 "OPA1678IDR" H 0   2900 50  0001 C CNN "MPN"
+	1    3250 4550
+	1    0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:LM4562-Amplifier_Operational U?
+U 2 1 5B633F38
+P 4650 4650
+AR Path="/54F72C8D/5B633F38" Ref="U?"  Part="1" 
+AR Path="/54F72CD0/5B633F38" Ref="U12"  Part="2" 
+F 0 "U12" H 4650 4950 50  0000 C CNN
+F 1 "OPA1678" H 4650 4875 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4650 4650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1678.pdf" H 4650 4650 50  0001 C CNN
+F 4 "OPA1678IDR" H 1400 3000 50  0001 C CNN "MPN"
+	2    4650 4650
+	1    0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device RA?
+U 1 1 5BD4AC71
+P 925 6425
+AR Path="/54F7244B/5BD4AC71" Ref="RA?"  Part="1" 
+AR Path="/54F72C8D/5BD4AC71" Ref="RA?"  Part="1" 
+AR Path="/54F72CD0/5BD4AC71" Ref="RA43"  Part="1" 
+F 0 "RA43" V 850 6425 50  0000 C CNN
+F 1 "10K 1%" V 1000 6425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 925 6425 50  0001 C CNN
+F 3 "" H 925 6425 50  0001 C CNN
+F 4 "RR0816P-103-D" V 925 6425 60  0001 C CNN "MPN"
+	1    925  6425
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device RA?
+U 1 1 5BD4AC7B
+P 925 6775
+AR Path="/54F7244B/5BD4AC7B" Ref="RA?"  Part="1" 
+AR Path="/54F72C8D/5BD4AC7B" Ref="RA?"  Part="1" 
+AR Path="/54F72CD0/5BD4AC7B" Ref="RA44"  Part="1" 
+F 0 "RA44" V 850 6775 50  0000 C CNN
+F 1 "10K 1%" V 1000 6775 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 925 6775 50  0001 C CNN
+F 3 "" H 925 6775 50  0001 C CNN
+F 4 "RR0816P-103-D" V 925 6775 60  0001 C CNN "MPN"
+	1    925  6775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	925  6525 925  6600
+$Comp
+L bottom-board-rescue:GNDA-power #PWR?
+U 1 1 5BD4AC83
+P 925 7025
+AR Path="/54F72B97/5BD4AC83" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/5BD4AC83" Ref="#PWR?"  Part="1" 
+AR Path="/54F72CD0/5BD4AC83" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 925 6775 50  0001 C CNN
+F 1 "GNDA" H 925 6875 50  0000 C CNN
+F 2 "" H 925 7025 60  0000 C CNN
+F 3 "" H 925 7025 60  0000 C CNN
+	1    925  7025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	925  6875 925  6950
+Wire Wire Line
+	1150 6875 1150 6950
+Wire Wire Line
+	1150 6950 925  6950
+Connection ~ 925  6950
+Wire Wire Line
+	925  6950 925  7025
+Wire Wire Line
+	1150 6675 1150 6600
+Wire Wire Line
+	1150 6600 925  6600
+Connection ~ 925  6600
+Wire Wire Line
+	925  6600 925  6675
+$Comp
+L bottom-board-rescue:+12VA-power #PWR?
+U 1 1 5BD4AC92
+P 925 6250
+AR Path="/54F7244B/5BD4AC92" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/5BD4AC92" Ref="#PWR?"  Part="1" 
+AR Path="/54F72CD0/5BD4AC92" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 925 6100 50  0001 C CNN
+F 1 "+12VA" H 925 6390 50  0000 C CNN
+F 2 "" H 925 6250 60  0000 C CNN
+F 3 "" H 925 6250 60  0000 C CNN
+	1    925  6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	925  6250 925  6325
+Text Label 1075 6600 0    39   ~ 0
+OUTPUT_BIAS
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 5BD4AC9C
+P 1150 6775
+AR Path="/54F7244B/5BD4AC9C" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5BD4AC9C" Ref="C?"  Part="1" 
+AR Path="/54F72CD0/5BD4AC9C" Ref="C11"  Part="1" 
+F 0 "C11" V 975 6775 50  0000 C CNN
+F 1 "10uF 16V" V 1050 6775 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1150 6775 60  0001 C CNN
+F 3 "" H 1150 6775 60  0000 C CNN
+F 4 "CL21A106KOFNNNE" H -4150 1425 50  0001 C CNN "MPN"
+	1    1150 6775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR?
+U 1 1 5BDA190C
+P 2075 7000
+AR Path="/54F72B97/5BDA190C" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/5BDA190C" Ref="#PWR?"  Part="1" 
+AR Path="/54F72CD0/5BDA190C" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 2075 6750 50  0001 C CNN
+F 1 "GNDA" H 2075 6850 50  0000 C CNN
+F 2 "" H 2075 7000 60  0000 C CNN
+F 3 "" H 2075 7000 60  0000 C CNN
+	1    2075 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR?
+U 1 1 5BDA1912
+P 1675 7000
+AR Path="/54F72B97/5BDA1912" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/5BDA1912" Ref="#PWR?"  Part="1" 
+AR Path="/54F72CD0/5BDA1912" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 1675 6750 50  0001 C CNN
+F 1 "GNDA" H 1675 6850 50  0000 C CNN
+F 2 "" H 1675 7000 60  0000 C CNN
+F 3 "" H 1675 7000 60  0000 C CNN
+	1    1675 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR?
+U 1 1 5BDAB1D8
+P 2675 6925
+AR Path="/54F72B97/5BDAB1D8" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/5BDAB1D8" Ref="#PWR?"  Part="1" 
+AR Path="/54F72CD0/5BDAB1D8" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 2675 6675 50  0001 C CNN
+F 1 "GNDA" H 2675 6775 50  0000 C CNN
+F 2 "" H 2675 6925 60  0000 C CNN
+F 3 "" H 2675 6925 60  0000 C CNN
+	1    2675 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 5BDAB1E1
+P 2675 6675
+AR Path="/54F725AE/5BDAB1E1" Ref="C?"  Part="1" 
+AR Path="/54F72B97/5BDAB1E1" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5BDAB1E1" Ref="C?"  Part="1" 
+AR Path="/54F72CD0/5BDAB1E1" Ref="C12"  Part="1" 
+F 0 "C12" V 2725 6625 50  0000 R CNN
+F 1 "100nF" V 2725 6725 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2675 6675 60  0001 C CNN
+F 3 "" H 2675 6675 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H -2625 1325 50  0001 C CNN "MPN"
+	1    2675 6675
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2675 6425 2675 6525
+Wire Wire Line
+	2675 6775 2675 6825
+Wire Wire Line
+	2825 6775 2825 6825
+Wire Wire Line
+	2825 6825 2675 6825
+Connection ~ 2675 6825
+Wire Wire Line
+	2825 6575 2825 6525
+Wire Wire Line
+	2825 6525 2675 6525
+Connection ~ 2675 6525
+Wire Wire Line
+	2675 6825 2675 6925
+Wire Wire Line
+	2675 6525 2675 6575
+$Comp
+L bottom-board-rescue:+12VA-power #PWR?
+U 1 1 5BDAB1F2
+P 2675 6425
+AR Path="/54F7244B/5BDAB1F2" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/5BDAB1F2" Ref="#PWR?"  Part="1" 
+AR Path="/54F72CD0/5BDAB1F2" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 2675 6275 50  0001 C CNN
+F 1 "+12VA" H 2675 6565 50  0000 C CNN
+F 2 "" H 2675 6425 60  0000 C CNN
+F 3 "" H 2675 6425 60  0000 C CNN
+	1    2675 6425
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 5BDAB1FA
+P 2825 6675
+AR Path="/54F7244B/5BDAB1FA" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5BDAB1FA" Ref="C?"  Part="1" 
+AR Path="/54F72CD0/5BDAB1FA" Ref="C13"  Part="1" 
+F 0 "C13" V 2650 6675 50  0000 C CNN
+F 1 "10uF 16V" V 2725 6675 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2825 6675 60  0001 C CNN
+F 3 "" H 2825 6675 60  0000 C CNN
+F 4 "CL21A106KOFNNNE" H -2475 1325 50  0001 C CNN "MPN"
+	1    2825 6675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR?
+U 1 1 5BDF2777
+P 3175 6925
+AR Path="/54F72B97/5BDF2777" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/5BDF2777" Ref="#PWR?"  Part="1" 
+AR Path="/54F72CD0/5BDF2777" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 3175 6675 50  0001 C CNN
+F 1 "GNDA" H 3175 6775 50  0000 C CNN
+F 2 "" H 3175 6925 60  0000 C CNN
+F 3 "" H 3175 6925 60  0000 C CNN
+	1    3175 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 5BDF2780
+P 3175 6675
+AR Path="/54F725AE/5BDF2780" Ref="C?"  Part="1" 
+AR Path="/54F72B97/5BDF2780" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5BDF2780" Ref="C?"  Part="1" 
+AR Path="/54F72CD0/5BDF2780" Ref="C14"  Part="1" 
+F 0 "C14" V 3225 6625 50  0000 R CNN
+F 1 "100nF" V 3225 6725 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3175 6675 60  0001 C CNN
+F 3 "" H 3175 6675 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H -2125 1325 50  0001 C CNN "MPN"
+	1    3175 6675
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3175 6425 3175 6525
+Wire Wire Line
+	3175 6775 3175 6825
+Wire Wire Line
+	3325 6775 3325 6825
+Wire Wire Line
+	3325 6825 3175 6825
+Connection ~ 3175 6825
+Wire Wire Line
+	3325 6575 3325 6525
+Wire Wire Line
+	3325 6525 3175 6525
+Connection ~ 3175 6525
+Wire Wire Line
+	3175 6825 3175 6925
+Wire Wire Line
+	3175 6525 3175 6575
+$Comp
+L bottom-board-rescue:+12VA-power #PWR?
+U 1 1 5BDF2790
+P 3175 6425
+AR Path="/54F7244B/5BDF2790" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/5BDF2790" Ref="#PWR?"  Part="1" 
+AR Path="/54F72CD0/5BDF2790" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 3175 6275 50  0001 C CNN
+F 1 "+12VA" H 3175 6565 50  0000 C CNN
+F 2 "" H 3175 6425 60  0000 C CNN
+F 3 "" H 3175 6425 60  0000 C CNN
+	1    3175 6425
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 5BDF2798
+P 3325 6675
+AR Path="/54F7244B/5BDF2798" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5BDF2798" Ref="C?"  Part="1" 
+AR Path="/54F72CD0/5BDF2798" Ref="C38"  Part="1" 
+F 0 "C38" V 3150 6675 50  0000 C CNN
+F 1 "10uF 16V" V 3225 6675 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3325 6675 60  0001 C CNN
+F 3 "" H 3325 6675 60  0000 C CNN
+F 4 "CL21A106KOFNNNE" H -1975 1325 50  0001 C CNN "MPN"
+	1    3325 6675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:+12VA-power #PWR?
+U 1 1 5BDFBF0B
+P 1675 6300
+AR Path="/54F7244B/5BDFBF0B" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/5BDFBF0B" Ref="#PWR?"  Part="1" 
+AR Path="/54F72CD0/5BDFBF0B" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 1675 6150 50  0001 C CNN
+F 1 "+12VA" H 1675 6440 50  0000 C CNN
+F 2 "" H 1675 6300 60  0000 C CNN
+F 3 "" H 1675 6300 60  0000 C CNN
+	1    1675 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:+12VA-power #PWR?
+U 1 1 5BDFBF7C
+P 2075 6300
+AR Path="/54F7244B/5BDFBF7C" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/5BDFBF7C" Ref="#PWR?"  Part="1" 
+AR Path="/54F72CD0/5BDFBF7C" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 2075 6150 50  0001 C CNN
+F 1 "+12VA" H 2075 6440 50  0000 C CNN
+F 2 "" H 2075 6300 60  0000 C CNN
+F 3 "" H 2075 6300 60  0000 C CNN
+	1    2075 6300
+	1    0    0    -1  
+$EndComp
+Text Label 3250 2100 0    39   ~ 0
+OUTPUT_BIAS
+$Comp
+L bottom-board-rescue:R_Small-Device RA?
+U 1 1 5BE71C75
+P 3975 2100
+AR Path="/54F7244B/5BE71C75" Ref="RA?"  Part="1" 
+AR Path="/54F72CD0/5BE71C75" Ref="RA45"  Part="1" 
+F 0 "RA45" V 3900 2025 50  0000 L CNN
+F 1 "10K 1%" V 4050 1925 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3975 2100 50  0001 C CNN
+F 3 "" H 3975 2100 50  0001 C CNN
+F 4 "RR0816P-103-D" V 3975 2100 60  0001 C CNN "MPN"
+	1    3975 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 1750 2850 1750
+Wire Wire Line
+	2850 1750 2850 2100
+Wire Wire Line
+	2850 2100 3875 2100
+Wire Wire Line
+	4075 2100 4250 2100
+Connection ~ 4250 2100
+Wire Wire Line
+	4250 2100 4250 1850
+$Comp
+L bottom-board-rescue:CP_Small-Device CA?
+U 1 1 5BE8504B
+P 5300 2500
+AR Path="/54F72C8D/5BE8504B" Ref="CA?"  Part="1" 
+AR Path="/54F72CD0/5BE8504B" Ref="CA23"  Part="1" 
+F 0 "CA23" H 5375 2550 50  0000 L CNN
+F 1 "10uF" H 5375 2475 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.7" H 5300 2500 60  0001 C CNN
+F 3 "" H 5300 2500 60  0000 C CNN
+F 4 "EEE-HB1C100R" H 200 1000 50  0001 C CNN "MPN"
+	1    5300 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 2500 5200 2500
+Wire Wire Line
+	5400 2500 5600 2500
+Connection ~ 5600 2500
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 5BE997ED
+P 6800 3150
+AR Path="/54F7244B/5BE997ED" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5BE997ED" Ref="C?"  Part="1" 
+AR Path="/54F72CD0/5BE997ED" Ref="C53"  Part="1" 
+F 0 "C53" V 6625 3150 50  0000 C CNN
+F 1 "22uF 16V" V 6700 3150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6800 3150 60  0001 C CNN
+F 3 "" H 6800 3150 60  0000 C CNN
+F 4 "GRM21BC81C226ME44L" H 1500 -2200 50  0001 C CNN "MPN"
+	1    6800 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 5BE9AFFC
+P 6800 6050
+AR Path="/54F7244B/5BE9AFFC" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5BE9AFFC" Ref="C?"  Part="1" 
+AR Path="/54F72CD0/5BE9AFFC" Ref="C54"  Part="1" 
+F 0 "C54" V 6625 6050 50  0000 C CNN
+F 1 "2uF 16V" V 6700 6050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6800 6050 60  0001 C CNN
+F 3 "" H 6800 6050 60  0000 C CNN
+F 4 "GRM21BC81C226ME44L" H 1500 700 50  0001 C CNN "MPN"
+	1    6800 6050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:CP_Small-Device CA?
+U 1 1 5BE9D865
+P 5300 5400
+AR Path="/54F72C8D/5BE9D865" Ref="CA?"  Part="1" 
+AR Path="/54F72CD0/5BE9D865" Ref="CA24"  Part="1" 
+F 0 "CA24" H 5375 5450 50  0000 L CNN
+F 1 "10uF" H 5375 5375 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.7" H 5300 5400 60  0001 C CNN
+F 3 "" H 5300 5400 60  0000 C CNN
+F 4 "EEE-HB1C100R" H 200 3900 50  0001 C CNN "MPN"
+	1    5300 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 5400 5600 5400
+Connection ~ 5600 5400
+Wire Wire Line
+	5200 5400 4250 5400
+Text Label 3250 5000 0    39   ~ 0
+OUTPUT_BIAS
+$Comp
+L bottom-board-rescue:R_Small-Device RA?
+U 1 1 5BEB2CC5
+P 3975 5000
+AR Path="/54F7244B/5BEB2CC5" Ref="RA?"  Part="1" 
+AR Path="/54F72CD0/5BEB2CC5" Ref="RA46"  Part="1" 
+F 0 "RA46" V 3900 4925 50  0000 L CNN
+F 1 "10K 1%" V 4050 4825 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3975 5000 50  0001 C CNN
+F 3 "" H 3975 5000 50  0001 C CNN
+F 4 "RR0816P-103-D" V 3975 5000 60  0001 C CNN "MPN"
+	1    3975 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 4650 2850 5000
+Wire Wire Line
+	2850 5000 3875 5000
+Wire Wire Line
+	4075 5000 4250 5000
+Connection ~ 4250 5000
+Wire Wire Line
+	4250 5000 4250 4750
+$Comp
+L bottom-board-rescue:TestPoint-Connector TP?
+U 1 1 5BE1FD27
+P 8600 2825
+AR Path="/54F7244B/5BE1FD27" Ref="TP?"  Part="1" 
+AR Path="/54F72CD0/5BE1FD27" Ref="TP10"  Part="1" 
+F 0 "TP10" H 8658 2899 50  0000 L CNN
+F 1 "TestPoint" H 8658 2854 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8800 2825 50  0001 C CNN
+F 3 "~" H 8800 2825 50  0001 C CNN
+	1    8600 2825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2825 8600 2900
+$Comp
+L bottom-board-rescue:TestPoint-Connector TP?
+U 1 1 5BE35AC4
+P 8600 5725
+AR Path="/54F7244B/5BE35AC4" Ref="TP?"  Part="1" 
+AR Path="/54F72CD0/5BE35AC4" Ref="TP11"  Part="1" 
+F 0 "TP11" H 8658 5799 50  0000 L CNN
+F 1 "TestPoint" H 8658 5754 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8800 5725 50  0001 C CNN
+F 3 "~" H 8800 5725 50  0001 C CNN
+	1    8600 5725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 5725 8600 5800
+$Comp
+L bottom-board-rescue:TestPoint-Connector TP?
+U 1 1 5BB7AFB0
+P 850 6600
+AR Path="/54F7244B/5BB7AFB0" Ref="TP?"  Part="1" 
+AR Path="/54F72CD0/5BB7AFB0" Ref="TP21"  Part="1" 
+F 0 "TP21" H 900 6725 50  0000 L CNN
+F 1 "TestPoint" H 908 6629 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1050 6600 50  0001 C CNN
+F 3 "~" H 1050 6600 50  0001 C CNN
+	1    850  6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	850  6600 925  6600
+$Comp
+L bottom-board-rescue:R_Small-Device R?
+U 1 1 5DF9BAE3
+P 8800 2300
+AR Path="/5B3B40FB/5DF9BAE3" Ref="R?"  Part="1" 
+AR Path="/54F72C8D/5DF9BAE3" Ref="R?"  Part="1" 
+AR Path="/54F72CD0/5DF9BAE3" Ref="R87"  Part="1" 
+F 0 "R87" H 8850 2350 50  0000 L CNN
+F 1 "10K" H 8850 2250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8800 2300 60  0001 C CNN
+F 3 "" H 8800 2300 60  0000 C CNN
+F 4 "RR0816P-103-D" H 2050 -675 50  0001 C CNN "MPN"
+	1    8800 2300
+	-1   0    0    1   
+$EndComp
+Text GLabel 8625 2150 0    50   Input ~ 0
+OUT1_DETECT
+Wire Wire Line
+	8625 2150 8800 2150
+Wire Wire Line
+	8800 2200 8800 2150
+Connection ~ 8800 2150
+Wire Wire Line
+	8800 2150 8950 2150
+Wire Wire Line
+	8800 2400 8800 2475
+Wire Wire Line
+	7650 1850 8950 1850
+Wire Wire Line
+	7775 2050 8950 2050
+Wire Wire Line
+	7650 4750 8925 4750
+Wire Wire Line
+	7775 4950 8925 4950
+$Comp
+L bottom-board-rescue:R_Small-Device R?
+U 1 1 5E033F13
+P 8775 5200
+AR Path="/5B3B40FB/5E033F13" Ref="R?"  Part="1" 
+AR Path="/54F72C8D/5E033F13" Ref="R?"  Part="1" 
+AR Path="/54F72CD0/5E033F13" Ref="R86"  Part="1" 
+F 0 "R86" H 8825 5250 50  0000 L CNN
+F 1 "10K" H 8825 5150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8775 5200 60  0001 C CNN
+F 3 "" H 8775 5200 60  0000 C CNN
+F 4 "RR0816P-103-D" H 2025 2225 50  0001 C CNN "MPN"
+	1    8775 5200
+	-1   0    0    1   
+$EndComp
+Text GLabel 8600 5050 0    50   Input ~ 0
+OUT2_DETECT
+Wire Wire Line
+	8600 5050 8775 5050
+Wire Wire Line
+	8775 5100 8775 5050
+Connection ~ 8775 5050
+Wire Wire Line
+	8775 5050 8925 5050
+Wire Wire Line
+	8775 5300 8775 5375
+$Comp
+L bottom-board-rescue:+5VD-power #PWR0240
+U 1 1 5E152686
+P 8775 5375
+F 0 "#PWR0240" H 8775 5225 50  0001 C CNN
+F 1 "+5VD" H 8775 5515 50  0000 C CNN
+F 2 "" H 8775 5375 50  0001 C CNN
+F 3 "" H 8775 5375 50  0001 C CNN
+	1    8775 5375
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:+5VD-power #PWR0241
+U 1 1 5E1625ED
+P 8800 2475
+F 0 "#PWR0241" H 8800 2325 50  0001 C CNN
+F 1 "+5VD" H 8800 2615 50  0000 C CNN
+F 2 "" H 8800 2475 50  0001 C CNN
+F 3 "" H 8800 2475 50  0001 C CNN
+	1    8800 2475
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
