@@ -42,10 +42,10 @@ L bottom-board-rescue:R_Small R51
 U 1 1 550EEF86
 P 7950 3350
 F 0 "R51" H 8000 3400 50  0000 L CNN
-F 1 "10k" H 8000 3300 50  0000 L CNN
+F 1 "10K" H 8000 3300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7950 3350 60  0001 C CNN
-F 3 "" H 7950 3350 60  0000 C CNN
-F 4 "RMCF0603JT10K0" H 350 0   50  0001 C CNN "MPN"
+F 3 "~" H 7950 3350 60  0000 C CNN
+F 4 "RR0816P-103-D" H 350 0   50  0001 C CNN "MPN"
 	1    7950 3350
 	1    0    0    -1  
 $EndComp
@@ -54,10 +54,10 @@ L bottom-board-rescue:R_Small R52
 U 1 1 550EFE8C
 P 8500 3650
 F 0 "R52" H 8550 3700 50  0000 L CNN
-F 1 "10k" H 8550 3600 50  0000 L CNN
+F 1 "10K" H 8550 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 8500 3650 60  0001 C CNN
-F 3 "" H 8500 3650 60  0000 C CNN
-F 4 "RMCF0603JT10K0" H 150 0   50  0001 C CNN "MPN"
+F 3 "~" H 8500 3650 60  0000 C CNN
+F 4 "RR0816P-103-D" H 150 0   50  0001 C CNN "MPN"
 	1    8500 3650
 	1    0    0    -1  
 $EndComp
@@ -239,7 +239,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 3850 8500 3950
 $Comp
-L Connector:AudioJack3 P6
+L bottom-board-rescue:AudioJack3-Connector P6
 U 1 1 5D15D509
 P 2345 3445
 F 0 "P6" V 2373 3215 50  0000 R CNN
@@ -252,16 +252,16 @@ F 4 "SJ-3523-SMT-TR" V 2345 3445 50  0001 C CNN "MPN"
 $EndComp
 NoConn ~ 2445 3645
 $Comp
-L Diode:1N4148 D?
+L bottom-board-rescue:1N4148-Diode D?
 U 1 1 5D5B626A
 P 3220 3920
 AR Path="/54F72C8D/5D5B626A" Ref="D?"  Part="1" 
 AR Path="/54F72FB4/5D5B626A" Ref="D15"  Part="1" 
 F 0 "D15" V 3220 3830 50  0000 R CNN
 F 1 "1N4148" V 3305 3850 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-523" H 3220 3745 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 3220 3745 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3220 3920 50  0001 C CNN
-F 4 "1N4148X-TP" V 3220 3920 50  0001 C CNN "MPN"
+F 4 "1N4148WS" V 3220 3920 50  0001 C CNN "MPN"
 	1    3220 3920
 	0    1    1    0   
 $EndComp
@@ -273,16 +273,16 @@ Connection ~ 3220 3720
 Wire Wire Line
 	3220 3720 3520 3720
 $Comp
-L Diode:1N4148 D?
+L bottom-board-rescue:1N4148-Diode D?
 U 1 1 5D5BA7F0
 P 4370 3920
 AR Path="/54F72C8D/5D5BA7F0" Ref="D?"  Part="1" 
 AR Path="/54F72FB4/5D5BA7F0" Ref="D16"  Part="1" 
 F 0 "D16" H 4430 4035 50  0000 R CNN
 F 1 "1N4148" H 4505 3835 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-523" H 4370 3745 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 4370 3745 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4370 3920 50  0001 C CNN
-F 4 "1N4148X-TP" V 4370 3920 50  0001 C CNN "MPN"
+F 4 "1N4148WS" V 4370 3920 50  0001 C CNN "MPN"
 	1    4370 3920
 	1    0    0    -1  
 $EndComp
@@ -316,13 +316,11 @@ Connection ~ 3220 4205
 Wire Wire Line
 	3220 4205 2245 4205
 Wire Wire Line
-	4230 3535 4230 3620
-Wire Wire Line
 	4120 3620 4230 3620
 Wire Wire Line
 	4565 3920 4520 3920
 $Comp
-L Connector:AudioJack3 P7
+L bottom-board-rescue:AudioJack3-Connector P7
 U 1 1 5D15C2EF
 P 7025 3075
 F 0 "P7" V 6961 3263 50  0000 L CNN
@@ -349,4 +347,83 @@ Wire Notes Line
 	1600 2750 1600 4695
 Wire Notes Line
 	5450 2750 5450 4695
+$Comp
+L bottom-board-rescue:C_Small C?
+U 1 1 5FC6848F
+P 4445 3615
+AR Path="/54F72B97/5FC6848F" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5FC6848F" Ref="C?"  Part="1" 
+AR Path="/54F72FB4/5FC6848F" Ref="C82"  Part="1" 
+F 0 "C82" H 4340 3545 50  0000 L CNN
+F 1 "100nF" H 4190 3720 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4445 3615 60  0001 C CNN
+F 3 "" H 4445 3615 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H -855 -1735 50  0001 C CNN "MPN"
+	1    4445 3615
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4345 3615 4230 3615
+Wire Wire Line
+	4230 3535 4230 3615
+Connection ~ 4230 3615
+Wire Wire Line
+	4230 3615 4230 3620
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0264
+U 1 1 5FC72014
+P 4650 3615
+F 0 "#PWR0264" H 4650 3365 50  0001 C CNN
+F 1 "GNDD" H 4650 3465 50  0000 C CNN
+F 2 "" H 4650 3615 60  0000 C CNN
+F 3 "" H 4650 3615 60  0000 C CNN
+	1    4650 3615
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 3615 4545 3615
+$Comp
+L bottom-board-rescue:BAT54S-Diode D?
+U 1 1 5FCD8EEA
+P 7025 3750
+AR Path="/54F72B97/5FCD8EEA" Ref="D?"  Part="1" 
+AR Path="/54F72C8D/5FCD8EEA" Ref="D?"  Part="1" 
+AR Path="/54F72FB4/5FCD8EEA" Ref="D12"  Part="1" 
+F 0 "D12" H 6815 3625 50  0000 L CNN
+F 1 "BAT54S" H 6840 3880 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7100 3875 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 6905 3750 50  0001 C CNN
+F 4 "BAT54SFILM" V 7025 3750 50  0001 C CNN "MPN"
+	1    7025 3750
+	1    0    0    1   
+$EndComp
+Connection ~ 7025 3550
+$Comp
+L bottom-board-rescue:+5V-power #PWR0265
+U 1 1 5FCE0A00
+P 7360 3750
+F 0 "#PWR0265" H 7360 3600 50  0001 C CNN
+F 1 "+5V" H 7360 3890 50  0000 C CNN
+F 2 "" H 7360 3750 60  0000 C CNN
+F 3 "" H 7360 3750 60  0000 C CNN
+	1    7360 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0266
+U 1 1 5FCE18B6
+P 6680 3760
+F 0 "#PWR0266" H 6680 3510 50  0001 C CNN
+F 1 "GNDD" H 6680 3610 50  0000 C CNN
+F 2 "" H 6680 3760 60  0000 C CNN
+F 3 "" H 6680 3760 60  0000 C CNN
+	1    6680 3760
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6680 3760 6680 3750
+Wire Wire Line
+	6680 3750 6725 3750
+Wire Wire Line
+	7325 3750 7360 3750
 $EndSCHEMATC

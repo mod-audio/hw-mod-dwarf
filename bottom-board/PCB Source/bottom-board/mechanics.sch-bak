@@ -91,4 +91,47 @@ F 3 "" H 2180 2240 60  0000 C CNN
 	1    2180 2240
 	1    0    0    -1  
 $EndComp
+$Comp
+L bottom-board-rescue:HOLE-local-components H?
+U 1 1 5F8174D3
+P 2500 2240
+AR Path="/5F8174D3" Ref="H?"  Part="1" 
+AR Path="/55FC02AF/5F8174D3" Ref="H1"  Part="1" 
+F 0 "H1" H 2500 2060 50  0000 C CNN
+F 1 "HOLE" H 2500 2410 50  0000 C CNN
+F 2 "Uno:Hole_3.5mm" H 2500 2240 60  0001 C CNN
+F 3 "" H 2500 2240 60  0000 C CNN
+	1    2500 2240
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:MountingHole_Pad-Mechanical H?
+U 1 1 5F81B775
+P 1440 3015
+AR Path="/54F7244B/5F81B775" Ref="H?"  Part="1" 
+AR Path="/55FC02AF/5F81B775" Ref="H6"  Part="1" 
+F 0 "H6" H 1540 3064 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1540 2973 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1440 3015 50  0001 C CNN
+F 3 "~" H 1440 3015 50  0001 C CNN
+	1    1440 3015
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:MountingHole_Pad-Mechanical H?
+U 1 1 5F81B998
+P 2320 2990
+AR Path="/54F7244B/5F81B998" Ref="H?"  Part="1" 
+AR Path="/55FC02AF/5F81B998" Ref="H7"  Part="1" 
+F 0 "H7" H 2420 3039 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2420 2948 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 2320 2990 50  0001 C CNN
+F 3 "~" H 2320 2990 50  0001 C CNN
+	1    2320 2990
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1440 3115
+NoConn ~ 2320 3090
+Text Notes 1510 3265 0    60   ~ 0
+SOM Mounting holes
 $EndSCHEMATC

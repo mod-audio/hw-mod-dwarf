@@ -57,7 +57,7 @@ F 0 "C54" V 3565 2610 50  0000 L CNN
 F 1 "100nF" V 3415 2460 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3515 2560 60  0001 C CNN
 F 3 "" H 3515 2560 60  0000 C CNN
-F 4 "C1608X7R1E104K080AA" H -1335 810 50  0001 C CNN "MPN"
+F 4 "GCM188R71C104KA37D" H -1335 810 50  0001 C CNN "MPN"
 	1    3515 2560
 	0    -1   1    0   
 $EndComp
@@ -314,20 +314,6 @@ F 3 "" H 8405 3710 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:CP_Small C?
-U 1 1 5F5E8B0C
-P 7405 3510
-AR Path="/54F72FB8/5F5E8B0C" Ref="C?"  Part="1" 
-AR Path="/54F72FB6/5F5E8B0C" Ref="C61"  Part="1" 
-F 0 "C61" H 7455 3410 50  0000 L CNN
-F 1 "10uF" V 7455 3560 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 7405 3510 60  0001 C CNN
-F 3 "" H 7405 3510 60  0000 C CNN
-F 4 "UWX1E100MCL1GB" H -345 -1440 50  0001 C CNN "MPN"
-	1    7405 3510
-	1    0    0    -1  
-$EndComp
-$Comp
 L bottom-board-rescue:GNDD-power #PWR?
 U 1 1 5F5E8B12
 P 7505 3760
@@ -406,12 +392,12 @@ F 0 "C62" H 7755 3410 50  0000 L CNN
 F 1 "100nF" V 7755 3560 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7705 3510 60  0001 C CNN
 F 3 "" H 7705 3510 60  0000 C CNN
-F 4 "C1608X7R1E104K080AA" H -345 -1440 50  0001 C CNN "MPN"
+F 4 "GCM188R71C104KA37D" H -345 -1440 50  0001 C CNN "MPN"
 	1    7705 3510
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:RJ45 P?
+L bottom-board-rescue:RJ45-Connector P?
 U 1 1 5F5E8B3D
 P 8905 3210
 AR Path="/54F72FB8/5F5E8B3D" Ref="P?"  Part="1" 
@@ -437,4 +423,20 @@ Wire Wire Line
 	8355 3410 8505 3410
 Text Notes 5965 2660 0    60   ~ 0
 This port is NOT used for ethernet, but for a serial protocol that includes power over the RJ-45 connector
+$Comp
+L bottom-board-rescue:CP_Small C?
+U 1 1 5FAE2F8E
+P 7405 3510
+AR Path="/54F7244B/5FAE2F8E" Ref="C?"  Part="1" 
+AR Path="/54F72B97/5FAE2F8E" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5FAE2F8E" Ref="C?"  Part="1" 
+AR Path="/54F72FB6/5FAE2F8E" Ref="C61"  Part="1" 
+F 0 "C61" H 7475 3430 50  0000 L CNN
+F 1 "10uF" H 7475 3510 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.7" H 7443 3360 30  0001 C CNN
+F 3 "" H 7405 3510 60  0000 C CNN
+F 4 "EEE-HB1C100R" H 3905 710 50  0001 C CNN "MPN"
+	1    7405 3510
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
