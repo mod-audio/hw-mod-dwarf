@@ -114,6 +114,7 @@ F 0 "H6" H 1540 3064 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1540 2973 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1440 3015 50  0001 C CNN
 F 3 "~" H 1440 3015 50  0001 C CNN
+F 4 "9774027151R" H 1440 3015 50  0001 C CNN "MPN"
 	1    1440 3015
 	1    0    0    -1  
 $EndComp
@@ -127,11 +128,42 @@ F 0 "H7" H 2420 3039 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2420 2948 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 2320 2990 50  0001 C CNN
 F 3 "~" H 2320 2990 50  0001 C CNN
+F 4 "9774027151R" H 2320 2990 50  0001 C CNN "MPN"
 	1    2320 2990
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1440 3115
-NoConn ~ 2320 3090
-Text Notes 1510 3265 0    60   ~ 0
+Text Notes 1355 3460 0    60   ~ 0
 SOM Mounting holes
+$Comp
+L bottom-board-rescue:GNDD-power #PWR?
+U 1 1 5FE7AA08
+P 1440 3150
+AR Path="/54F72FB8/5FE7AA08" Ref="#PWR?"  Part="1" 
+AR Path="/54F7244B/5FE7AA08" Ref="#PWR?"  Part="1" 
+AR Path="/55FC02AF/5FE7AA08" Ref="#PWR0287"  Part="1" 
+F 0 "#PWR0287" H 1440 2900 50  0001 C CNN
+F 1 "GNDD" H 1440 3000 50  0000 C CNN
+F 2 "" H 1440 3150 60  0000 C CNN
+F 3 "" H 1440 3150 60  0000 C CNN
+	1    1440 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR?
+U 1 1 5FE7B9AF
+P 2320 3125
+AR Path="/54F72FB8/5FE7B9AF" Ref="#PWR?"  Part="1" 
+AR Path="/54F7244B/5FE7B9AF" Ref="#PWR?"  Part="1" 
+AR Path="/55FC02AF/5FE7B9AF" Ref="#PWR0288"  Part="1" 
+F 0 "#PWR0288" H 2320 2875 50  0001 C CNN
+F 1 "GNDD" H 2320 2975 50  0000 C CNN
+F 2 "" H 2320 3125 60  0000 C CNN
+F 3 "" H 2320 3125 60  0000 C CNN
+	1    2320 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2320 3090 2320 3125
+Wire Wire Line
+	1440 3150 1440 3115
 $EndSCHEMATC

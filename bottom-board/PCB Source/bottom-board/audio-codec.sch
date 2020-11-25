@@ -33,7 +33,7 @@ F 0 "C24" V 1550 1550 50  0000 R CNN
 F 1 "1uF" V 1450 1650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1500 1600 60  0001 C CNN
 F 3 "" H 1500 1600 60  0000 C CNN
-F 4 "FCA1210C105M-G2" H -2950 -100 50  0001 C CNN "MPN"
+F 4 "TMK107B7105KA-T" H -2950 -100 50  0001 C CNN "MPN"
 	1    1500 1600
 	-1   0    0    1   
 $EndComp
@@ -196,7 +196,7 @@ Text GLabel 4470 4140 0    50   Input ~ 0
 CODEC_I2S_BCLK
 Text GLabel 4470 4040 0    50   Input ~ 0
 CODEC_I2S_LRCK
-Text GLabel 3325 5215 3    50   Input ~ 0
+Text GLabel 2910 5815 0    50   Input ~ 0
 CODEC_I2S_MCLK
 Wire Wire Line
 	3840 3090 4090 3090
@@ -274,14 +274,14 @@ $EndComp
 $Comp
 L bottom-board-rescue:R_Small R3
 U 1 1 5C7E5062
-P 3325 5000
-F 0 "R3" V 3275 4790 50  0000 L CNN
-F 1 "22R" V 3275 5090 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3325 5000 60  0001 C CNN
-F 3 "" H 3325 5000 60  0000 C CNN
-F 4 "RMCF0603JT22R0" H -975 2650 50  0001 C CNN "MPN"
-	1    3325 5000
-	1    0    0    -1  
+P 3125 5815
+F 0 "R3" V 3075 5605 50  0000 L CNN
+F 1 "22R" V 3075 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3125 5815 60  0001 C CNN
+F 3 "" H 3125 5815 60  0000 C CNN
+F 4 "RMCF0603JT22R0" H -1175 3465 50  0001 C CNN "MPN"
+	1    3125 5815
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7160 3290 7010 3290
@@ -650,19 +650,17 @@ Wire Wire Line
 NoConn ~ 6570 2840
 NoConn ~ 6570 3090
 NoConn ~ 5070 3790
-Wire Wire Line
-	5770 4490 5770 4660
 $Comp
 L bottom-board-rescue:GNDA-power #PWR?
 U 1 1 5F120097
-P 5770 4660
+P 5765 5115
 AR Path="/5F120097" Ref="#PWR?"  Part="1" 
 AR Path="/54F72B97/5F120097" Ref="#PWR0130"  Part="1" 
-F 0 "#PWR0130" H 5770 4410 50  0001 C CNN
-F 1 "GNDA" H 5770 4510 50  0000 C CNN
-F 2 "" H 5770 4660 60  0000 C CNN
-F 3 "" H 5770 4660 60  0000 C CNN
-	1    5770 4660
+F 0 "#PWR0130" H 5765 4865 50  0001 C CNN
+F 1 "GNDA" H 5765 4965 50  0000 C CNN
+F 2 "" H 5765 5115 60  0000 C CNN
+F 3 "" H 5765 5115 60  0000 C CNN
+	1    5765 5115
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1113,7 +1111,7 @@ Wire Wire Line
 	4785 1615 4630 1615
 NoConn ~ 5070 2940
 Wire Wire Line
-	3325 5215 3325 5100
+	2910 5815 3025 5815
 $Comp
 L Oscillator:ASCO X1
 U 1 1 5F9F28B4
@@ -1164,7 +1162,7 @@ F 4 "GCM188R71C104KA37D" H -3390 -695 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Text Notes 1485 5620 0    60   ~ 0
-The series resistor at I2S_MCLK \nmust only be placed when the xtal\nis not placed, and vice versa.
+The 0ohm resistor at I2S_MCLK \nmust only be placed when the xtal\nis not placed, and vice versa.
 Wire Wire Line
 	2445 4375 2445 4345
 Wire Wire Line
@@ -1184,8 +1182,6 @@ Wire Wire Line
 	2445 5000 2445 5020
 Connection ~ 2445 5000
 Wire Wire Line
-	3325 4900 3325 4675
-Wire Wire Line
 	3325 3940 5070 3940
 Wire Wire Line
 	2845 4675 3325 4675
@@ -1202,4 +1198,66 @@ Wire Notes Line
 	880  6000 880  3890
 Text Notes 925  4005 0    60   ~ 0
 Codec MCLK
+$Comp
+L bottom-board-rescue:C_Small C95
+U 1 1 5FB9A0FE
+P 5580 4900
+F 0 "C95" H 5420 4870 50  0000 L CNN
+F 1 "100nF" H 5290 4950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5580 4900 60  0001 C CNN
+F 3 "" H 5580 4900 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H 280 -450 50  0001 C CNN "MPN"
+	1    5580 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small C96
+U 1 1 5FB9A105
+P 5770 4900
+F 0 "C96" H 5700 4960 50  0000 R CNN
+F 1 "10uF" H 5510 4880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5770 4900 60  0001 C CNN
+F 3 "" H 5770 4900 60  0000 C CNN
+F 4 "CL10A106MQ8NNNC" H 1320 3200 50  0001 C CNN "MPN"
+	1    5770 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5770 4490 5770 4745
+Wire Wire Line
+	5765 5115 5765 5030
+Wire Wire Line
+	5765 5000 5770 5000
+Wire Wire Line
+	5580 5000 5580 5030
+Wire Wire Line
+	5580 5030 5765 5030
+Connection ~ 5765 5030
+Wire Wire Line
+	5765 5030 5765 5000
+Wire Wire Line
+	5580 4800 5580 4745
+Wire Wire Line
+	5580 4745 5770 4745
+Connection ~ 5770 4745
+Wire Wire Line
+	5770 4745 5770 4800
+$Comp
+L bottom-board-rescue:R_Small R72
+U 1 1 5FC83DD5
+P 3325 5290
+F 0 "R72" V 3275 5080 50  0000 L CNN
+F 1 "0R" V 3275 5380 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3325 5290 60  0001 C CNN
+F 3 "" H 3325 5290 60  0000 C CNN
+F 4 "" H -975 2940 50  0001 C CNN "MPN"
+	1    3325 5290
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3225 5815 3325 5815
+Wire Wire Line
+	3325 5815 3325 5390
+Wire Wire Line
+	3325 4675 3325 5190
 $EndSCHEMATC

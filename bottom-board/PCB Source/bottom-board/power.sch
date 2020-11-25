@@ -705,21 +705,6 @@ F 4 "TL750M10CKVURG3" H 4840 3625 50  0001 C CNN "MPN"
 	1    4840 3625
 	1    0    0    -1  
 $EndComp
-$Comp
-L bottom-board-rescue:CP_Small C1
-U 1 1 5FD1DD0A
-P 5740 3825
-AR Path="/54F7244B/5FD1DD0A" Ref="C1"  Part="1" 
-AR Path="/54F72B97/5FD1DD0A" Ref="C?"  Part="1" 
-AR Path="/54F72C8D/5FD1DD0A" Ref="C?"  Part="1" 
-F 0 "C1" H 5810 3745 50  0000 L CNN
-F 1 "10uF" H 5810 3825 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.7" H 5778 3675 30  0001 C CNN
-F 3 "" H 5740 3825 60  0000 C CNN
-F 4 "EEE-HB1C100R" H 2240 1025 50  0001 C CNN "MPN"
-	1    5740 3825
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5940 3625 6130 3625
 Connection ~ 5940 3625
@@ -792,17 +777,6 @@ Wire Wire Line
 	6115 1640 6115 1590
 Wire Wire Line
 	6115 990  6115 875 
-$Comp
-L bottom-board-rescue:LD1117S50TR_SOT223-Regulator_Linear U9
-U 1 1 5F7FE21B
-P 6430 3625
-F 0 "U9" H 6430 3867 50  0000 C CNN
-F 1 "LD1117S50TR_SOT223" H 6430 3776 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6430 3825 50  0001 C CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 6530 3375 50  0001 C CNN
-	1    6430 3625
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6730 3625 6805 3625
 Wire Wire Line
@@ -859,4 +833,32 @@ Wire Wire Line
 	6805 3895 6805 4045
 Wire Wire Line
 	7135 3885 7135 4055
+$Comp
+L bottom-board-rescue:CP_Small C1
+U 1 1 5FB8A0B7
+P 5740 3825
+AR Path="/54F7244B/5FB8A0B7" Ref="C1"  Part="1" 
+AR Path="/54F72B97/5FB8A0B7" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5FB8A0B7" Ref="C?"  Part="1" 
+AR Path="/54F72CD0/5FB8A0B7" Ref="C?"  Part="1" 
+AR Path="/5F5FD115/5FB8A0B7" Ref="C?"  Part="1" 
+F 0 "C1" H 5785 3920 50  0000 L CNN
+F 1 "100uF" H 5490 3700 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 5778 3675 30  0001 C CNN
+F 3 "" H 5740 3825 60  0000 C CNN
+F 4 "UWX1C101MCL1GB" H 2240 1025 50  0001 C CNN "MPN"
+	1    5740 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LD1117S50TR_SOT223 U9
+U 1 1 5FD15934
+P 6430 3625
+F 0 "U9" H 6430 3867 50  0000 C CNN
+F 1 "LD1117S50TR_SOT223" H 6430 3776 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6430 3825 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 6530 3375 50  0001 C CNN
+	1    6430 3625
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,0 +1,43 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 6N137S
+#
+DEF 6N137S U 0 40 Y Y 1 L N
+F0 "U" -130 320 50 H V L BNN
+F1 "6N137S" -140 -520 50 H V L BNN
+F2 "8-SMD" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "ON Semiconductor" 0 0 50 H I L BNN "MF"
+F5 "Logic Output Optoisolator 10Mbps Open Collector 5000Vrms 1 Channel 10kV/µs (Typ) CMTI 8-SMD" 0 0 50 H I L BNN "Description"
+F6 "None" 0 0 50 H I L BNN "Price"
+F7 "Warning" 0 0 50 H I L BNN "Availability"
+F8 "6N137S" 0 0 50 H I L BNN "MP"
+F9 "SMD-8 Lite-On" 0 0 50 H I L BNN "Package"
+F10 "https://pricing.snapeda.com/search/part/6N137S/?ref=eda" 0 0 50 H I L BNN "Purchase-URL"
+DRAW
+P 2 0 0 6 -200 -500 300 -500 N
+P 2 0 0 6 300 -500 300 300 N
+P 2 0 0 6 300 300 -200 300 N
+P 2 0 0 6 -200 300 -200 200 N
+P 2 0 0 6 -200 200 -200 -400 N
+P 2 0 0 6 -200 -400 -200 -500 N
+P 2 0 0 6 -200 200 -130 200 N
+P 2 0 0 6 -130 200 -130 -70 N
+P 2 0 0 6 -130 -110 -90 -110 N
+P 2 0 0 6 -170 -110 -130 -110 N
+P 2 0 0 6 -130 -110 -130 -400 N
+P 2 0 0 6 -130 -400 -200 -400 N
+P 3 0 0 6 -170 -70 -130 -110 -90 -70 f
+X C 3 -300 -400 100 R 40 40 0 0 B 
+X A 2 -300 200 100 R 40 40 0 0 B 
+X VCC 8 400 200 100 L 40 40 0 0 B 
+X VOUT 6 400 -200 100 L 40 40 0 0 B 
+X GND 5 400 -400 100 L 40 40 0 0 B 
+X EN 7 400 0 100 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
