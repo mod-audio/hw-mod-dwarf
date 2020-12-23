@@ -413,19 +413,6 @@ Wire Wire Line
 Connection ~ 2800 10005
 Connection ~ 2100 10005
 $Comp
-L bottom-board-rescue:+12V-power #PWR?
-U 1 1 5F60A18A
-P 3050 9555
-AR Path="/54F72FB8/5F60A18A" Ref="#PWR?"  Part="1" 
-AR Path="/54F725AE/5F60A18A" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR0136" H 3050 9405 50  0001 C CNN
-F 1 "+12V" H 3050 9705 50  0000 C CNN
-F 2 "" H 3050 9555 60  0000 C CNN
-F 3 "" H 3050 9555 60  0000 C CNN
-	1    3050 9555
-	1    0    0    -1  
-$EndComp
-$Comp
 L bottom-board-rescue:R_Small R?
 U 1 1 5F60A191
 P 1750 9805
@@ -1904,4 +1891,15 @@ Text GLabel 1575 3515 2    60   Input ~ 0
 OUT2_DETECT
 Text GLabel 1615 4785 2    60   Output ~ 0
 HMI_ISP_ENABLE
+$Comp
+L bottom-board-rescue:+5V-power #PWR?
+U 1 1 5FE59776
+P 3050 9555
+F 0 "#PWR?" H 3050 9405 50  0001 C CNN
+F 1 "+5V" H 3050 9695 50  0000 C CNN
+F 2 "" H 3050 9555 60  0000 C CNN
+F 3 "" H 3050 9555 60  0000 C CNN
+	1    3050 9555
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

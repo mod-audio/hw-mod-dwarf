@@ -427,7 +427,7 @@ Wire Wire Line
 Wire Wire Line
 	3225 4215 3135 4215
 Wire Wire Line
-	3485 4215 3655 4215
+	3485 4215 3515 4215
 Wire Wire Line
 	4430 4490 4525 4490
 Wire Wire Line
@@ -900,4 +900,69 @@ Wire Wire Line
 	7135 4700 7135 4665
 Wire Wire Line
 	5770 2810 5770 3235
+$Comp
+L bottom-board-rescue:R_Small-Device R?
+U 1 1 5FC245FB
+P 3495 2835
+AR Path="/54F72C8D/5FC245FB" Ref="R?"  Part="1" 
+AR Path="/5F5FD115/5FC245FB" Ref="R110"  Part="1" 
+F 0 "R110" H 3436 2789 50  0000 R CNN
+F 1 "1M 1%" H 3450 2865 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3495 2835 50  0001 C CNN
+F 3 "~" H 3495 2835 50  0001 C CNN
+F 4 "DO NOT PLACE" V 3495 2835 50  0001 C CNN "MPN"
+	1    3495 2835
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device R?
+U 1 1 5FC24ED0
+P 3515 4040
+AR Path="/54F72C8D/5FC24ED0" Ref="R?"  Part="1" 
+AR Path="/5F5FD115/5FC24ED0" Ref="R111"  Part="1" 
+F 0 "R111" H 3456 3994 50  0000 R CNN
+F 1 "1M 1%" H 3470 4070 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3515 4040 50  0001 C CNN
+F 3 "~" H 3515 4040 50  0001 C CNN
+F 4 "DO NOT PLACE" V 3515 4040 50  0001 C CNN "MPN"
+	1    3515 4040
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:+5VA-power #PWR?
+U 1 1 5FC254DC
+P 3495 2660
+AR Path="/54F7244B/5FC254DC" Ref="#PWR?"  Part="1" 
+AR Path="/5F5FD115/5FC254DC" Ref="#PWR0299"  Part="1" 
+F 0 "#PWR0299" H 3495 2510 50  0001 C CNN
+F 1 "+5VA" H 3495 2800 50  0000 C CNN
+F 2 "" H 3495 2660 60  0000 C CNN
+F 3 "" H 3495 2660 60  0000 C CNN
+	1    3495 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:+5VA-power #PWR?
+U 1 1 5FC267B9
+P 3515 3890
+AR Path="/54F7244B/5FC267B9" Ref="#PWR?"  Part="1" 
+AR Path="/5F5FD115/5FC267B9" Ref="#PWR0300"  Part="1" 
+F 0 "#PWR0300" H 3515 3740 50  0001 C CNN
+F 1 "+5VA" H 3515 4030 50  0000 C CNN
+F 2 "" H 3515 3890 60  0000 C CNN
+F 3 "" H 3515 3890 60  0000 C CNN
+	1    3515 3890
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3515 3890 3515 3940
+Wire Wire Line
+	3515 4140 3515 4215
+Connection ~ 3515 4215
+Wire Wire Line
+	3515 4215 3655 4215
+Wire Wire Line
+	3495 2660 3495 2735
+Wire Wire Line
+	3495 2935 3495 3025
 $EndSCHEMATC
