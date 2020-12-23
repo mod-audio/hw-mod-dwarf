@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/jan/Mod Github HW/hw-mod-dwarf/bottom-board/PCB Source/bottom-board/bottom-board.sch")
-    (date "Wed 23 Dec 2020 03:52:08 PM CET")
+    (date "Wed 23 Dec 2020 03:55:51 PM CET")
     (tool "Eeschema 5.1.8-db9833491~87~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -876,10 +876,10 @@
       (sheetpath (names /audio-inputs/) (tstamps /54F72C8D/))
       (tstamp 5F11A9B1))
     (comp (ref C23)
-      (value 100nF)
+      (value 100pF)
       (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
-        (field (name MPN) GCM188R71C104KA37D))
+        (field (name MPN) C0603C101J3GACTU))
       (libsource (lib bottom-board-rescue) (part C_Small) (description ""))
       (sheetpath (names /audio-inputs/) (tstamps /54F72C8D/))
       (tstamp 5F11DD8E))
@@ -1104,10 +1104,10 @@
       (sheetpath (names /audio-inputs/) (tstamps /54F72C8D/))
       (tstamp 5F234215))
     (comp (ref C21)
-      (value 100nF)
+      (value 100pF)
       (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
-        (field (name MPN) GCM188R71C104KA37D))
+        (field (name MPN) C0603C101J3GACTU))
       (libsource (lib bottom-board-rescue) (part C_Small) (description ""))
       (sheetpath (names /audio-inputs/) (tstamps /54F72C8D/))
       (tstamp 5F23421C))
