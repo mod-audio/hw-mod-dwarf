@@ -641,8 +641,6 @@ Text GLabel 7205 3475 1    60   BiDi ~ 0
 PM_LEDS_SDA
 Text GLabel 7305 3460 1    60   Output ~ 0
 PM_LEDS_SCL
-Text GLabel 5605 4510 3    60   Output ~ 0
-PM_LEDS_OE
 Text GLabel 2050 10405 0    50   BiDi ~ 0
 PM_LEDS_SDA
 Text GLabel 2050 10305 0    50   Input ~ 0
@@ -693,18 +691,6 @@ Text GLabel 6605 6080 3    60   Input ~ 0
 IN2_DETECT
 Wire Wire Line
 	6705 6955 6705 7055
-$Comp
-L bottom-board-rescue:AS0A823-H4SB-7H J1
-U 1 1 5F6147C6
-P 7605 4790
-F 0 "J1" V 7609 7920 50  0000 L CNN
-F 1 "AS0A823-H4SB-7H" V 7700 7920 50  0000 L CNN
-F 2 "Uno:TE_2309409-1" H 7605 4790 50  0001 L BNN
-F 3 "None" H 7605 4790 50  0001 L BNN
-F 4 "TE_2309409-1" H 7605 4790 50  0001 L BNN "MPN"
-	1    7605 4790
-	0    1    1    0   
-$EndComp
 NoConn ~ 10505 3690
 NoConn ~ 10405 3690
 Wire Wire Line
@@ -1042,17 +1028,6 @@ Wire Wire Line
 Wire Wire Line
 	6105 5180 6105 5190
 $Comp
-L bottom-board-rescue:+5V-power #PWR0231
-U 1 1 5FEF62CE
-P 6005 5085
-F 0 "#PWR0231" H 6005 4935 50  0001 C CNN
-F 1 "+5V" H 6005 5225 50  0000 C CNN
-F 2 "" H 6005 5085 60  0000 C CNN
-F 3 "" H 6005 5085 60  0000 C CNN
-	1    6005 5085
-	1    0    0    -1  
-$EndComp
-$Comp
 L bottom-board-rescue:+5V-power #PWR0232
 U 1 1 5FEFE44D
 P 4065 5070
@@ -1142,36 +1117,9 @@ F 3 "" H 5205 5010 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5205 5190 5205 5175
-Wire Wire Line
 	5305 5190 5305 5175
 Wire Wire Line
-	5305 5175 5205 5175
-Connection ~ 5205 5175
-Wire Wire Line
-	5205 5175 5205 5010
-Wire Wire Line
 	5405 5190 5405 5175
-Wire Wire Line
-	5405 5175 5305 5175
-Connection ~ 5305 5175
-$Comp
-L bottom-board-rescue:+5V-power #PWR0235
-U 1 1 60058024
-P 5640 5055
-F 0 "#PWR0235" H 5640 4905 50  0001 C CNN
-F 1 "+5V" H 5640 5195 50  0000 C CNN
-F 2 "" H 5640 5055 60  0000 C CNN
-F 3 "" H 5640 5055 60  0000 C CNN
-	1    5640 5055
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5505 5190 5505 5110
-Wire Wire Line
-	5505 5110 5640 5110
-Wire Wire Line
-	5640 5110 5640 5055
 NoConn ~ 6305 5190
 NoConn ~ 6405 5190
 NoConn ~ 6505 5190
@@ -1305,19 +1253,6 @@ Wire Wire Line
 Connection ~ 4505 6015
 Wire Wire Line
 	4505 6015 4405 6015
-$Comp
-L bottom-board-rescue:+5V-power #PWR0246
-U 1 1 603BCCE0
-P 5605 6105
-F 0 "#PWR0246" H 5605 5955 50  0001 C CNN
-F 1 "+5V" H 5605 6245 50  0000 C CNN
-F 2 "" H 5605 6105 60  0000 C CNN
-F 3 "" H 5605 6105 60  0000 C CNN
-	1    5605 6105
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5605 5990 5605 6105
 $Comp
 L bottom-board-rescue:+3.3V-power #PWR0247
 U 1 1 603DB3FD
@@ -1901,5 +1836,74 @@ F 2 "" H 3050 9555 60  0000 C CNN
 F 3 "" H 3050 9555 60  0000 C CNN
 	1    3050 9555
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5205 5175 5205 5010
+Wire Wire Line
+	5205 5190 5205 5175
+Connection ~ 5205 5175
+Wire Wire Line
+	5405 5175 5305 5175
+Wire Wire Line
+	5305 5175 5205 5175
+Connection ~ 5305 5175
+$Comp
+L bottom-board-rescue:AS0A823-H4SB-7H J1
+U 1 1 5F6147C6
+P 7605 4790
+F 0 "J1" V 7609 7920 50  0000 L CNN
+F 1 "AS0A823-H4SB-7H" V 7700 7920 50  0000 L CNN
+F 2 "Uno:TE_2309409-1" H 7605 4790 50  0001 L BNN
+F 3 "None" H 7605 4790 50  0001 L BNN
+F 4 "TE_2309409-1" H 7605 4790 50  0001 L BNN "MPN"
+	1    7605 4790
+	0    1    1    0   
+$EndComp
+Text GLabel 5605 4510 3    60   Output ~ 0
+PM_LEDS_OE
+$Comp
+L bottom-board-rescue:+5VA-power #PWR?
+U 1 1 613ED361
+P 5270 4810
+AR Path="/54F7244B/613ED361" Ref="#PWR?"  Part="1" 
+AR Path="/54F725AE/613ED361" Ref="#PWR0235"  Part="1" 
+F 0 "#PWR0235" H 5270 4660 50  0001 C CNN
+F 1 "+5VA" H 5270 4950 50  0000 C CNN
+F 2 "" H 5270 4810 60  0000 C CNN
+F 3 "" H 5270 4810 60  0000 C CNN
+	1    5270 4810
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5505 5190 5505 5160
+Wire Wire Line
+	5505 5160 5270 5160
+Wire Wire Line
+	5270 4810 5270 5160
+$Comp
+L bottom-board-rescue:+5VA-power #PWR?
+U 1 1 614791BA
+P 6005 5085
+AR Path="/54F7244B/614791BA" Ref="#PWR?"  Part="1" 
+AR Path="/54F725AE/614791BA" Ref="#PWR0246"  Part="1" 
+F 0 "#PWR0246" H 6005 4935 50  0001 C CNN
+F 1 "+5VA" H 6005 5225 50  0000 C CNN
+F 2 "" H 6005 5085 60  0000 C CNN
+F 3 "" H 6005 5085 60  0000 C CNN
+	1    6005 5085
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5605 5990 5605 6105
+$Comp
+L bottom-board-rescue:+5V-power #PWR0231
+U 1 1 614A179C
+P 5605 6105
+F 0 "#PWR0231" H 5605 5955 50  0001 C CNN
+F 1 "+5V" H 5605 6245 50  0000 C CNN
+F 2 "" H 5605 6105 60  0000 C CNN
+F 3 "" H 5605 6105 60  0000 C CNN
+	1    5605 6105
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
