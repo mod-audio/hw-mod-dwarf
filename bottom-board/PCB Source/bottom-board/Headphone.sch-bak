@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 11
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "MOD Dwarf - Main Board"
+Date "2021-04-07"
+Rev "1.2"
+Comp "MOD Devices GmbH"
+Comment1 "Dwarf Audio processing board"
+Comment2 "https://github.com/moddevices/hw-mod-dwarf"
+Comment3 "Inp Power: 12V 500mA"
+Comment4 "USB outp Power: 500mA"
 $EndDescr
 $Comp
 L bottom-board-rescue:AudioJack3-Connector P?
@@ -49,10 +49,10 @@ P 3865 3025
 AR Path="/54F72C8D/5F89CBDC" Ref="Q?"  Part="1" 
 AR Path="/5F5FD115/5F89CBDC" Ref="Q10"  Part="1" 
 F 0 "Q10" H 4056 3071 50  0000 L CNN
-F 1 "MMBFJ111" H 4056 2980 50  0000 L CNN
+F 1 "MMBFJ110" H 4056 2980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4065 3125 50  0001 C CNN
 F 3 "" H 3865 3025 50  0001 C CNN
-F 4 "MMBFJ111" H 3865 3025 50  0001 C CNN "MPN"
+F 4 "MMBFJ110" H 3865 3025 50  0001 C CNN "MPN"
 	1    3865 3025
 	1    0    0    -1  
 $EndComp
@@ -259,7 +259,7 @@ F 0 "C67" H 6095 3080 50  0000 R CNN
 F 1 "10uF" H 5920 2930 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6135 3010 60  0001 C CNN
 F 3 "" H 6135 3010 60  0000 C CNN
-F 4 "CL10A106MQ8NNNC" H 1685 1310 50  0001 C CNN "MPN"
+F 4 "EMK107BBJ106MA-T" H 1685 1310 50  0001 C CNN "MPN"
 	1    6135 3010
 	1    0    0    -1  
 $EndComp
@@ -296,10 +296,10 @@ P 3855 4215
 AR Path="/54F72C8D/5F8D33CC" Ref="Q?"  Part="1" 
 AR Path="/5F5FD115/5F8D33CC" Ref="Q9"  Part="1" 
 F 0 "Q9" H 4046 4261 50  0000 L CNN
-F 1 "MMBFJ111" H 4046 4170 50  0000 L CNN
+F 1 "MMBFJ110" H 4046 4170 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4055 4315 50  0001 C CNN
 F 3 "" H 3855 4215 50  0001 C CNN
-F 4 "MMBFJ111" H 3855 4215 50  0001 C CNN "MPN"
+F 4 "MMBFJ110" H 3855 4215 50  0001 C CNN "MPN"
 	1    3855 4215
 	1    0    0    -1  
 $EndComp
@@ -513,7 +513,7 @@ F 0 "C69" H 6255 4280 50  0000 R CNN
 F 1 "10uF" H 6080 4130 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6295 4210 60  0001 C CNN
 F 3 "" H 6295 4210 60  0000 C CNN
-F 4 "CL10A106MQ8NNNC" H 1845 2510 50  0001 C CNN "MPN"
+F 4 "EMK107BBJ106MA-T" H 1845 2510 50  0001 C CNN "MPN"
 	1    6295 4210
 	1    0    0    -1  
 $EndComp

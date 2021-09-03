@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 11
-Title "MOD Uno - Main Board"
-Date "2019-08-16"
-Rev "0.1"
+Title "MOD Dwarf - Main Board"
+Date "2021-04-07"
+Rev "1.2"
 Comp "MOD Devices GmbH"
-Comment1 "Uno Audio processing board"
-Comment2 "https://github.com/moddevices/hw-mod-uno"
+Comment1 "Dwarf Audio processing board"
+Comment2 "https://github.com/moddevices/hw-mod-dwarf"
 Comment3 "Inp Power: 12V 500mA"
 Comment4 "USB outp Power: 500mA"
 $EndDescr
@@ -114,7 +114,7 @@ F 0 "H6" H 1540 3064 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1540 2973 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1440 3015 50  0001 C CNN
 F 3 "~" H 1440 3015 50  0001 C CNN
-F 4 "9774027151R" H 1440 3015 50  0001 C CNN "MPN"
+F 4 "9774030243R" H 1440 3015 50  0001 C CNN "MPN"
 	1    1440 3015
 	1    0    0    -1  
 $EndComp
@@ -128,7 +128,7 @@ F 0 "H7" H 2420 3039 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2420 2948 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 2320 2990 50  0001 C CNN
 F 3 "~" H 2320 2990 50  0001 C CNN
-F 4 "9774027151R" H 2320 2990 50  0001 C CNN "MPN"
+F 4 "9774030243R" H 2320 2990 50  0001 C CNN "MPN"
 	1    2320 2990
 	1    0    0    -1  
 $EndComp

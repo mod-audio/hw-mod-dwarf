@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 11
-Title "MOD Uno - Main Board"
-Date "2019-08-16"
-Rev "0.1"
+Title "MOD Dwarf - Main Board"
+Date "2021-04-07"
+Rev "1.2"
 Comp "MOD Devices GmbH"
-Comment1 "Uno Audio processing board"
-Comment2 "https://github.com/moddevices/hw-mod-uno"
+Comment1 "Dwarf Audio processing board"
+Comment2 "https://github.com/moddevices/hw-mod-dwarf"
 Comment3 "Inp Power: 12V 500mA"
 Comment4 "USB outp Power: 500mA"
 $EndDescr
@@ -21,7 +21,7 @@ F 0 "R63" H 4565 3160 50  0000 L CNN
 F 1 "100R" H 4565 3060 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 4515 3110 60  0001 C CNN
 F 3 "" H 4515 3110 60  0000 C CNN
-F 4 "RMCF0603JT100R" H -2035 810 50  0001 C CNN "MPN"
+F 4 "RT0603DRD07100RL" H -2035 810 50  0001 C CNN "MPN"
 	1    4515 3110
 	1    0    0    -1  
 $EndComp
@@ -91,7 +91,7 @@ F 0 "R56" V 2415 3010 50  0000 L CNN
 F 1 "100R" V 2615 3010 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2515 3110 60  0001 C CNN
 F 3 "" H 2515 3110 60  0000 C CNN
-F 4 "RMCF0603JT100R" H -2035 810 50  0001 C CNN "MPN"
+F 4 "RT0603DRD07100RL" H -2035 810 50  0001 C CNN "MPN"
 	1    2515 3110
 	0    1    1    0   
 $EndComp
@@ -103,7 +103,7 @@ F 0 "R55" V 2365 3510 50  0000 L CNN
 F 1 "100R" V 2565 3510 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2465 3610 60  0001 C CNN
 F 3 "" H 2465 3610 60  0000 C CNN
-F 4 "RMCF0603JT100R" H -2085 810 50  0001 C CNN "MPN"
+F 4 "RT0603DRD07100RL" H -2085 810 50  0001 C CNN "MPN"
 	1    2465 3610
 	0    1    1    0   
 $EndComp

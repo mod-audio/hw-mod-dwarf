@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 11
-Title "MOD Uno - Main Board"
-Date "2019-08-16"
-Rev "0.1"
+Title "MOD Dwarf - Main Board"
+Date "2021-04-07"
+Rev "1.2"
 Comp "MOD Devices GmbH"
-Comment1 "Uno Audio processing board"
-Comment2 "https://github.com/moddevices/hw-mod-uno"
+Comment1 "Dwarf Audio processing board"
+Comment2 "https://github.com/moddevices/hw-mod-dwarf"
 Comment3 "Inp Power: 12V 500mA"
 Comment4 "USB outp Power: 500mA"
 $EndDescr
@@ -103,7 +103,7 @@ F 0 "C41" H 2505 7100 50  0000 R CNN
 F 1 "10uF" H 2335 7010 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2605 7080 60  0001 C CNN
 F 3 "" H 2605 7080 60  0000 C CNN
-F 4 "CL10A106MQ8NNNC" H -1845 5380 50  0001 C CNN "MPN"
+F 4 "EMK107BBJ106MA-T" H -1845 5380 50  0001 C CNN "MPN"
 	1    2605 7080
 	-1   0    0    1   
 $EndComp
@@ -229,7 +229,7 @@ F 0 "C45" H 3425 7090 50  0000 R CNN
 F 1 "10uF" H 3255 7000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3525 7070 60  0001 C CNN
 F 3 "" H 3525 7070 60  0000 C CNN
-F 4 "CL10A106MQ8NNNC" H -925 5370 50  0001 C CNN "MPN"
+F 4 "EMK107BBJ106MA-T" H -925 5370 50  0001 C CNN "MPN"
 	1    3525 7070
 	-1   0    0    1   
 $EndComp
@@ -334,7 +334,7 @@ F 0 "R88" H 6095 2520 50  0000 L CNN
 F 1 "100K" H 6295 2420 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6245 2470 60  0001 C CNN
 F 3 "" H 6245 2470 60  0000 C CNN
-F 4 "CR0603-JW-104ELF" H 6245 2470 50  0001 C CNN "MPN"
+F 4 "RMCF0603JT100K" H 6245 2470 50  0001 C CNN "MPN"
 	1    6245 2470
 	-1   0    0    -1  
 $EndComp
@@ -510,7 +510,7 @@ F 0 "R89" H 6165 4620 50  0000 L CNN
 F 1 "100K" H 6365 4520 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6315 4570 60  0001 C CNN
 F 3 "" H 6315 4570 60  0000 C CNN
-F 4 "CR0603-JW-104ELF" H 6315 4570 50  0001 C CNN "MPN"
+F 4 "RMCF0603JT100K" H 6315 4570 50  0001 C CNN "MPN"
 	1    6315 4570
 	-1   0    0    -1  
 $EndComp
@@ -1497,7 +1497,7 @@ F 0 "R8" H 1260 6830 50  0000 R CNN
 F 1 "100R" H 1345 6900 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1115 6865 50  0001 C CNN
 F 3 "" H 1115 6865 50  0001 C CNN
-F 4 "RMCF0603JT100R" V 1115 6865 50  0001 C CNN "MPN"
+F 4 "RT0603DRD07100RL" V 1115 6865 50  0001 C CNN "MPN"
 	1    1115 6865
 	1    0    0    1   
 $EndComp

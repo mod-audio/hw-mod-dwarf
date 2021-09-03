@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 11
-Title "MOD Uno - Main Board"
-Date "2019-08-16"
-Rev "0.1"
+Title "MOD Dwarf - Main Board"
+Date "2021-04-07"
+Rev "1.2"
 Comp "MOD Devices GmbH"
-Comment1 "Uno Audio processing board"
-Comment2 "https://github.com/moddevices/hw-mod-uno"
+Comment1 "Dwarf Audio processing board"
+Comment2 "https://github.com/moddevices/hw-mod-dwarf"
 Comment3 "Inp Power: 12V 500mA"
 Comment4 "USB outp Power: 500mA"
 $EndDescr

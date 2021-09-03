@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/jan/Mod Github HW/hw-mod-dwarf/bottom-board/PCB Source/bottom-board/bottom-board.sch</source>
-    <date>Wed 23 Dec 2020 03:55:57 PM CET</date>
+    <date>Wed 07 Apr 2021 01:22:43 PM CEST</date>
     <tool>Eeschema 5.1.8-db9833491~87~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>MOD Dwarf - Main Board</title>
         <company>MOD Devices GmbH</company>
-        <rev>0.2</rev>
-        <date>2019-12-18</date>
+        <rev>1.2</rev>
+        <date>2021-04-07</date>
         <source>bottom-board.sch</source>
         <comment number="1" value="Dwarf Audio processing board"/>
         <comment number="2" value="https://github.com/moddevices/hw-mod-dwarf"/>
@@ -19,26 +19,26 @@
     </sheet>
     <sheet number="2" name="/power/" tstamps="/54F7244B/">
       <title_block>
-        <title>MOD Uno - Main Board</title>
+        <title>MOD Dwarf - Main Board</title>
         <company>MOD Devices GmbH</company>
-        <rev>0.1</rev>
-        <date>2019-08-16</date>
+        <rev>1.2</rev>
+        <date>2021-04-07</date>
         <source>power.sch</source>
-        <comment number="1" value="Uno Audio processing board"/>
-        <comment number="2" value="https://github.com/moddevices/hw-mod-uno"/>
+        <comment number="1" value="Dwarf Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/hw-mod-dwarf"/>
         <comment number="3" value="Inp Power: 12V 500mA"/>
         <comment number="4" value="USB outp Power: 500mA"/>
       </title_block>
     </sheet>
     <sheet number="3" name="/audio-codec/" tstamps="/54F72B97/">
       <title_block>
-        <title>MOD Uno - Main Board</title>
+        <title>MOD Dwarf - Main Board</title>
         <company>MOD Devices GmbH</company>
-        <rev>0.1</rev>
-        <date>2019-08-16</date>
+        <rev>1.2</rev>
+        <date>2021-04-07</date>
         <source>audio-codec.sch</source>
-        <comment number="1" value="Uno Audio processing board"/>
-        <comment number="2" value="https://github.com/moddevices/hw-mod-uno"/>
+        <comment number="1" value="Dwarf Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/hw-mod-dwarf"/>
         <comment number="3" value="Inp Power: 12V 500mA"/>
         <comment number="4" value="USB outp Power: 500mA"/>
       </title_block>
@@ -47,8 +47,8 @@
       <title_block>
         <title>MOD Dwarf - Main Board</title>
         <company>MOD Devices GmbH</company>
-        <rev>0.2</rev>
-        <date>2019-08-16</date>
+        <rev>1.2</rev>
+        <date>2021-04-07</date>
         <source>coreboard.sch</source>
         <comment number="1" value="Dwarf Audio processing board"/>
         <comment number="2" value="https://github.com/moddevices/hw-mod-dwarf"/>
@@ -58,93 +58,93 @@
     </sheet>
     <sheet number="5" name="/audio-inputs/" tstamps="/54F72C8D/">
       <title_block>
-        <title>MOD Uno - Main Board</title>
+        <title>MOD Dwarf - Main Board</title>
         <company>MOD Devices GmbH</company>
-        <rev>0.1</rev>
-        <date>2019-08-16</date>
+        <rev>1.2</rev>
+        <date>2021-04-07</date>
         <source>audio-inputs.sch</source>
-        <comment number="1" value="Uno Audio processing board"/>
-        <comment number="2" value="https://github.com/moddevices/hw-mod-uno"/>
+        <comment number="1" value="Dwarf Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/hw-mod-dwarf"/>
         <comment number="3" value="Inp Power: 12V 500mA"/>
         <comment number="4" value="USB outp Power: 500mA"/>
       </title_block>
     </sheet>
     <sheet number="6" name="/audio-outputs/" tstamps="/54F72CD0/">
       <title_block>
-        <title>MOD Uno - Main Board</title>
+        <title>MOD Dwarf - Main Board</title>
         <company>MOD Devices GmbH</company>
-        <rev>0.1</rev>
-        <date>2019-08-16</date>
+        <rev>1.2</rev>
+        <date>2021-04-07</date>
         <source>audio-outputs.sch</source>
-        <comment number="1" value="Uno Audio processing board"/>
-        <comment number="2" value="https://github.com/moddevices/hw-mod-uno"/>
+        <comment number="1" value="Dwarf Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/hw-mod-dwarf"/>
         <comment number="3" value="Inp Power: 12V 500mA"/>
         <comment number="4" value="USB outp Power: 500mA"/>
       </title_block>
     </sheet>
     <sheet number="7" name="/usb/" tstamps="/54F72FB2/">
       <title_block>
-        <title>MOD Uno - Main Board</title>
+        <title>MOD Dwarf - Main Board</title>
         <company>MOD Devices GmbH</company>
-        <rev>0.1</rev>
-        <date>2019-08-16</date>
+        <rev>1.2</rev>
+        <date>2021-04-07</date>
         <source>usb.sch</source>
-        <comment number="1" value="Uno Audio processing board"/>
-        <comment number="2" value="https://github.com/moddevices/hw-mod-uno"/>
+        <comment number="1" value="Dwarf Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/hw-mod-dwarf"/>
         <comment number="3" value="Inp Power: 12V 500mA"/>
         <comment number="4" value="USB outp Power: 500mA"/>
       </title_block>
     </sheet>
     <sheet number="8" name="/midi/" tstamps="/54F72FB4/">
       <title_block>
-        <title>MOD Uno - Main Board</title>
+        <title>MOD Dwarf - Main Board</title>
         <company>MOD Devices GmbH</company>
-        <rev>0.1</rev>
-        <date>2019-08-16</date>
+        <rev>1.2</rev>
+        <date>2021-04-07</date>
         <source>midi.sch</source>
-        <comment number="1" value="Uno Audio processing board"/>
-        <comment number="2" value="https://github.com/moddevices/hw-mod-uno"/>
+        <comment number="1" value="Dwarf Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/hw-mod-dwarf"/>
         <comment number="3" value="Inp Power: 12V 500mA"/>
         <comment number="4" value="USB outp Power: 500mA"/>
       </title_block>
     </sheet>
     <sheet number="9" name="/control-chain/" tstamps="/54F72FB6/">
       <title_block>
-        <title>MOD Uno - Main Board</title>
+        <title>MOD Dwarf - Main Board</title>
         <company>MOD Devices GmbH</company>
-        <rev>0.1</rev>
-        <date>2019-08-16</date>
+        <rev>1.2</rev>
+        <date>2021-04-07</date>
         <source>control-chain.sch</source>
-        <comment number="1" value="Uno Audio processing board"/>
-        <comment number="2" value="https://github.com/moddevices/hw-mod-uno"/>
+        <comment number="1" value="Dwarf Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/hw-mod-dwarf"/>
         <comment number="3" value="Inp Power: 12V 500mA"/>
         <comment number="4" value="USB outp Power: 500mA"/>
       </title_block>
     </sheet>
     <sheet number="10" name="/mechanics/" tstamps="/55FC02AF/">
       <title_block>
-        <title>MOD Uno - Main Board</title>
+        <title>MOD Dwarf - Main Board</title>
         <company>MOD Devices GmbH</company>
-        <rev>0.1</rev>
-        <date>2019-08-16</date>
+        <rev>1.2</rev>
+        <date>2021-04-07</date>
         <source>mechanics.sch</source>
-        <comment number="1" value="Uno Audio processing board"/>
-        <comment number="2" value="https://github.com/moddevices/hw-mod-uno"/>
+        <comment number="1" value="Dwarf Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/hw-mod-dwarf"/>
         <comment number="3" value="Inp Power: 12V 500mA"/>
         <comment number="4" value="USB outp Power: 500mA"/>
       </title_block>
     </sheet>
     <sheet number="11" name="/headphone/" tstamps="/5F5FD115/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>MOD Dwarf - Main Board</title>
+        <company>MOD Devices GmbH</company>
+        <rev>1.2</rev>
+        <date>2021-04-07</date>
         <source>Headphone.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
+        <comment number="1" value="Dwarf Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/hw-mod-dwarf"/>
+        <comment number="3" value="Inp Power: 12V 500mA"/>
+        <comment number="4" value="USB outp Power: 500mA"/>
       </title_block>
     </sheet>
   </design>
@@ -573,7 +573,7 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CL10A106MQ8NNNC</field>
+        <field name="MPN">EMK107BBJ106MA-T</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="C_Small" description=""/>
       <sheetpath names="/audio-codec/" tstamps="/54F72B97/"/>
@@ -685,7 +685,7 @@
       <value>24.576MHz</value>
       <footprint>Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm</footprint>
       <fields>
-        <field name="MPN">ASV-24.576MHZ-EJ-T</field>
+        <field name="MPN">DO NOT PLACE</field>
       </fields>
       <libsource lib="Oscillator" part="ASCO" description="Crystal Clock Oscillator, Abracon ASCO"/>
       <sheetpath names="/audio-codec/" tstamps="/54F72B97/"/>
@@ -715,7 +715,7 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CL10A106MQ8NNNC</field>
+        <field name="MPN">EMK107BBJ106MA-T</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="C_Small" description=""/>
       <sheetpath names="/audio-codec/" tstamps="/54F72B97/"/>
@@ -724,6 +724,9 @@
     <comp ref="R72">
       <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RMCF0603ZT0R00</field>
+      </fields>
       <libsource lib="bottom-board-rescue" part="R_Small" description=""/>
       <sheetpath names="/audio-codec/" tstamps="/54F72B97/"/>
       <tstamp>5FC83DD5</tstamp>
@@ -838,7 +841,7 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">RMCF0603JT100R</field>
+        <field name="MPN">RT0603DRD07100RL</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small" description=""/>
       <sheetpath names="/coreboard/" tstamps="/54F725AE/"/>
@@ -848,7 +851,7 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">RMCF0603JT100R</field>
+        <field name="MPN">RT0603DRD07100RL</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small" description=""/>
       <sheetpath names="/coreboard/" tstamps="/54F725AE/"/>
@@ -1133,7 +1136,7 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">RMCF0603JT100R</field>
+        <field name="MPN">RT0603DRD07100RL</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1144,7 +1147,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="MPN">RT0603DRE074K7L</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1154,7 +1157,7 @@
       <value>22K 1%</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">RC0603FR-0722KL</field>
+        <field name="MPN">RT0603DRD0722KL</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1165,7 +1168,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">CRGCQ0603F5K6</field>
+        <field name="MPN">ERA-3AED562V</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1176,27 +1179,27 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="MPN">RT0603DRE074K7L</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
       <tstamp>5F153DBA</tstamp>
     </comp>
     <comp ref="Q4">
-      <value>MMBFJ111</value>
+      <value>MMBFJ110</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
-        <field name="MPN">MMBFJ111</field>
+        <field name="MPN">MMBFJ110</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="Q_NJFET_DSG" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
       <tstamp>5F1573A3</tstamp>
     </comp>
     <comp ref="Q6">
-      <value>MMBFJ111</value>
+      <value>MMBFJ110</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
-        <field name="MPN">MMBFJ111</field>
+        <field name="MPN">MMBFJ110</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="Q_NJFET_DSG" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1227,7 +1230,6 @@
     <comp ref="R26">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="MPN">RMCF0603JT100K</field>
       </fields>
@@ -1278,7 +1280,6 @@
     <comp ref="R54">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="MPN">RMCF0603JT100K</field>
       </fields>
@@ -1402,7 +1403,7 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">RMCF0603JT100R</field>
+        <field name="MPN">RT0603DRD07100RL</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1413,7 +1414,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="MPN">RT0603DRE074K7L</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1423,7 +1424,7 @@
       <value>22K 1%</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">RC0603FR-0722KL</field>
+        <field name="MPN">RT0603DRD0722KL</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1434,7 +1435,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">CRGCQ0603F5K6</field>
+        <field name="MPN">ERA-3AED562V</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1445,27 +1446,27 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="MPN">RT0603DRE074K7L</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
       <tstamp>5F234283</tstamp>
     </comp>
     <comp ref="Q3">
-      <value>MMBFJ111</value>
+      <value>MMBFJ110</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
-        <field name="MPN">MMBFJ111</field>
+        <field name="MPN">MMBFJ110</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="Q_NJFET_DSG" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
       <tstamp>5F234289</tstamp>
     </comp>
     <comp ref="Q5">
-      <value>MMBFJ111</value>
+      <value>MMBFJ110</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
-        <field name="MPN">MMBFJ111</field>
+        <field name="MPN">MMBFJ110</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="Q_NJFET_DSG" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1496,7 +1497,6 @@
     <comp ref="R25">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="MPN">RMCF0603JT100K</field>
       </fields>
@@ -1610,7 +1610,7 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CL10A106MQ8NNNC</field>
+        <field name="MPN">EMK107BBJ106MA-T</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="C_Small" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1638,7 +1638,7 @@
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CR0603-JW-104ELF</field>
+        <field name="MPN">RMCF0603JT100K</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1648,7 +1648,7 @@
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CR0603-JW-104ELF</field>
+        <field name="MPN">RMCF0603JT100K</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1687,10 +1687,11 @@
       <tstamp>5F7416D1</tstamp>
     </comp>
     <comp ref="R101">
-      <value>100R</value>
+      <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">RMCF0603JT100R</field>
+        <field name="MPN">ERJ-PB3D1001V</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1701,7 +1702,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">RC0603JR-071KL</field>
+        <field name="MPN">ERJ-PB3D1001V</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1722,7 +1723,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">RC0603JR-071KL</field>
+        <field name="MPN">ERJ-PB3D1001V</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1743,7 +1744,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">RC0603JR-071KL</field>
+        <field name="MPN">ERJ-PB3D1001V</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1774,7 +1775,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">RC0603JR-071KL</field>
+        <field name="MPN">ERJ-PB3D1001V</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1822,7 +1823,6 @@
     <comp ref="R53">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="MPN">RMCF0603JT100K</field>
       </fields>
@@ -1905,7 +1905,7 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CL10A106MQ8NNNC</field>
+        <field name="MPN">EMK107BBJ106MA-T</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="C_Small" description=""/>
       <sheetpath names="/audio-outputs/" tstamps="/54F72CD0/"/>
@@ -1944,7 +1944,7 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CL10A106MQ8NNNC</field>
+        <field name="MPN">EMK107BBJ106MA-T</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="C_Small" description=""/>
       <sheetpath names="/audio-outputs/" tstamps="/54F72CD0/"/>
@@ -1964,7 +1964,7 @@
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CR0603-JW-104ELF</field>
+        <field name="MPN">RMCF0603JT100K</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small" description=""/>
       <sheetpath names="/audio-outputs/" tstamps="/54F72CD0/"/>
@@ -2038,7 +2038,7 @@
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CR0603-JW-104ELF</field>
+        <field name="MPN">RMCF0603JT100K</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small" description=""/>
       <sheetpath names="/audio-outputs/" tstamps="/54F72CD0/"/>
@@ -2362,7 +2362,7 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">RMCF0603JT100R</field>
+        <field name="MPN">RT0603DRD07100RL</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-outputs/" tstamps="/54F72CD0/"/>
@@ -2754,7 +2754,7 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">RMCF0603JT100R</field>
+        <field name="MPN">RT0603DRD07100RL</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small" description=""/>
       <sheetpath names="/control-chain/" tstamps="/54F72FB6/"/>
@@ -2794,7 +2794,7 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">RMCF0603JT100R</field>
+        <field name="MPN">RT0603DRD07100RL</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small" description=""/>
       <sheetpath names="/control-chain/" tstamps="/54F72FB6/"/>
@@ -2804,7 +2804,7 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">RMCF0603JT100R</field>
+        <field name="MPN">RT0603DRD07100RL</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small" description=""/>
       <sheetpath names="/control-chain/" tstamps="/54F72FB6/"/>
@@ -2947,7 +2947,7 @@
       <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">9774027151R</field>
+        <field name="MPN">9774030243R</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="MountingHole_Pad-Mechanical" description=""/>
       <sheetpath names="/mechanics/" tstamps="/55FC02AF/"/>
@@ -2958,7 +2958,7 @@
       <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">9774027151R</field>
+        <field name="MPN">9774030243R</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="MountingHole_Pad-Mechanical" description=""/>
       <sheetpath names="/mechanics/" tstamps="/55FC02AF/"/>
@@ -2976,10 +2976,10 @@
       <tstamp>5F5FE3FD</tstamp>
     </comp>
     <comp ref="Q10">
-      <value>MMBFJ111</value>
+      <value>MMBFJ110</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
-        <field name="MPN">MMBFJ111</field>
+        <field name="MPN">MMBFJ110</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="Q_NJFET_DSG" description=""/>
       <sheetpath names="/headphone/" tstamps="/5F5FD115/"/>
@@ -3052,17 +3052,17 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CL10A106MQ8NNNC</field>
+        <field name="MPN">EMK107BBJ106MA-T</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="C_Small" description=""/>
       <sheetpath names="/headphone/" tstamps="/5F5FD115/"/>
       <tstamp>5F8B26F1</tstamp>
     </comp>
     <comp ref="Q9">
-      <value>MMBFJ111</value>
+      <value>MMBFJ110</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
-        <field name="MPN">MMBFJ111</field>
+        <field name="MPN">MMBFJ110</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="Q_NJFET_DSG" description=""/>
       <sheetpath names="/headphone/" tstamps="/5F5FD115/"/>
@@ -3134,7 +3134,7 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CL10A106MQ8NNNC</field>
+        <field name="MPN">EMK107BBJ106MA-T</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="C_Small" description=""/>
       <sheetpath names="/headphone/" tstamps="/5F5FD115/"/>

@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 11
-Title "MOD Uno - Main Board"
-Date "2019-08-16"
-Rev "0.1"
+Title "MOD Dwarf - Main Board"
+Date "2021-04-07"
+Rev "1.2"
 Comp "MOD Devices GmbH"
-Comment1 "Uno Audio processing board"
-Comment2 "https://github.com/moddevices/hw-mod-uno"
+Comment1 "Dwarf Audio processing board"
+Comment2 "https://github.com/moddevices/hw-mod-dwarf"
 Comment3 "Inp Power: 12V 500mA"
 Comment4 "USB outp Power: 500mA"
 $EndDescr
@@ -606,7 +606,7 @@ F 0 "C20" H 7800 4210 50  0000 R CNN
 F 1 "10uF" H 7610 4130 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7870 4150 60  0001 C CNN
 F 3 "" H 7870 4150 60  0000 C CNN
-F 4 "CL10A106MQ8NNNC" H 3420 2450 50  0001 C CNN "MPN"
+F 4 "EMK107BBJ106MA-T" H 3420 2450 50  0001 C CNN "MPN"
 	1    7870 4150
 	-1   0    0    1   
 $EndComp
@@ -1120,7 +1120,7 @@ F 0 "X1" H 2889 4721 50  0000 L CNN
 F 1 "24.576MHz" H 2889 4630 50  0000 L CNN
 F 2 "Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm" H 2545 4325 50  0001 C CNN
 F 3 "" H 2220 4800 50  0001 C CNN
-F 4 "ASV-24.576MHZ-EJ-T" H 2445 4675 50  0001 C CNN "MPN"
+F 4 "DO NOT PLACE" H 2445 4675 50  0001 C CNN "MPN"
 	1    2445 4675
 	1    0    0    -1  
 $EndComp
@@ -1218,7 +1218,7 @@ F 0 "C96" H 5700 4960 50  0000 R CNN
 F 1 "10uF" H 5510 4880 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5770 4900 60  0001 C CNN
 F 3 "" H 5770 4900 60  0000 C CNN
-F 4 "CL10A106MQ8NNNC" H 1320 3200 50  0001 C CNN "MPN"
+F 4 "EMK107BBJ106MA-T" H 1320 3200 50  0001 C CNN "MPN"
 	1    5770 4900
 	-1   0    0    1   
 $EndComp
@@ -1250,7 +1250,7 @@ F 0 "R72" V 3275 5080 50  0000 L CNN
 F 1 "0R" V 3275 5380 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3325 5290 60  0001 C CNN
 F 3 "" H 3325 5290 60  0000 C CNN
-F 4 "" H -975 2940 50  0001 C CNN "MPN"
+F 4 "RMCF0603ZT0R00" H -975 2940 50  0001 C CNN "MPN"
 	1    3325 5290
 	-1   0    0    1   
 $EndComp
