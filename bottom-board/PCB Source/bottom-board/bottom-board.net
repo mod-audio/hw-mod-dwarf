@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/jan/Mod Github HW/hw-mod-dwarf/bottom-board/PCB Source/bottom-board/bottom-board.sch")
-    (date "Fri 03 Sep 2021 02:33:30 PM CEST")
+    (date "Fri 03 Sep 2021 02:45:39 PM CEST")
     (tool "Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -644,7 +644,7 @@
       (tstamp 568DDEB6))
     (comp (ref TP2)
       (value TestPoint)
-      (footprint TestPoint:TestPoint_Pad_D1.5mm)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (libsource (lib bottom-board-rescue) (part TestPoint-Connector) (description ""))
       (sheetpath (names /coreboard/) (tstamps /54F725AE/))
@@ -659,7 +659,7 @@
       (tstamp 5EC0EEF5))
     (comp (ref TP1)
       (value TestPoint)
-      (footprint TestPoint:TestPoint_Pad_D1.5mm)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (libsource (lib bottom-board-rescue) (part TestPoint-Connector) (description ""))
       (sheetpath (names /coreboard/) (tstamps /54F725AE/))

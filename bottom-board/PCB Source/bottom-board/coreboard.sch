@@ -243,7 +243,7 @@ U 1 1 5EBF60DB
 P 8150 10300
 F 0 "TP2" H 8208 10418 50  0000 L CNN
 F 1 "TestPoint" H 8208 10327 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8350 10300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 8350 10300 50  0001 C CNN
 F 3 "~" H 8350 10300 50  0001 C CNN
 	1    8150 10300
 	1    0    0    -1  
@@ -281,7 +281,7 @@ U 1 1 5EBFB73E
 P 8535 9915
 F 0 "TP1" H 8477 9941 50  0000 R CNN
 F 1 "TestPoint" H 8477 10032 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8735 9915 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 8735 9915 50  0001 C CNN
 F 3 "~" H 8735 9915 50  0001 C CNN
 	1    8535 9915
 	-1   0    0    1   

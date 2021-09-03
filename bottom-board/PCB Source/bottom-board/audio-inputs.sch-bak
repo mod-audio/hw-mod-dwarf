@@ -1202,7 +1202,7 @@ F 3 "" H 9330 5495 60  0000 C CNN
 	1    9330 5495
 	1    0    0    -1  
 $EndComp
-Text GLabel 8065 5170 2    60   BiDi ~ 0
+Text GLabel 7720 4980 0    60   BiDi ~ 0
 INPUT_BIAS
 $Comp
 L bottom-board-rescue:GNDA-power #PWR?
@@ -1230,11 +1230,9 @@ F 3 "~" H 8045 5170 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8065 5170 7995 5170
-Wire Wire Line
 	7995 5250 7995 5170
 Wire Wire Line
-	7995 5450 7995 5480
+	7995 5450 7995 5465
 Wire Wire Line
 	9330 4685 9330 5045
 Wire Wire Line
@@ -1520,7 +1518,7 @@ Connection ~ 3385 4365
 Wire Wire Line
 	3385 4365 3230 4365
 Wire Wire Line
-	7845 5170 7995 5170
+	7845 5170 7905 5170
 Connection ~ 7995 5170
 $Comp
 L bottom-board-rescue:GNDA-power #PWR?
@@ -1544,22 +1542,9 @@ F 0 "R101" H 8250 4950 50  0000 R CNN
 F 1 "1K" H 8225 5025 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7995 4990 50  0001 C CNN
 F 3 "~" H 7995 4990 50  0001 C CNN
-F 4 "ERJ-PB3D1001V" V 7995 4990 50  0001 C CNN "MPN"
+F 4 "ERJ-PB3D1501V" V 7995 4990 50  0001 C CNN "MPN"
 	1    7995 4990
 	1    0    0    1   
-$EndComp
-$Comp
-L bottom-board-rescue:+5VA-power #PWR?
-U 1 1 5F794305
-P 7995 4830
-AR Path="/54F7244B/5F794305" Ref="#PWR?"  Part="1" 
-AR Path="/54F72C8D/5F794305" Ref="#PWR0249"  Part="1" 
-F 0 "#PWR0249" H 7995 4680 50  0001 C CNN
-F 1 "+5VA" H 7995 4970 50  0000 C CNN
-F 2 "" H 7995 4830 60  0000 C CNN
-F 3 "" H 7995 4830 60  0000 C CNN
-	1    7995 4830
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7995 4890 7995 4830
@@ -2050,19 +2035,6 @@ F 4 "EDK476M016A9DAA" V 7995 5350 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:+5VA-power #PWR?
-U 1 1 5FB7BD96
-P 7995 4830
-AR Path="/54F7244B/5FB7BD96" Ref="#PWR?"  Part="1" 
-AR Path="/54F72C8D/5FB7BD96" Ref="#PWR0259"  Part="1" 
-F 0 "#PWR0259" H 7995 4680 50  0001 C CNN
-F 1 "+5VA" H 7995 4970 50  0000 C CNN
-F 2 "" H 7995 4830 60  0000 C CNN
-F 3 "" H 7995 4830 60  0000 C CNN
-	1    7995 4830
-	1    0    0    -1  
-$EndComp
-$Comp
 L bottom-board-rescue:+10V-power #PWR?
 U 1 1 5FB7BDA0
 P 9085 4585
@@ -2155,4 +2127,47 @@ Wire Wire Line
 	5690 5845 5790 5845
 Wire Wire Line
 	5990 5845 6265 5845
+$Comp
+L bottom-board-rescue:R_Small-Device R112
+U 1 1 613394A3
+P 8225 5360
+F 0 "R112" H 8480 5320 50  0000 R CNN
+F 1 "1K" H 8455 5395 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8225 5360 50  0001 C CNN
+F 3 "~" H 8225 5360 50  0001 C CNN
+F 4 "ERJ-PB3D1001V" V 8225 5360 50  0001 C CNN "MPN"
+	1    8225 5360
+	1    0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:+10V-power #PWR?
+U 1 1 61342566
+P 7995 4830
+AR Path="/54F7244B/61342566" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/61342566" Ref="#PWR0249"  Part="1" 
+F 0 "#PWR0249" H 7995 4680 50  0001 C CNN
+F 1 "+10V" H 8010 5003 50  0000 C CNN
+F 2 "" H 7995 4830 50  0001 C CNN
+F 3 "" H 7995 4830 50  0001 C CNN
+	1    7995 4830
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8225 5260 8225 5170
+Wire Wire Line
+	7995 5170 8225 5170
+Wire Wire Line
+	8225 5460 8225 5465
+Wire Wire Line
+	8225 5465 7995 5465
+Connection ~ 7995 5465
+Wire Wire Line
+	7995 5465 7995 5480
+Wire Wire Line
+	7720 4980 7905 4980
+Wire Wire Line
+	7905 4980 7905 5170
+Connection ~ 7905 5170
+Wire Wire Line
+	7905 5170 7995 5170
 $EndSCHEMATC
