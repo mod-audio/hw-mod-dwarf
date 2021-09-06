@@ -1028,17 +1028,6 @@ Wire Wire Line
 Wire Wire Line
 	6105 5180 6105 5190
 $Comp
-L bottom-board-rescue:+5V-power #PWR0231
-U 1 1 5FEF62CE
-P 6005 5085
-F 0 "#PWR0231" H 6005 4935 50  0001 C CNN
-F 1 "+5V" H 6005 5225 50  0000 C CNN
-F 2 "" H 6005 5085 60  0000 C CNN
-F 3 "" H 6005 5085 60  0000 C CNN
-	1    6005 5085
-	1    0    0    -1  
-$EndComp
-$Comp
 L bottom-board-rescue:+5V-power #PWR0232
 U 1 1 5FEFE44D
 P 4065 5070
@@ -1264,8 +1253,6 @@ Wire Wire Line
 Connection ~ 4505 6015
 Wire Wire Line
 	4505 6015 4405 6015
-Wire Wire Line
-	5605 5990 5605 6105
 $Comp
 L bottom-board-rescue:+3.3V-power #PWR0247
 U 1 1 603DB3FD
@@ -1896,11 +1883,24 @@ Wire Wire Line
 $Comp
 L bottom-board-rescue:+5VA-power #PWR?
 U 1 1 614791BA
-P 5605 6105
+P 6005 5085
 AR Path="/54F7244B/614791BA" Ref="#PWR?"  Part="1" 
 AR Path="/54F725AE/614791BA" Ref="#PWR0246"  Part="1" 
-F 0 "#PWR0246" H 5605 5955 50  0001 C CNN
-F 1 "+5VA" H 5605 6245 50  0000 C CNN
+F 0 "#PWR0246" H 6005 4935 50  0001 C CNN
+F 1 "+5VA" H 6005 5225 50  0000 C CNN
+F 2 "" H 6005 5085 60  0000 C CNN
+F 3 "" H 6005 5085 60  0000 C CNN
+	1    6005 5085
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5605 5990 5605 6105
+$Comp
+L bottom-board-rescue:+5V-power #PWR0231
+U 1 1 614A179C
+P 5605 6105
+F 0 "#PWR0231" H 5605 5955 50  0001 C CNN
+F 1 "+5V" H 5605 6245 50  0000 C CNN
 F 2 "" H 5605 6105 60  0000 C CNN
 F 3 "" H 5605 6105 60  0000 C CNN
 	1    5605 6105
