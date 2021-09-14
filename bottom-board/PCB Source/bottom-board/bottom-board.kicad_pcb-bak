@@ -1996,8 +1996,8 @@
     )
   )
 
-  (module Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal locked (layer F.Cu) (tedit 5C635420) (tstamp 5DF1714A)
-    (at 199.11 46.43)
+  (module Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal (layer F.Cu) (tedit 5C635420) (tstamp 5DF1714A)
+    (at 199.11 46.53)
     (descr "3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)")
     (tags "3.5mm audio cui horizontal jack stereo")
     (path /54F72FB4/5D15D509)
@@ -2055,8 +2055,8 @@
     )
   )
 
-  (module Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal locked (layer F.Cu) (tedit 5C635420) (tstamp 613F568D)
-    (at 187.61 46.43)
+  (module Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal (layer F.Cu) (tedit 5C635420) (tstamp 613F568D)
+    (at 187.61 46.53)
     (descr "3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)")
     (tags "3.5mm audio cui horizontal jack stereo")
     (path /54F72FB4/5D15C2EF)
@@ -5159,7 +5159,7 @@
   )
 
   (module Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal (layer F.Cu) (tedit 5C635420) (tstamp 5FBE4B97)
-    (at 112.71 46.43)
+    (at 112.71 46.53)
     (descr "3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)")
     (tags "3.5mm audio cui horizontal jack stereo")
     (path /5F5FD115/5F5FE3FD)
