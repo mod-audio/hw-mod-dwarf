@@ -1,0 +1,1909 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 11
+Title "MOD Dwarf - Main Board"
+Date "2021-09-06"
+Rev "1.3"
+Comp "MOD Devices GmbH"
+Comment1 "Dwarf Audio processing board"
+Comment2 "https://github.com/moddevices/hw-mod-dwarf"
+Comment3 "Inp Power: 12V 500mA"
+Comment4 "USB outp Power: 500mA"
+$EndDescr
+$Comp
+L bottom-board-rescue:GNDD-power #PWR043
+U 1 1 55085FDA
+P 1120 1265
+F 0 "#PWR043" H 1120 1015 50  0001 C CNN
+F 1 "GNDD" H 1120 1115 50  0000 C CNN
+F 2 "" H 1120 1265 60  0000 C CNN
+F 3 "" H 1120 1265 60  0000 C CNN
+	1    1120 1265
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:+5V-power #PWR044
+U 1 1 55086F62
+P 1520 1165
+F 0 "#PWR044" H 1520 1015 50  0001 C CNN
+F 1 "+5V" V 1510 1350 50  0000 C CNN
+F 2 "" H 1520 1165 60  0000 C CNN
+F 3 "" H 1520 1165 60  0000 C CNN
+	1    1520 1165
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small C31
+U 1 1 5508B4B2
+P 1320 1365
+F 0 "C31" V 1370 1415 50  0000 L CNN
+F 1 "100nF" V 1270 1415 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1320 1365 60  0001 C CNN
+F 3 "" H 1320 1365 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H -9580 -735 50  0001 C CNN "MPN"
+	1    1320 1365
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small C30
+U 1 1 551A8356
+P 1320 1165
+F 0 "C30" V 1370 1215 50  0000 L CNN
+F 1 "22uF" V 1270 1215 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1320 1165 60  0001 C CNN
+F 3 "" H 1320 1165 60  0000 C CNN
+F 4 "GRM219R61E106KA12D" H -3980 -4185 50  0001 C CNN "MPN"
+	1    1320 1165
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1470 1365 1470 1165
+Connection ~ 1470 1165
+Wire Wire Line
+	1220 1165 1170 1165
+Wire Wire Line
+	1170 1165 1170 1265
+Wire Wire Line
+	1170 1365 1220 1365
+Wire Wire Line
+	1120 1265 1170 1265
+Connection ~ 1170 1265
+$Comp
+L bottom-board-rescue:+3.3V-power #PWR058
+U 1 1 558402E8
+P 1520 1815
+F 0 "#PWR058" H 1520 1665 50  0001 C CNN
+F 1 "+3.3V" V 1515 2065 50  0000 C CNN
+F 2 "" H 1520 1815 60  0000 C CNN
+F 3 "" H 1520 1815 60  0000 C CNN
+	1    1520 1815
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR059
+U 1 1 55FAFACA
+P 5950 10545
+F 0 "#PWR059" H 5950 10295 50  0001 C CNN
+F 1 "GNDD" H 5950 10395 50  0000 C CNN
+F 2 "" H 5950 10545 60  0000 C CNN
+F 3 "" H 5950 10545 60  0000 C CNN
+	1    5950 10545
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 10445 5950 10545
+$Comp
+L bottom-board-rescue:+3.3V-power #PWR060
+U 1 1 55FAFDCC
+P 5950 9495
+F 0 "#PWR060" H 5950 9345 50  0001 C CNN
+F 1 "+3.3V" H 5950 9635 50  0000 C CNN
+F 2 "" H 5950 9495 60  0000 C CNN
+F 3 "" H 5950 9495 60  0000 C CNN
+	1    5950 9495
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small C59
+U 1 1 56657419
+P 1320 1815
+F 0 "C59" V 1370 1865 50  0000 L CNN
+F 1 "100nF" V 1270 1865 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1320 1815 60  0001 C CNN
+F 3 "" H 1320 1815 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H -9580 -285 50  0001 C CNN "MPN"
+	1    1320 1815
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small C58
+U 1 1 56657420
+P 1320 1615
+F 0 "C58" V 1370 1665 50  0000 L CNN
+F 1 "22uF" V 1270 1665 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1320 1615 60  0001 C CNN
+F 3 "" H 1320 1615 60  0000 C CNN
+F 4 "GRM219R61E106KA12D" H -3980 -3735 50  0001 C CNN "MPN"
+	1    1320 1615
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1520 1815 1470 1815
+Wire Wire Line
+	1470 1815 1470 1615
+Connection ~ 1470 1815
+$Comp
+L bottom-board-rescue:GNDD-power #PWR062
+U 1 1 56657F92
+P 1120 1715
+F 0 "#PWR062" H 1120 1465 50  0001 C CNN
+F 1 "GNDD" H 1120 1565 50  0000 C CNN
+F 2 "" H 1120 1715 60  0000 C CNN
+F 3 "" H 1120 1715 60  0000 C CNN
+	1    1120 1715
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1220 1615 1170 1615
+Wire Wire Line
+	1170 1615 1170 1715
+Wire Wire Line
+	1170 1815 1220 1815
+Wire Wire Line
+	1120 1715 1170 1715
+Connection ~ 1170 1715
+Wire Wire Line
+	1520 1165 1470 1165
+$Comp
+L bottom-board-rescue:C_Small C60
+U 1 1 567B7F33
+P 6200 9595
+F 0 "C60" V 6250 9645 50  0000 L CNN
+F 1 "100nF" V 6150 9645 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6200 9595 60  0001 C CNN
+F 3 "" H 6200 9595 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H -4700 7495 50  0001 C CNN "MPN"
+	1    6200 9595
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR063
+U 1 1 567B8370
+P 6400 9645
+F 0 "#PWR063" H 6400 9395 50  0001 C CNN
+F 1 "GNDD" H 6400 9495 50  0000 C CNN
+F 2 "" H 6400 9645 60  0000 C CNN
+F 3 "" H 6400 9645 60  0000 C CNN
+	1    6400 9645
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 9595 6400 9595
+Wire Wire Line
+	6400 9595 6400 9645
+Connection ~ 5950 9595
+$Comp
+L bottom-board-rescue:AT24CS08-STUM U4
+U 1 1 568DDEB6
+P 5950 10045
+AR Path="/568DDEB6" Ref="U4"  Part="1" 
+AR Path="/54F725AE/568DDEB6" Ref="U4"  Part="1" 
+F 0 "U4" H 5750 10295 50  0000 C CNN
+F 1 "AT24CS08-STUM" H 6250 9745 40  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5950 10045 35  0001 C CIN
+F 3 "" H 5950 10045 60  0000 C CNN
+F 4 "AT24CS08-STUM" H 5950 10045 60  0001 C CNN "MPN"
+	1    5950 10045
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR064
+U 1 1 568DE570
+P 5450 10345
+F 0 "#PWR064" H 5450 10095 50  0001 C CNN
+F 1 "GNDD" H 5450 10195 50  0000 C CNN
+F 2 "" H 5450 10345 60  0000 C CNN
+F 3 "" H 5450 10345 60  0000 C CNN
+	1    5450 10345
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 10245 5450 10245
+Wire Wire Line
+	5450 10245 5450 10345
+Wire Wire Line
+	1470 1365 1420 1365
+Wire Wire Line
+	1470 1165 1420 1165
+Wire Wire Line
+	1170 1265 1170 1365
+Wire Wire Line
+	1470 1615 1420 1615
+Wire Wire Line
+	1470 1815 1420 1815
+Wire Wire Line
+	1170 1715 1170 1815
+Wire Wire Line
+	5950 9595 5950 9535
+Wire Wire Line
+	5950 9595 6100 9595
+NoConn ~ 8400 10700
+Wire Wire Line
+	5950 9595 5950 9695
+Text GLabel 5505 4510 3    60   Output ~ 0
+HMI_RFU_TX
+Text GLabel 5405 4510 3    60   Input ~ 0
+HMI_RFU_RX
+$Comp
+L bottom-board-rescue:TestPoint-Connector TP2
+U 1 1 5EBF60DB
+P 8150 10300
+F 0 "TP2" H 8208 10418 50  0000 L CNN
+F 1 "TestPoint" H 8208 10327 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 8350 10300 50  0001 C CNN
+F 3 "~" H 8350 10300 50  0001 C CNN
+	1    8150 10300
+	1    0    0    -1  
+$EndComp
+Text GLabel 8535 9840 1    50   Input ~ 0
+UBOOT_BUTTON
+$Comp
+L bottom-board-rescue:R_Small RA?
+U 1 1 5EC0EEF5
+P 8150 10440
+AR Path="/54F72C8D/5EC0EEF5" Ref="RA?"  Part="1" 
+AR Path="/54F725AE/5EC0EEF5" Ref="R30"  Part="1" 
+F 0 "R30" H 8200 10490 50  0000 L CNN
+F 1 "10R" H 8200 10390 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8150 10440 60  0001 C CNN
+F 3 "" H 8150 10440 60  0000 C CNN
+F 4 "CRGCQ0603J10R" H 8150 10440 50  0001 C CNN "MPN"
+	1    8150 10440
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0135
+U 1 1 5EC2F1E6
+P 8150 10585
+F 0 "#PWR0135" H 8150 10335 50  0001 C CNN
+F 1 "GNDD" H 8150 10435 50  0000 C CNN
+F 2 "" H 8150 10585 60  0000 C CNN
+F 3 "" H 8150 10585 60  0000 C CNN
+	1    8150 10585
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:TestPoint-Connector TP1
+U 1 1 5EBFB73E
+P 8535 9915
+F 0 "TP1" H 8477 9941 50  0000 R CNN
+F 1 "TestPoint" H 8477 10032 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 8735 9915 50  0001 C CNN
+F 3 "~" H 8735 9915 50  0001 C CNN
+	1    8535 9915
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:CONN_02X10 P?
+U 1 1 5F60A14B
+P 2450 9955
+AR Path="/54F72FB8/5F60A14B" Ref="P?"  Part="1" 
+AR Path="/54F725AE/5F60A14B" Ref="P5"  Part="1" 
+F 0 "P5" H 2450 10505 50  0000 C CNN
+F 1 "HMI_DATA" V 2450 9955 50  0000 C CNN
+F 2 "Uno:Pin_Header_Straight_2x10_Shrouded" H 2450 8755 60  0001 C CNN
+F 3 "" H 2450 8755 60  0000 C CNN
+F 4 "SBH11-PBPC-D10-ST-BK" H -6750 8155 50  0001 C CNN "MPN"
+	1    2450 9955
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:CONN_01X03 P?
+U 1 1 5F60A152
+P 4835 9855
+AR Path="/5F60A152" Ref="P?"  Part="1" 
+AR Path="/54F72FB8/5F60A152" Ref="P?"  Part="1" 
+AR Path="/54F725AE/5F60A152" Ref="P8"  Part="1" 
+F 0 "P8" H 4835 10055 50  0000 C CNN
+F 1 "SERIAL_DEBUG" V 4935 9855 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4835 9855 60  0001 C CNN
+F 3 "" H 4835 9855 60  0000 C CNN
+F 4 "DO NOT PLACE" H 4835 9855 50  0001 C CNN "MPN"
+	1    4835 9855
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR?
+U 1 1 5F60A158
+P 4585 10055
+AR Path="/54F72FB8/5F60A158" Ref="#PWR?"  Part="1" 
+AR Path="/54F725AE/5F60A158" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 4585 9805 50  0001 C CNN
+F 1 "GNDD" H 4585 9905 50  0000 C CNN
+F 2 "" H 4585 10055 60  0000 C CNN
+F 3 "" H 4585 10055 60  0000 C CNN
+	1    4585 10055
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR?
+U 1 1 5F60A15E
+P 2100 10505
+AR Path="/54F72FB8/5F60A15E" Ref="#PWR?"  Part="1" 
+AR Path="/54F725AE/5F60A15E" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 2100 10255 50  0001 C CNN
+F 1 "GNDD" H 2100 10355 50  0000 C CNN
+F 2 "" H 2100 10505 60  0000 C CNN
+F 3 "" H 2100 10505 60  0000 C CNN
+	1    2100 10505
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR?
+U 1 1 5F60A164
+P 2800 10455
+AR Path="/54F72FB8/5F60A164" Ref="#PWR?"  Part="1" 
+AR Path="/54F725AE/5F60A164" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 2800 10205 50  0001 C CNN
+F 1 "GNDD" H 2800 10305 50  0000 C CNN
+F 2 "" H 2800 10455 60  0000 C CNN
+F 3 "" H 2800 10455 60  0000 C CNN
+	1    2800 10455
+	1    0    0    -1  
+$EndComp
+Text GLabel 4435 9755 0    50   Input ~ 0
+CLI_UART_TX
+Text GLabel 4435 9855 0    50   Output ~ 0
+CLI_UART_RX
+Text GLabel 2900 10405 2    50   Output ~ 0
+HMI_UART_RX
+Text GLabel 2900 10305 2    50   Input ~ 0
+HMI_UART_TX
+Text GLabel 2900 10105 2    50   Input ~ 0
+HMI_ISP_ENABLE
+Text GLabel 2900 10205 2    50   Input ~ 0
+HMI_RESET
+Text GLabel 1500 9805 0    50   Input ~ 0
+CLI_UART_TX
+Text GLabel 1500 9905 0    50   Output ~ 0
+CLI_UART_RX
+Text GLabel 2050 10105 0    50   Output ~ 0
+POWER_BUTTON
+Text GLabel 2050 10205 0    50   Input ~ 0
+PM_LEDS_OE
+Wire Wire Line
+	4585 10055 4585 9955
+Wire Wire Line
+	4585 9955 4635 9955
+Wire Wire Line
+	4435 9755 4635 9755
+Wire Wire Line
+	4635 9855 4435 9855
+Wire Wire Line
+	1850 9905 2200 9905
+Wire Wire Line
+	2200 9805 1850 9805
+Wire Wire Line
+	2900 10205 2700 10205
+Wire Wire Line
+	2700 10105 2900 10105
+Wire Wire Line
+	2900 10405 2700 10405
+Wire Wire Line
+	2700 10305 2900 10305
+Wire Wire Line
+	2800 9505 2800 10005
+Wire Wire Line
+	2700 10005 2800 10005
+Wire Wire Line
+	2800 9505 2700 9505
+Wire Wire Line
+	2050 10305 2200 10305
+Wire Wire Line
+	2050 10405 2200 10405
+Wire Wire Line
+	2200 10005 2100 10005
+Wire Wire Line
+	2200 10105 2050 10105
+Wire Wire Line
+	2050 10205 2200 10205
+Connection ~ 2800 10005
+Connection ~ 2100 10005
+$Comp
+L bottom-board-rescue:R_Small R?
+U 1 1 5F60A191
+P 1750 9805
+AR Path="/54F72FB8/5F60A191" Ref="R?"  Part="1" 
+AR Path="/54F725AE/5F60A191" Ref="R12"  Part="1" 
+F 0 "R12" V 1700 9605 50  0000 L CNN
+F 1 "100R" V 1700 9905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1750 9805 60  0001 C CNN
+F 3 "" H 1750 9805 60  0000 C CNN
+F 4 "RT0603DRD07100RL" H -7000 4455 50  0001 C CNN "MPN"
+	1    1750 9805
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small R?
+U 1 1 5F60A198
+P 1750 9905
+AR Path="/54F72FB8/5F60A198" Ref="R?"  Part="1" 
+AR Path="/54F725AE/5F60A198" Ref="R13"  Part="1" 
+F 0 "R13" V 1700 9705 50  0000 L CNN
+F 1 "100R" V 1700 10005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1750 9905 60  0001 C CNN
+F 3 "" H 1750 9905 60  0000 C CNN
+F 4 "RT0603DRD07100RL" H -7000 4555 50  0001 C CNN "MPN"
+	1    1750 9905
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 9805 1500 9805
+Wire Wire Line
+	1500 9905 1650 9905
+Wire Wire Line
+	2800 10005 2800 10455
+Wire Wire Line
+	2100 10005 2100 10505
+Wire Wire Line
+	3050 9555 3050 9605
+Wire Wire Line
+	3050 9605 2700 9605
+Wire Wire Line
+	3050 9605 3050 9705
+Wire Wire Line
+	3050 9705 2700 9705
+Connection ~ 3050 9605
+Wire Wire Line
+	3050 9705 3050 9805
+Wire Wire Line
+	3050 9805 2700 9805
+Connection ~ 3050 9705
+Wire Wire Line
+	3050 9805 3050 9905
+Wire Wire Line
+	3050 9905 2700 9905
+Connection ~ 3050 9805
+Wire Wire Line
+	2200 9505 2100 9505
+Wire Wire Line
+	2100 9505 2100 10005
+Text GLabel 1500 9605 0    60   Input ~ 0
+HMI_RFU_TX
+Text GLabel 1500 9705 0    60   Output ~ 0
+HMI_RFU_RX
+Wire Wire Line
+	1500 9605 2200 9605
+Wire Wire Line
+	2200 9705 1500 9705
+Text Notes 1805 9235 0    60   ~ 0
+Controller connector
+Text Notes 4185 9250 0    60   ~ 0
+Debug serial
+Text Notes 5605 9250 0    60   ~ 0
+EEPROM for UID
+Wire Notes Line
+	5205 10785 5205 9035
+Wire Notes Line
+	3770 10785 3770 9035
+Wire Notes Line
+	750  10785 750  9035
+Text GLabel 8080 9835 1    50   Input ~ 0
+POWER_BUTTON
+Text GLabel 7625 9800 1    50   Input ~ 0
+RESET_BUTTON
+$Comp
+L bottom-board-rescue:TestPoint-Connector Power1
+U 1 1 5FBBD778
+P 8080 9900
+F 0 "Power1" H 8022 9926 50  0000 R CNN
+F 1 "TestPoint" H 8022 10017 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8280 9900 50  0001 C CNN
+F 3 "~" H 8280 9900 50  0001 C CNN
+	1    8080 9900
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:TestPoint-Connector Reset1
+U 1 1 5FBBD9B9
+P 7625 9895
+F 0 "Reset1" H 7567 9921 50  0000 R CNN
+F 1 "TestPoint" H 7567 10012 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7825 9895 50  0001 C CNN
+F 3 "~" H 7825 9895 50  0001 C CNN
+	1    7625 9895
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7625 9800 7625 9895
+Wire Notes Line
+	8940 8990 8940 10815
+Wire Notes Line
+	8940 10815 7410 10815
+Wire Notes Line
+	7410 10815 7410 8990
+Wire Notes Line
+	7410 8990 8940 8990
+Wire Wire Line
+	8150 10300 8150 10340
+Wire Wire Line
+	8150 10585 8150 10540
+Text Notes 7735 9130 0    60   ~ 0
+Exposed SoM Buttons
+Text Notes 1060 805  0    60   ~ 0
+SoM power and power filters
+Text GLabel 7005 6465 3    60   Input ~ 0
+IN1_GC1
+Text GLabel 6705 7055 3    60   Input ~ 0
+IN1_GC2
+Text GLabel 7205 4915 3    60   Input ~ 0
+IN2_GC1
+Text GLabel 7005 4890 3    60   Input ~ 0
+IN2_GC2
+Wire Wire Line
+	8080 9835 8080 9900
+$Comp
+L bottom-board-rescue:Ferrite_Bead-Device FB?
+U 1 1 5F160249
+P 7005 4725
+AR Path="/54F72B97/5F160249" Ref="FB?"  Part="1" 
+AR Path="/54F72FB2/5F160249" Ref="FB?"  Part="1" 
+AR Path="/54F725AE/5F160249" Ref="FB15"  Part="1" 
+F 0 "FB15" H 6715 4685 50  0000 L CNN
+F 1 "Ferrite_Bead" H 6675 4855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6935 4725 50  0001 C CNN
+F 3 "~" H 7005 4725 50  0001 C CNN
+F 4 "BLM18HD102SH1D" V 7005 4725 50  0001 C CNN "MPN"
+	1    7005 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:Ferrite_Bead-Device FB?
+U 1 1 5F1619E9
+P 7205 4740
+AR Path="/54F72B97/5F1619E9" Ref="FB?"  Part="1" 
+AR Path="/54F72FB2/5F1619E9" Ref="FB?"  Part="1" 
+AR Path="/54F725AE/5F1619E9" Ref="FB13"  Part="1" 
+F 0 "FB13" H 7325 4685 50  0000 L CNN
+F 1 "Ferrite_Bead" H 7165 4845 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7135 4740 50  0001 C CNN
+F 3 "~" H 7205 4740 50  0001 C CNN
+F 4 "BLM18HD102SH1D" V 7205 4740 50  0001 C CNN "MPN"
+	1    7205 4740
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:Ferrite_Bead-Device FB?
+U 1 1 5F162A78
+P 6705 6805
+AR Path="/54F72B97/5F162A78" Ref="FB?"  Part="1" 
+AR Path="/54F72FB2/5F162A78" Ref="FB?"  Part="1" 
+AR Path="/54F725AE/5F162A78" Ref="FB14"  Part="1" 
+F 0 "FB14" V 6760 6855 50  0000 L CNN
+F 1 "Ferrite_Bead" V 6870 6535 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6635 6805 50  0001 C CNN
+F 3 "~" H 6705 6805 50  0001 C CNN
+F 4 "BLM18HD102SH1D" V 6705 6805 50  0001 C CNN "MPN"
+	1    6705 6805
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:Ferrite_Bead-Device FB?
+U 1 1 5F16356B
+P 7005 6240
+AR Path="/54F72B97/5F16356B" Ref="FB?"  Part="1" 
+AR Path="/54F72FB2/5F16356B" Ref="FB?"  Part="1" 
+AR Path="/54F725AE/5F16356B" Ref="FB12"  Part="1" 
+F 0 "FB12" V 7045 6315 50  0000 L CNN
+F 1 "Ferrite_Bead" V 7140 5815 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6935 6240 50  0001 C CNN
+F 3 "~" H 7005 6240 50  0001 C CNN
+F 4 "BLM18HD102SH1D" V 7005 6240 50  0001 C CNN "MPN"
+	1    7005 6240
+	1    0    0    -1  
+$EndComp
+Text GLabel 8205 3465 1    60   Input ~ 0
+MIDI_UART_RX
+Text GLabel 8305 3475 1    60   Output ~ 0
+MIDI_UART_TX
+Text GLabel 10405 6295 3    60   Output ~ 0
+CODEC_I2S_MCLK
+Text GLabel 4305 4500 3    60   Output ~ 0
+CODEC_I2S_BCLK
+Text GLabel 4205 4500 3    60   Output ~ 0
+CODEC_I2S_LRCK
+Text GLabel 7305 6270 3    60   Output ~ 0
+CODEC_RESET
+Text GLabel 4405 4500 3    60   Input ~ 0
+CODEC_I2S_SDOUT
+Text GLabel 10505 6270 3    60   Output ~ 0
+CODEC_I2S_SDIN
+Text GLabel 7505 4505 3    60   Input ~ 0
+HMI_UART_RX
+Text GLabel 7405 4515 3    60   Output ~ 0
+HMI_UART_TX
+Text GLabel 8905 4500 3    60   Output ~ 0
+CHAIN_UART_RE
+Text GLabel 8605 4505 3    60   Output ~ 0
+CHAIN_UART_DE
+Text GLabel 8505 4505 3    60   Output ~ 0
+CHAIN_UART_TX
+Text GLabel 7005 3465 1    60   Input ~ 0
+CHAIN_UART_RX
+Text GLabel 6205 3515 1    60   Output ~ 0
+CODEC_I2C_SCL
+Text GLabel 6305 3515 1    60   Input ~ 0
+CODEC_I2C_SDA
+Text GLabel 7205 3475 1    60   BiDi ~ 0
+PM_LEDS_SDA
+Text GLabel 7305 3460 1    60   Output ~ 0
+PM_LEDS_SCL
+Text GLabel 2050 10405 0    50   BiDi ~ 0
+PM_LEDS_SDA
+Text GLabel 2050 10305 0    50   Input ~ 0
+PM_LEDS_SCL
+Text GLabel 10505 5180 1    60   BiDi ~ 0
+USB_DEV_DP
+Text GLabel 10405 5180 1    60   BiDi ~ 0
+USB_DEV_DM
+Text GLabel 9905 5180 1    60   Input ~ 0
+USB_DEV_DET
+Text GLabel 10205 3515 1    60   BiDi ~ 0
+USB_HOST_DM
+Text GLabel 10305 3515 1    60   BiDi ~ 0
+USB_HOST_DP
+Text GLabel 8605 3460 1    60   Output ~ 0
+CLI_UART_TX
+Text GLabel 8705 3475 1    60   Input ~ 0
+CLI_UART_RX
+Text GLabel 9605 6160 3    60   Input ~ 0
+UBOOT_BUTTON
+Text GLabel 6305 6080 3    60   Input ~ 0
+RESET_BUTTON
+Text GLabel 6105 5180 1    60   Input ~ 0
+POWER_BUTTON
+Wire Notes Line
+	7255 9035 7255 10785
+Wire Notes Line
+	750  10785 7255 10785
+Wire Notes Line
+	750  9035 7255 9035
+Text GLabel 6660 9945 2    50   BiDi ~ 0
+PM_LEDS_SDA
+Text GLabel 6685 10095 2    50   Input ~ 0
+PM_LEDS_SCL
+Text GLabel 9105 4505 3    60   Input ~ 0
+HP_VOL
+Text GLabel 9305 4500 3    60   Input ~ 0
+HP_CLOCK
+Text GLabel 8405 3490 1    60   Input ~ 0
+OUT1_DETECT
+Text GLabel 8505 3490 1    60   Input ~ 0
+OUT2_DETECT
+Text GLabel 9005 4500 3    60   Output ~ 0
+USB_HOST_DRV
+Text GLabel 6405 6080 3    60   Input ~ 0
+IN1_DETECT
+Text GLabel 6605 6080 3    60   Input ~ 0
+IN2_DETECT
+Wire Wire Line
+	6705 6955 6705 7055
+NoConn ~ 10505 3690
+NoConn ~ 10405 3690
+Wire Wire Line
+	10305 3690 10305 3515
+Wire Wire Line
+	10205 3515 10205 3690
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0112
+U 1 1 5F6D5453
+P 10605 3515
+F 0 "#PWR0112" H 10605 3265 50  0001 C CNN
+F 1 "GNDD" H 10605 3365 50  0000 C CNN
+F 2 "" H 10605 3515 60  0000 C CNN
+F 3 "" H 10605 3515 60  0000 C CNN
+	1    10605 3515
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10605 3690 10605 3625
+Connection ~ 10605 3625
+Wire Wire Line
+	10605 3625 10605 3515
+NoConn ~ 10105 3690
+Wire Wire Line
+	10005 3690 10005 3625
+Wire Wire Line
+	10005 3625 10605 3625
+Wire Wire Line
+	9905 3690 9905 3625
+Wire Wire Line
+	9905 3625 10005 3625
+Connection ~ 10005 3625
+Wire Wire Line
+	9805 3690 9805 3625
+Wire Wire Line
+	9805 3625 9905 3625
+Connection ~ 9905 3625
+Wire Wire Line
+	9705 3690 9705 3625
+Wire Wire Line
+	9705 3625 9805 3625
+Connection ~ 9805 3625
+Wire Wire Line
+	9605 3690 9605 3625
+Wire Wire Line
+	9605 3625 9705 3625
+Connection ~ 9705 3625
+Wire Wire Line
+	9505 3690 9505 3625
+Wire Wire Line
+	9505 3625 9605 3625
+Connection ~ 9605 3625
+Wire Wire Line
+	9405 3690 9405 3625
+Wire Wire Line
+	9405 3625 9505 3625
+Connection ~ 9505 3625
+Wire Wire Line
+	9305 3690 9305 3625
+Connection ~ 9405 3625
+Wire Wire Line
+	9205 3690 9205 3625
+Wire Wire Line
+	9205 3625 9305 3625
+Connection ~ 9305 3625
+Wire Wire Line
+	9305 3625 9405 3625
+Wire Wire Line
+	9105 3690 9105 3625
+Wire Wire Line
+	9105 3625 9205 3625
+Connection ~ 9205 3625
+Wire Wire Line
+	9005 3625 9105 3625
+Connection ~ 9105 3625
+Wire Wire Line
+	9005 3625 9005 3690
+Wire Wire Line
+	8905 3690 8905 3625
+Connection ~ 9005 3625
+Wire Wire Line
+	8705 3690 8705 3475
+Wire Wire Line
+	8605 3460 8605 3690
+Wire Wire Line
+	8905 3625 9005 3625
+Wire Wire Line
+	8305 3690 8305 3475
+Wire Wire Line
+	8205 3690 8205 3465
+Wire Wire Line
+	8105 3690 8105 3625
+Wire Wire Line
+	8105 3625 8905 3625
+Connection ~ 8905 3625
+Wire Wire Line
+	8005 3690 8005 3625
+Wire Wire Line
+	8005 3625 8105 3625
+Connection ~ 8105 3625
+Wire Wire Line
+	7905 3690 7905 3625
+Wire Wire Line
+	7905 3625 8005 3625
+Connection ~ 8005 3625
+Wire Wire Line
+	7805 3690 7805 3625
+Wire Wire Line
+	7805 3625 7905 3625
+Connection ~ 7905 3625
+Wire Wire Line
+	7705 3690 7705 3625
+Wire Wire Line
+	7705 3625 7805 3625
+Connection ~ 7805 3625
+Wire Wire Line
+	7505 3690 7505 3625
+Wire Wire Line
+	7505 3625 7705 3625
+Connection ~ 7705 3625
+Wire Wire Line
+	7405 3690 7405 3625
+Wire Wire Line
+	7405 3625 7505 3625
+Connection ~ 7505 3625
+NoConn ~ 7605 3690
+Wire Wire Line
+	7305 3690 7305 3460
+Wire Wire Line
+	7205 3475 7205 3690
+NoConn ~ 7105 3690
+Wire Wire Line
+	7005 3690 7005 3465
+NoConn ~ 6905 3690
+Wire Wire Line
+	6805 3690 6805 3625
+Wire Wire Line
+	6805 3625 7405 3625
+Connection ~ 7405 3625
+NoConn ~ 6705 3690
+NoConn ~ 6605 3690
+NoConn ~ 6505 3690
+NoConn ~ 6405 3690
+Wire Wire Line
+	6305 3690 6305 3515
+Wire Wire Line
+	6205 3690 6205 3515
+NoConn ~ 6105 3690
+NoConn ~ 6005 3690
+NoConn ~ 5905 3690
+NoConn ~ 5805 3690
+NoConn ~ 5705 3690
+Wire Wire Line
+	5605 3690 5605 3625
+Wire Wire Line
+	5605 3625 6805 3625
+Connection ~ 6805 3625
+NoConn ~ 5405 3690
+NoConn ~ 5305 3690
+NoConn ~ 5205 3690
+NoConn ~ 5105 3690
+NoConn ~ 5005 3690
+NoConn ~ 4905 3690
+NoConn ~ 4605 3690
+NoConn ~ 4405 3690
+NoConn ~ 4305 3690
+NoConn ~ 4205 3690
+NoConn ~ 5505 3690
+NoConn ~ 8805 3690
+Wire Wire Line
+	4505 3690 4505 3625
+Wire Wire Line
+	4505 3625 5605 3625
+Connection ~ 5605 3625
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0227
+U 1 1 5FA2090B
+P 10605 4615
+F 0 "#PWR0227" H 10605 4365 50  0001 C CNN
+F 1 "GNDD" H 10605 4465 50  0000 C CNN
+F 2 "" H 10605 4615 60  0000 C CNN
+F 3 "" H 10605 4615 60  0000 C CNN
+	1    10605 4615
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10605 4490 10605 4535
+NoConn ~ 10505 4490
+NoConn ~ 10405 4490
+NoConn ~ 10305 4490
+NoConn ~ 10205 4490
+NoConn ~ 10105 4490
+NoConn ~ 10005 4490
+NoConn ~ 9905 4490
+NoConn ~ 9805 4490
+NoConn ~ 9705 4490
+NoConn ~ 8805 4490
+Wire Wire Line
+	8505 4505 8505 4490
+NoConn ~ 8405 4490
+NoConn ~ 8305 4490
+NoConn ~ 8205 4490
+NoConn ~ 8105 4490
+NoConn ~ 8005 4490
+NoConn ~ 7905 4490
+NoConn ~ 7705 4490
+NoConn ~ 7605 4490
+Wire Wire Line
+	9405 4490 9405 4535
+Wire Wire Line
+	9405 4535 10605 4535
+Connection ~ 10605 4535
+Wire Wire Line
+	10605 4535 10605 4615
+Wire Wire Line
+	9205 4490 9205 4535
+Wire Wire Line
+	9205 4535 9405 4535
+Connection ~ 9405 4535
+Wire Wire Line
+	8705 4490 8705 4535
+Wire Wire Line
+	8705 4535 9205 4535
+Connection ~ 9205 4535
+Wire Wire Line
+	7805 4490 7805 4535
+Wire Wire Line
+	7805 4535 8705 4535
+Connection ~ 8705 4535
+Wire Wire Line
+	7505 4505 7505 4490
+Wire Wire Line
+	7405 4515 7405 4490
+NoConn ~ 7305 4490
+NoConn ~ 7105 4490
+NoConn ~ 6905 4490
+NoConn ~ 6705 4490
+NoConn ~ 6505 4490
+NoConn ~ 6405 4490
+NoConn ~ 6305 4490
+NoConn ~ 6205 4490
+NoConn ~ 6105 4490
+NoConn ~ 6005 4490
+NoConn ~ 5905 4490
+NoConn ~ 5805 4490
+NoConn ~ 5705 4490
+Wire Wire Line
+	5505 4510 5505 4490
+Wire Wire Line
+	5405 4510 5405 4490
+NoConn ~ 5305 4490
+NoConn ~ 5205 4490
+NoConn ~ 5005 4490
+NoConn ~ 4905 4490
+NoConn ~ 4805 4490
+NoConn ~ 4605 4490
+NoConn ~ 4505 4490
+NoConn ~ 4705 4490
+Wire Wire Line
+	5105 4490 5105 4535
+Wire Wire Line
+	5105 4535 7805 4535
+Connection ~ 7805 4535
+NoConn ~ 10605 5190
+Wire Wire Line
+	10505 5190 10505 5180
+Wire Wire Line
+	10405 5190 10405 5180
+NoConn ~ 10305 5190
+NoConn ~ 10205 5190
+NoConn ~ 10105 5190
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0228
+U 1 1 5FD3F110
+P 10715 5135
+F 0 "#PWR0228" H 10715 4885 50  0001 C CNN
+F 1 "GNDD" H 10715 4985 50  0000 C CNN
+F 2 "" H 10715 5135 60  0000 C CNN
+F 3 "" H 10715 5135 60  0000 C CNN
+	1    10715 5135
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10715 5135 10005 5135
+Wire Wire Line
+	10005 5135 10005 5190
+Wire Wire Line
+	4205 4490 4205 4500
+Wire Wire Line
+	4305 4490 4305 4500
+Wire Wire Line
+	4405 4490 4405 4500
+Wire Wire Line
+	9905 5180 9905 5190
+Wire Wire Line
+	9405 5190 9405 5135
+Wire Wire Line
+	9405 5135 10005 5135
+Connection ~ 10005 5135
+Wire Wire Line
+	8505 5190 8505 5135
+Wire Wire Line
+	8505 5135 9405 5135
+Connection ~ 9405 5135
+Wire Wire Line
+	8405 5190 8405 5135
+Wire Wire Line
+	8405 5135 8505 5135
+Connection ~ 8505 5135
+Wire Wire Line
+	8305 5190 8305 5135
+Wire Wire Line
+	8305 5135 8405 5135
+Connection ~ 8405 5135
+Wire Wire Line
+	7505 5190 7505 5135
+Wire Wire Line
+	7505 5135 8305 5135
+Connection ~ 8305 5135
+Wire Wire Line
+	7405 5190 7405 5135
+Wire Wire Line
+	7405 5135 7505 5135
+Connection ~ 7505 5135
+Wire Wire Line
+	6905 5190 6905 5135
+Connection ~ 7405 5135
+Wire Wire Line
+	6205 5190 6205 5135
+Wire Wire Line
+	6205 5135 6905 5135
+Connection ~ 6905 5135
+Wire Wire Line
+	6905 5135 7405 5135
+Wire Wire Line
+	6105 5180 6105 5190
+$Comp
+L bottom-board-rescue:+5V-power #PWR0232
+U 1 1 5FEFE44D
+P 4065 5070
+F 0 "#PWR0232" H 4065 4920 50  0001 C CNN
+F 1 "+5V" H 4065 5210 50  0000 C CNN
+F 2 "" H 4065 5070 60  0000 C CNN
+F 3 "" H 4065 5070 60  0000 C CNN
+	1    4065 5070
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:+3.3V-power #PWR0233
+U 1 1 5FF09812
+P 5905 4880
+F 0 "#PWR0233" H 5905 4730 50  0001 C CNN
+F 1 "+3.3V" H 5905 5020 50  0000 C CNN
+F 2 "" H 5905 4880 60  0000 C CNN
+F 3 "" H 5905 4880 60  0000 C CNN
+	1    5905 4880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6005 5085 6005 5190
+Wire Wire Line
+	5905 5190 5905 4880
+Wire Wire Line
+	4205 5190 4205 5120
+Wire Wire Line
+	4205 5120 4065 5120
+Wire Wire Line
+	4065 5120 4065 5070
+Wire Wire Line
+	4305 5190 4305 5120
+Wire Wire Line
+	4305 5120 4205 5120
+Connection ~ 4205 5120
+Wire Wire Line
+	4405 5190 4405 5120
+Connection ~ 4305 5120
+Wire Wire Line
+	4505 5190 4505 5120
+Wire Wire Line
+	4305 5120 4405 5120
+Connection ~ 4405 5120
+Wire Wire Line
+	4405 5120 4505 5120
+Wire Wire Line
+	4605 5190 4605 5120
+Wire Wire Line
+	4605 5120 4505 5120
+Connection ~ 4505 5120
+Wire Wire Line
+	4705 5190 4705 5135
+Wire Wire Line
+	4705 5135 4805 5135
+Connection ~ 6205 5135
+Wire Wire Line
+	4805 5190 4805 5135
+Connection ~ 4805 5135
+Wire Wire Line
+	4905 5190 4905 5135
+Wire Wire Line
+	4805 5135 4905 5135
+Connection ~ 4905 5135
+Wire Wire Line
+	4905 5135 5005 5135
+Wire Wire Line
+	5005 5135 5005 5190
+Connection ~ 5005 5135
+Wire Wire Line
+	5005 5135 5105 5135
+Wire Wire Line
+	5105 5190 5105 5135
+Connection ~ 5105 5135
+Wire Wire Line
+	5105 5135 6205 5135
+NoConn ~ 5605 5190
+$Comp
+L bottom-board-rescue:+3.3V-power #PWR0234
+U 1 1 5FFFDD73
+P 5205 5010
+F 0 "#PWR0234" H 5205 4860 50  0001 C CNN
+F 1 "+3.3V" H 5205 5150 50  0000 C CNN
+F 2 "" H 5205 5010 60  0000 C CNN
+F 3 "" H 5205 5010 60  0000 C CNN
+	1    5205 5010
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5305 5190 5305 5175
+Wire Wire Line
+	5405 5190 5405 5175
+NoConn ~ 6305 5190
+NoConn ~ 6405 5190
+NoConn ~ 6505 5190
+NoConn ~ 6605 5190
+NoConn ~ 6705 5190
+NoConn ~ 6805 5190
+NoConn ~ 7005 5190
+NoConn ~ 7105 5190
+NoConn ~ 7205 5190
+NoConn ~ 7305 5190
+NoConn ~ 7605 5190
+NoConn ~ 7705 5190
+NoConn ~ 7805 5190
+NoConn ~ 7905 5190
+NoConn ~ 8005 5190
+NoConn ~ 8105 5190
+NoConn ~ 8205 5190
+NoConn ~ 8605 5190
+NoConn ~ 8705 5190
+NoConn ~ 8805 5190
+NoConn ~ 8905 5190
+NoConn ~ 9005 5190
+NoConn ~ 9105 5190
+NoConn ~ 9205 5190
+NoConn ~ 9305 5190
+NoConn ~ 9505 5190
+NoConn ~ 9605 5190
+NoConn ~ 9705 5190
+NoConn ~ 9805 5190
+Wire Wire Line
+	9605 5990 9605 6160
+Wire Wire Line
+	8535 9840 8535 9915
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0244
+U 1 1 602ACC48
+P 10605 6070
+F 0 "#PWR0244" H 10605 5820 50  0001 C CNN
+F 1 "GNDD" H 10605 5920 50  0000 C CNN
+F 2 "" H 10605 6070 60  0000 C CNN
+F 3 "" H 10605 6070 60  0000 C CNN
+	1    10605 6070
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10605 6070 10605 6025
+Wire Wire Line
+	8205 5990 8205 6025
+Wire Wire Line
+	8205 6025 10605 6025
+Connection ~ 10605 6025
+Wire Wire Line
+	10605 6025 10605 5990
+Wire Wire Line
+	7705 5990 7705 6025
+Wire Wire Line
+	7705 6025 8205 6025
+Connection ~ 8205 6025
+Wire Wire Line
+	6005 5990 6005 6025
+Wire Wire Line
+	6005 6025 7705 6025
+Connection ~ 7705 6025
+Wire Wire Line
+	5705 5990 5705 6025
+Wire Wire Line
+	5705 6025 6005 6025
+Connection ~ 6005 6025
+Wire Wire Line
+	5205 5990 5205 6025
+Wire Wire Line
+	5205 6025 5705 6025
+Connection ~ 5705 6025
+Wire Wire Line
+	5105 5990 5105 6025
+Wire Wire Line
+	5105 6025 5205 6025
+Connection ~ 5205 6025
+Wire Wire Line
+	4705 5990 4705 6025
+Wire Wire Line
+	4705 6025 4805 6025
+Connection ~ 5105 6025
+Wire Wire Line
+	4805 5990 4805 6025
+Connection ~ 4805 6025
+Wire Wire Line
+	4905 5990 4905 6025
+Wire Wire Line
+	4805 6025 4905 6025
+Connection ~ 4905 6025
+Wire Wire Line
+	4905 6025 5005 6025
+Wire Wire Line
+	5005 5990 5005 6025
+Connection ~ 5005 6025
+Wire Wire Line
+	5005 6025 5105 6025
+$Comp
+L bottom-board-rescue:+5V-power #PWR0245
+U 1 1 60368A74
+P 4205 6035
+F 0 "#PWR0245" H 4205 5885 50  0001 C CNN
+F 1 "+5V" H 4205 6175 50  0000 C CNN
+F 2 "" H 4205 6035 60  0000 C CNN
+F 3 "" H 4205 6035 60  0000 C CNN
+	1    4205 6035
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4205 5990 4205 6015
+Wire Wire Line
+	4605 5990 4605 6015
+Wire Wire Line
+	4605 6015 4505 6015
+Connection ~ 4205 6015
+Wire Wire Line
+	4205 6015 4205 6035
+Wire Wire Line
+	4305 5990 4305 6015
+Connection ~ 4305 6015
+Wire Wire Line
+	4305 6015 4205 6015
+Wire Wire Line
+	4405 5990 4405 6015
+Connection ~ 4405 6015
+Wire Wire Line
+	4405 6015 4305 6015
+Wire Wire Line
+	4505 5990 4505 6015
+Connection ~ 4505 6015
+Wire Wire Line
+	4505 6015 4405 6015
+$Comp
+L bottom-board-rescue:+3.3V-power #PWR0247
+U 1 1 603DB3FD
+P 5305 6135
+F 0 "#PWR0247" H 5305 5985 50  0001 C CNN
+F 1 "+3.3V" H 5305 6275 50  0000 C CNN
+F 2 "" H 5305 6135 60  0000 C CNN
+F 3 "" H 5305 6135 60  0000 C CNN
+	1    5305 6135
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:+3.3V-power #PWR0248
+U 1 1 603DD38A
+P 5905 6140
+F 0 "#PWR0248" H 5905 5990 50  0001 C CNN
+F 1 "+3.3V" H 5905 6280 50  0000 C CNN
+F 2 "" H 5905 6140 60  0000 C CNN
+F 3 "" H 5905 6140 60  0000 C CNN
+	1    5905 6140
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5305 5990 5305 6060
+Wire Wire Line
+	5905 6140 5905 5990
+NoConn ~ 5405 5990
+NoConn ~ 6105 5990
+NoConn ~ 6205 5990
+NoConn ~ 6505 5990
+NoConn ~ 6805 5990
+NoConn ~ 6905 5990
+NoConn ~ 7105 5990
+NoConn ~ 7205 5990
+NoConn ~ 7405 5990
+NoConn ~ 7505 5990
+NoConn ~ 7605 5990
+NoConn ~ 7805 5990
+NoConn ~ 7905 5990
+NoConn ~ 8005 5990
+NoConn ~ 8105 5990
+NoConn ~ 8305 5990
+NoConn ~ 8405 5990
+NoConn ~ 8505 5990
+NoConn ~ 8605 5990
+NoConn ~ 8705 5990
+NoConn ~ 8805 5990
+NoConn ~ 8905 5990
+NoConn ~ 9005 5990
+NoConn ~ 9105 5990
+NoConn ~ 9205 5990
+NoConn ~ 9505 5990
+NoConn ~ 9405 5990
+NoConn ~ 9305 5990
+NoConn ~ 9705 5990
+NoConn ~ 9805 5990
+NoConn ~ 9905 5990
+NoConn ~ 10005 5990
+NoConn ~ 10105 5990
+NoConn ~ 10205 5990
+NoConn ~ 10305 5990
+Wire Wire Line
+	6305 5990 6305 6080
+Wire Wire Line
+	10505 5990 10505 6270
+Text GLabel 4805 3545 1    60   Output ~ 0
+HMI_RESET
+Text GLabel 4705 3545 1    60   Output ~ 0
+HMI_ISP_ENABLE
+Wire Wire Line
+	4805 3545 4805 3690
+Wire Wire Line
+	4705 3690 4705 3545
+Wire Wire Line
+	6405 5990 6405 6080
+Wire Wire Line
+	6605 6080 6605 5990
+Wire Wire Line
+	6705 5990 6705 6655
+Wire Wire Line
+	7005 5990 7005 6090
+Wire Wire Line
+	7005 6390 7005 6465
+Wire Wire Line
+	7305 5990 7305 6270
+Wire Wire Line
+	8605 4490 8605 4505
+Wire Wire Line
+	8905 4490 8905 4500
+Wire Wire Line
+	5605 4510 5605 4490
+Wire Wire Line
+	9005 4500 9005 4490
+Wire Wire Line
+	9105 4505 9105 4490
+Wire Wire Line
+	9305 4500 9305 4490
+$Comp
+L bottom-board-rescue:R_Small RA?
+U 1 1 5F669B4E
+P 6690 9700
+AR Path="/54F72C8D/5F669B4E" Ref="RA?"  Part="1" 
+AR Path="/54F725AE/5F669B4E" Ref="R69"  Part="1" 
+F 0 "R69" H 6740 9750 50  0000 L CNN
+F 1 "2K7" H 6740 9650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6690 9700 60  0001 C CNN
+F 3 "" H 6690 9700 60  0000 C CNN
+F 4 "CRGCQ0603F2K7" H 6690 9700 50  0001 C CNN "MPN"
+	1    6690 9700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 9945 6530 9945
+Wire Wire Line
+	6350 10095 6595 10095
+$Comp
+L bottom-board-rescue:+3.3V-power #PWR0163
+U 1 1 5F6925B9
+P 6690 9530
+F 0 "#PWR0163" H 6690 9380 50  0001 C CNN
+F 1 "+3.3V" H 6690 9670 50  0000 C CNN
+F 2 "" H 6690 9530 60  0000 C CNN
+F 3 "" H 6690 9530 60  0000 C CNN
+	1    6690 9530
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small R?
+U 1 1 5F693D8D
+P 6595 10240
+AR Path="/54F72C8D/5F693D8D" Ref="R?"  Part="1" 
+AR Path="/54F725AE/5F693D8D" Ref="R68"  Part="1" 
+F 0 "R68" H 6645 10290 50  0000 L CNN
+F 1 "2K7" H 6645 10190 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6595 10240 60  0001 C CNN
+F 3 "" H 6595 10240 60  0000 C CNN
+F 4 "CRGCQ0603F2K7" H 6595 10240 50  0001 C CNN "MPN"
+	1    6595 10240
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:+3.3V-power #PWR0172
+U 1 1 5F69421A
+P 6595 10395
+F 0 "#PWR0172" H 6595 10245 50  0001 C CNN
+F 1 "+3.3V" H 6595 10535 50  0000 C CNN
+F 2 "" H 6595 10395 60  0000 C CNN
+F 3 "" H 6595 10395 60  0000 C CNN
+	1    6595 10395
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6690 9600 6690 9530
+Wire Wire Line
+	6690 9800 6530 9800
+Wire Wire Line
+	6530 9800 6530 9945
+Connection ~ 6530 9945
+Wire Wire Line
+	6530 9945 6660 9945
+Wire Wire Line
+	6595 10140 6595 10095
+Connection ~ 6595 10095
+Wire Wire Line
+	6595 10095 6685 10095
+Wire Wire Line
+	6595 10395 6595 10340
+$Comp
+L bottom-board-rescue:C_Small C4
+U 1 1 5FC0BEAA
+P 6200 9430
+F 0 "C4" V 6250 9480 50  0000 L CNN
+F 1 "1nF" V 6150 9480 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6200 9430 60  0001 C CNN
+F 3 "" H 6200 9430 60  0000 C CNN
+F 4 "C0603X7R500-103KNP" H -4700 7330 50  0001 C CNN "MPN"
+	1    6200 9430
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 9535 6100 9535
+Wire Wire Line
+	6100 9535 6100 9430
+Connection ~ 5950 9535
+Wire Wire Line
+	5950 9535 5950 9495
+Wire Wire Line
+	6300 9430 6400 9430
+Wire Wire Line
+	6400 9430 6400 9595
+Connection ~ 6400 9595
+Wire Wire Line
+	8505 3690 8505 3490
+Wire Wire Line
+	8405 3490 8405 3690
+Wire Wire Line
+	10405 6295 10405 5990
+Wire Wire Line
+	7205 4490 7205 4590
+Wire Wire Line
+	7205 4890 7205 4915
+Wire Wire Line
+	7005 4575 7005 4490
+Wire Wire Line
+	7005 4875 7005 4890
+NoConn ~ 6805 4490
+NoConn ~ 6605 4490
+Wire Wire Line
+	5505 5990 5505 6060
+Wire Wire Line
+	5505 6060 5305 6060
+Connection ~ 5305 6060
+Wire Wire Line
+	5305 6060 5305 6135
+$Comp
+L power:+1V8 #PWR0289
+U 1 1 5FBF35C6
+P 5810 6405
+F 0 "#PWR0289" H 5810 6255 50  0001 C CNN
+F 1 "+1V8" H 5825 6578 50  0000 C CNN
+F 2 "" H 5810 6405 50  0001 C CNN
+F 3 "" H 5810 6405 50  0001 C CNN
+	1    5810 6405
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5805 5990 5805 6405
+Wire Wire Line
+	5805 6405 5810 6405
+$Comp
+L power:+3V0 #PWR0290
+U 1 1 5FC29241
+P 5810 4810
+F 0 "#PWR0290" H 5810 4660 50  0001 C CNN
+F 1 "+3V0" H 5825 4983 50  0000 C CNN
+F 2 "" H 5810 4810 50  0001 C CNN
+F 3 "" H 5810 4810 50  0001 C CNN
+	1    5810 4810
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5805 5190 5805 4810
+Wire Wire Line
+	5805 4810 5810 4810
+$Comp
+L power:+1V8 #PWR0291
+U 1 1 5FC45711
+P 5710 4750
+F 0 "#PWR0291" H 5710 4600 50  0001 C CNN
+F 1 "+1V8" H 5725 4923 50  0000 C CNN
+F 2 "" H 5710 4750 50  0001 C CNN
+F 3 "" H 5710 4750 50  0001 C CNN
+	1    5710 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5710 4750 5710 5190
+Wire Wire Line
+	5710 5190 5705 5190
+$Comp
+L power:+1V8 #PWR0292
+U 1 1 5FC6A465
+P 1545 2205
+F 0 "#PWR0292" H 1545 2055 50  0001 C CNN
+F 1 "+1V8" V 1560 2333 50  0000 L CNN
+F 2 "" H 1545 2205 50  0001 C CNN
+F 3 "" H 1545 2205 50  0001 C CNN
+	1    1545 2205
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V0 #PWR0293
+U 1 1 5FC7A91C
+P 1590 2630
+F 0 "#PWR0293" H 1590 2480 50  0001 C CNN
+F 1 "+3V0" V 1605 2758 50  0000 L CNN
+F 2 "" H 1590 2630 50  0001 C CNN
+F 3 "" H 1590 2630 50  0001 C CNN
+	1    1590 2630
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small C100
+U 1 1 5FC83C2B
+P 1340 2210
+F 0 "C100" V 1390 2260 50  0000 L CNN
+F 1 "100nF" V 1290 2260 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1340 2210 60  0001 C CNN
+F 3 "" H 1340 2210 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H -9560 110 50  0001 C CNN "MPN"
+	1    1340 2210
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small C99
+U 1 1 5FC83C32
+P 1340 2010
+F 0 "C99" V 1390 2060 50  0000 L CNN
+F 1 "22uF" V 1290 2060 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1340 2010 60  0001 C CNN
+F 3 "" H 1340 2010 60  0000 C CNN
+F 4 "GRM219R61E106KA12D" H -3960 -3340 50  0001 C CNN "MPN"
+	1    1340 2010
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0294
+U 1 1 5FC83C39
+P 1140 2110
+F 0 "#PWR0294" H 1140 1860 50  0001 C CNN
+F 1 "GNDD" H 1140 1960 50  0000 C CNN
+F 2 "" H 1140 2110 60  0000 C CNN
+F 3 "" H 1140 2110 60  0000 C CNN
+	1    1140 2110
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1240 2010 1190 2010
+Wire Wire Line
+	1190 2010 1190 2110
+Wire Wire Line
+	1190 2210 1240 2210
+Wire Wire Line
+	1140 2110 1190 2110
+Connection ~ 1190 2110
+Wire Wire Line
+	1490 2010 1440 2010
+Wire Wire Line
+	1490 2210 1440 2210
+Wire Wire Line
+	1190 2110 1190 2210
+Wire Wire Line
+	1490 2010 1490 2210
+Wire Wire Line
+	1490 2210 1545 2210
+Wire Wire Line
+	1545 2210 1545 2205
+Connection ~ 1490 2210
+$Comp
+L bottom-board-rescue:C_Small C102
+U 1 1 5FCD096D
+P 1350 2630
+F 0 "C102" V 1400 2680 50  0000 L CNN
+F 1 "100nF" V 1300 2680 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1350 2630 60  0001 C CNN
+F 3 "" H 1350 2630 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H -9550 530 50  0001 C CNN "MPN"
+	1    1350 2630
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small C101
+U 1 1 5FCD0974
+P 1350 2430
+F 0 "C101" V 1400 2480 50  0000 L CNN
+F 1 "22uF" V 1300 2480 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1350 2430 60  0001 C CNN
+F 3 "" H 1350 2430 60  0000 C CNN
+F 4 "GRM219R61E106KA12D" H -3950 -2920 50  0001 C CNN "MPN"
+	1    1350 2430
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0295
+U 1 1 5FCD097B
+P 1150 2530
+F 0 "#PWR0295" H 1150 2280 50  0001 C CNN
+F 1 "GNDD" H 1150 2380 50  0000 C CNN
+F 2 "" H 1150 2530 60  0000 C CNN
+F 3 "" H 1150 2530 60  0000 C CNN
+	1    1150 2530
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 2430 1200 2430
+Wire Wire Line
+	1200 2430 1200 2530
+Wire Wire Line
+	1200 2630 1250 2630
+Wire Wire Line
+	1150 2530 1200 2530
+Connection ~ 1200 2530
+Wire Wire Line
+	1500 2430 1450 2430
+Wire Wire Line
+	1500 2630 1450 2630
+Wire Wire Line
+	1200 2530 1200 2630
+Wire Wire Line
+	1500 2430 1500 2630
+Wire Wire Line
+	1500 2630 1590 2630
+Connection ~ 1500 2630
+$Comp
+L bottom-board-rescue:C_Small C98
+U 1 1 5FD31045
+P 1335 3515
+F 0 "C98" V 1385 3565 50  0000 L CNN
+F 1 "100nF" V 1285 3565 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1335 3515 60  0001 C CNN
+F 3 "" H 1335 3515 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H -9565 1415 50  0001 C CNN "MPN"
+	1    1335 3515
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0296
+U 1 1 5FD31052
+P 1135 3415
+F 0 "#PWR0296" H 1135 3165 50  0001 C CNN
+F 1 "GNDD" H 1135 3265 50  0000 C CNN
+F 2 "" H 1135 3415 60  0000 C CNN
+F 3 "" H 1135 3415 60  0000 C CNN
+	1    1135 3415
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1235 3315 1185 3315
+Wire Wire Line
+	1185 3315 1185 3415
+Wire Wire Line
+	1185 3515 1235 3515
+Wire Wire Line
+	1135 3415 1185 3415
+Connection ~ 1185 3415
+Wire Wire Line
+	1485 3315 1435 3315
+Wire Wire Line
+	1485 3515 1435 3515
+Wire Wire Line
+	1185 3415 1185 3515
+Wire Wire Line
+	1485 3315 1485 3515
+Wire Wire Line
+	1485 3515 1575 3515
+Connection ~ 1485 3515
+$Comp
+L bottom-board-rescue:C_Small C?
+U 1 1 5FD67430
+P 1335 3315
+AR Path="/54F72B97/5FD67430" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5FD67430" Ref="C?"  Part="1" 
+AR Path="/54F725AE/5FD67430" Ref="C97"  Part="1" 
+F 0 "C97" H 1165 3260 50  0000 L CNN
+F 1 "1uF" H 1020 3330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1335 3315 60  0001 C CNN
+F 3 "" H 1335 3315 60  0000 C CNN
+F 4 "TMK107B7105KA-T" H -3965 -2035 50  0001 C CNN "MPN"
+	1    1335 3315
+	0    1    1    0   
+$EndComp
+Text GLabel 1625 4130 2    60   Output ~ 0
+PM_LEDS_OE
+$Comp
+L bottom-board-rescue:C_Small C106
+U 1 1 5FDA3508
+P 1385 4130
+F 0 "C106" V 1435 4180 50  0000 L CNN
+F 1 "100nF" V 1335 4180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1385 4130 60  0001 C CNN
+F 3 "" H 1385 4130 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H -9515 2030 50  0001 C CNN "MPN"
+	1    1385 4130
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0297
+U 1 1 5FDA350E
+P 1185 4030
+F 0 "#PWR0297" H 1185 3780 50  0001 C CNN
+F 1 "GNDD" H 1185 3880 50  0000 C CNN
+F 2 "" H 1185 4030 60  0000 C CNN
+F 3 "" H 1185 4030 60  0000 C CNN
+	1    1185 4030
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1285 3930 1235 3930
+Wire Wire Line
+	1235 3930 1235 4030
+Wire Wire Line
+	1235 4130 1285 4130
+Wire Wire Line
+	1185 4030 1235 4030
+Connection ~ 1235 4030
+Wire Wire Line
+	1535 3930 1485 3930
+Wire Wire Line
+	1535 4130 1485 4130
+Wire Wire Line
+	1235 4030 1235 4130
+Wire Wire Line
+	1535 3930 1535 4130
+Wire Wire Line
+	1535 4130 1625 4130
+Connection ~ 1535 4130
+$Comp
+L bottom-board-rescue:C_Small C?
+U 1 1 5FDA3520
+P 1385 3930
+AR Path="/54F72B97/5FDA3520" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5FDA3520" Ref="C?"  Part="1" 
+AR Path="/54F725AE/5FDA3520" Ref="C105"  Part="1" 
+F 0 "C105" H 1215 3875 50  0000 L CNN
+F 1 "1uF" H 1070 3945 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1385 3930 60  0001 C CNN
+F 3 "" H 1385 3930 60  0000 C CNN
+F 4 "TMK107B7105KA-T" H -3915 -1420 50  0001 C CNN "MPN"
+	1    1385 3930
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small C104
+U 1 1 5FDC550F
+P 1375 4785
+F 0 "C104" V 1425 4835 50  0000 L CNN
+F 1 "100nF" V 1325 4835 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1375 4785 60  0001 C CNN
+F 3 "" H 1375 4785 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H -9525 2685 50  0001 C CNN "MPN"
+	1    1375 4785
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0298
+U 1 1 5FDC5515
+P 1175 4685
+F 0 "#PWR0298" H 1175 4435 50  0001 C CNN
+F 1 "GNDD" H 1175 4535 50  0000 C CNN
+F 2 "" H 1175 4685 60  0000 C CNN
+F 3 "" H 1175 4685 60  0000 C CNN
+	1    1175 4685
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1275 4585 1225 4585
+Wire Wire Line
+	1225 4585 1225 4685
+Wire Wire Line
+	1225 4785 1275 4785
+Wire Wire Line
+	1175 4685 1225 4685
+Connection ~ 1225 4685
+Wire Wire Line
+	1525 4585 1475 4585
+Wire Wire Line
+	1525 4785 1475 4785
+Wire Wire Line
+	1225 4685 1225 4785
+Wire Wire Line
+	1525 4585 1525 4785
+Wire Wire Line
+	1525 4785 1615 4785
+Connection ~ 1525 4785
+$Comp
+L bottom-board-rescue:C_Small C?
+U 1 1 5FDC5527
+P 1375 4585
+AR Path="/54F72B97/5FDC5527" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5FDC5527" Ref="C?"  Part="1" 
+AR Path="/54F725AE/5FDC5527" Ref="C103"  Part="1" 
+F 0 "C103" H 1205 4530 50  0000 L CNN
+F 1 "1uF" H 1060 4600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1375 4585 60  0001 C CNN
+F 3 "" H 1375 4585 60  0000 C CNN
+F 4 "TMK107B7105KA-T" H -3925 -765 50  0001 C CNN "MPN"
+	1    1375 4585
+	0    1    1    0   
+$EndComp
+Text GLabel 1575 3515 2    60   Input ~ 0
+OUT2_DETECT
+Text GLabel 1615 4785 2    60   Output ~ 0
+HMI_ISP_ENABLE
+$Comp
+L bottom-board-rescue:+5V-power #PWR0136
+U 1 1 5FE59776
+P 3050 9555
+F 0 "#PWR0136" H 3050 9405 50  0001 C CNN
+F 1 "+5V" H 3050 9695 50  0000 C CNN
+F 2 "" H 3050 9555 60  0000 C CNN
+F 3 "" H 3050 9555 60  0000 C CNN
+	1    3050 9555
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5205 5175 5205 5010
+Wire Wire Line
+	5205 5190 5205 5175
+Connection ~ 5205 5175
+Wire Wire Line
+	5405 5175 5305 5175
+Wire Wire Line
+	5305 5175 5205 5175
+Connection ~ 5305 5175
+$Comp
+L bottom-board-rescue:AS0A823-H4SB-7H J1
+U 1 1 5F6147C6
+P 7605 4790
+F 0 "J1" V 7609 7920 50  0000 L CNN
+F 1 "AS0A823-H4SB-7H" V 7700 7920 50  0000 L CNN
+F 2 "Uno:TE_2309409-1" H 7605 4790 50  0001 L BNN
+F 3 "None" H 7605 4790 50  0001 L BNN
+F 4 "TE_2309409-1" H 7605 4790 50  0001 L BNN "MPN"
+	1    7605 4790
+	0    1    1    0   
+$EndComp
+Text GLabel 5605 4510 3    60   Output ~ 0
+PM_LEDS_OE
+$Comp
+L bottom-board-rescue:+5VA-power #PWR?
+U 1 1 613ED361
+P 5270 4810
+AR Path="/54F7244B/613ED361" Ref="#PWR?"  Part="1" 
+AR Path="/54F725AE/613ED361" Ref="#PWR0235"  Part="1" 
+F 0 "#PWR0235" H 5270 4660 50  0001 C CNN
+F 1 "+5VA" H 5270 4950 50  0000 C CNN
+F 2 "" H 5270 4810 60  0000 C CNN
+F 3 "" H 5270 4810 60  0000 C CNN
+	1    5270 4810
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5505 5190 5505 5160
+Wire Wire Line
+	5505 5160 5270 5160
+Wire Wire Line
+	5270 4810 5270 5160
+$Comp
+L bottom-board-rescue:+5VA-power #PWR?
+U 1 1 614791BA
+P 6005 5085
+AR Path="/54F7244B/614791BA" Ref="#PWR?"  Part="1" 
+AR Path="/54F725AE/614791BA" Ref="#PWR0246"  Part="1" 
+F 0 "#PWR0246" H 6005 4935 50  0001 C CNN
+F 1 "+5VA" H 6005 5225 50  0000 C CNN
+F 2 "" H 6005 5085 60  0000 C CNN
+F 3 "" H 6005 5085 60  0000 C CNN
+	1    6005 5085
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5605 5990 5605 6105
+$Comp
+L bottom-board-rescue:+5V-power #PWR0231
+U 1 1 614A179C
+P 5605 6105
+F 0 "#PWR0231" H 5605 5955 50  0001 C CNN
+F 1 "+5V" H 5605 6245 50  0000 C CNN
+F 2 "" H 5605 6105 60  0000 C CNN
+F 3 "" H 5605 6105 60  0000 C CNN
+	1    5605 6105
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
