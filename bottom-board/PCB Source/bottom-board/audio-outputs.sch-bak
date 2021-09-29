@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 11
 Title "MOD Dwarf - Main Board"
-Date "2021-04-07"
-Rev "1.2"
+Date "2021-09-06"
+Rev "1.3"
 Comp "MOD Devices GmbH"
 Comment1 "Dwarf Audio processing board"
 Comment2 "https://github.com/moddevices/hw-mod-dwarf"
