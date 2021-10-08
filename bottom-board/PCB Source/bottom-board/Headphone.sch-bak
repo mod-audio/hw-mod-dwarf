@@ -177,9 +177,9 @@ F 3 "" H 3965 2775 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3965 2775 3965 2825
-Text GLabel 3135 4215 0    50   Input ~ 0
-CODEC_DAC_B
 Text GLabel 3145 3025 0    50   Input ~ 0
+CODEC_DAC_B
+Text GLabel 3135 4215 0    50   Input ~ 0
 CODEC_DAC_A
 Wire Wire Line
 	3235 3025 3145 3025

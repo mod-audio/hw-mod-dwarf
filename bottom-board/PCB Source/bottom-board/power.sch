@@ -839,6 +839,7 @@ F 0 "U9" H 6430 3867 50  0000 C CNN
 F 1 "LD1117S50TR_SOT223" H 6430 3776 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6430 3825 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 6530 3375 50  0001 C CNN
+F 4 "LD1117S50TR" H 6430 3625 50  0001 C CNN "MPN"
 	1    6430 3625
 	1    0    0    -1  
 $EndComp
