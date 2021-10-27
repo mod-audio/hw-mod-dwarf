@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jan/Mod Github HW/hw-mod-dwarf/bottom-board/PCB Source/bottom-board/bottom-board.sch</source>
-    <date>Fri 08 Oct 2021 04:57:21 PM CEST</date>
+    <date>Mon 11 Oct 2021 04:14:10 PM CEST</date>
     <tool>Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -190,22 +190,22 @@
       <tstamp>5660158D</tstamp>
     </comp>
     <comp ref="D1">
-      <value>MBR230</value>
-      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <value>RSX205LAM30TR</value>
+      <footprint>Diode_SMD:D_SOD-128</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">MBR230LSFT1G</field>
+        <field name="MPN">RSX205LAM30TR</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="D_Schottky-Device" description=""/>
       <sheetpath names="/power/" tstamps="/54F7244B/"/>
       <tstamp>5C9A22B7</tstamp>
     </comp>
     <comp ref="D2">
-      <value>MBR230</value>
-      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <value>RSX205LAM30TR</value>
+      <footprint>Diode_SMD:D_SOD-128</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">MBR230LSFT1G</field>
+        <field name="MPN">RSX205LAM30TR</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="D_Schottky-Device" description=""/>
       <sheetpath names="/power/" tstamps="/54F7244B/"/>
@@ -255,9 +255,9 @@
     </comp>
     <comp ref="C3">
       <value>1000uF</value>
-      <footprint>Uno:CAPAE1300X1400N</footprint>
+      <footprint>Capacitor_SMD:CP_Elec_10x10.5</footprint>
       <fields>
-        <field name="MPN">VE-102M1CTR-1313S</field>
+        <field name="MPN">UCM1C102MNL1GS</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="CP_Small" description=""/>
       <sheetpath names="/power/" tstamps="/54F7244B/"/>
@@ -267,7 +267,7 @@
       <value>470uF</value>
       <footprint>Capacitor_SMD:CP_Elec_8x10.5</footprint>
       <fields>
-        <field name="MPN">UWT1C471MNL1GS</field>
+        <field name="MPN">UCW1C471MNL1GS</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="CP_Small" description=""/>
       <sheetpath names="/power/" tstamps="/54F7244B/"/>
@@ -353,7 +353,7 @@
       <value>100uF</value>
       <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
       <fields>
-        <field name="MPN">UWX1C101MCL1GB</field>
+        <field name="MPN">107SML016M</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="CP_Small" description=""/>
       <sheetpath names="/power/" tstamps="/54F7244B/"/>
@@ -372,9 +372,9 @@
     </comp>
     <comp ref="C107">
       <value>1000uF</value>
-      <footprint>Uno:CAPAE1300X1400N</footprint>
+      <footprint>Capacitor_SMD:CP_Elec_10x10.5</footprint>
       <fields>
-        <field name="MPN">VE-102M1CTR-1313S</field>
+        <field name="MPN">UCM1C102MNL1GS</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="CP_Small" description=""/>
       <sheetpath names="/power/" tstamps="/54F7244B/"/>
@@ -1219,20 +1219,20 @@
       <tstamp>5F153DBA</tstamp>
     </comp>
     <comp ref="Q4">
-      <value>MMBFJ110</value>
+      <value>MMBF4392</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
-        <field name="MPN">MMBFJ110</field>
+        <field name="MPN">MMBF4392LT1G</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="Q_NJFET_DSG" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
       <tstamp>5F1573A3</tstamp>
     </comp>
     <comp ref="Q6">
-      <value>MMBFJ110</value>
+      <value>MMBF4392</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
-        <field name="MPN">MMBFJ110</field>
+        <field name="MPN">MMBF4392LT1G</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="Q_NJFET_DSG" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1486,20 +1486,20 @@
       <tstamp>5F234283</tstamp>
     </comp>
     <comp ref="Q3">
-      <value>MMBFJ110</value>
+      <value>MMBF4392</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
-        <field name="MPN">MMBFJ110</field>
+        <field name="MPN">MMBF4392LT1G</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="Q_NJFET_DSG" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
       <tstamp>5F234289</tstamp>
     </comp>
     <comp ref="Q5">
-      <value>MMBFJ110</value>
+      <value>MMBF4392</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
-        <field name="MPN">MMBFJ110</field>
+        <field name="MPN">MMBF4392LT1G</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="Q_NJFET_DSG" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1724,7 +1724,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">ERJ-PB3D1501V</field>
+        <field name="MPN">ERJ-PB3D1001V</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/audio-inputs/" tstamps="/54F72C8D/"/>
@@ -1925,7 +1925,7 @@
       <tstamp>613394A3</tstamp>
     </comp>
     <comp ref="U6">
-      <value>OPA1678</value>
+      <value>LM833DT</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
       <fields>
@@ -1964,11 +1964,11 @@
       <tstamp>5F40E38F</tstamp>
     </comp>
     <comp ref="U7">
-      <value>OPA1678</value>
+      <value>LM833DT</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
       <fields>
-        <field name="MPN">OPA1678IDR</field>
+        <field name="MPN">LM833DT</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="TL072-Amplifier_Operational" description=""/>
       <sheetpath names="/audio-outputs/" tstamps="/54F72CD0/"/>
@@ -2631,7 +2631,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tps2041.pdf</datasheet>
       <fields>
-        <field name="MPN">TPS2001DDBVR</field>
+        <field name="MPN">AP2822CKETR-G1</field>
       </fields>
       <libsource lib="Power_Management" part="TPS2041B" description="Single power-distribution switcher"/>
       <sheetpath names="/usb/" tstamps="/54F72FB2/"/>
@@ -2858,7 +2858,7 @@
       <value>ISL83491</value>
       <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
       <fields>
-        <field name="MPN">ISL83491IBZ</field>
+        <field name="MPN">ISL3176EIBZ</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="ISL83491" description=""/>
       <sheetpath names="/control-chain/" tstamps="/54F72FB6/"/>
@@ -3020,10 +3020,10 @@
       <tstamp>5F5FE3FD</tstamp>
     </comp>
     <comp ref="Q10">
-      <value>MMBFJ110</value>
+      <value>MMBF4392</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
-        <field name="MPN">MMBFJ110</field>
+        <field name="MPN">MMBF4392LT1G</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="Q_NJFET_DSG" description=""/>
       <sheetpath names="/headphone/" tstamps="/5F5FD115/"/>
@@ -3103,10 +3103,10 @@
       <tstamp>5F8B26F1</tstamp>
     </comp>
     <comp ref="Q9">
-      <value>MMBFJ110</value>
+      <value>MMBF4392</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
-        <field name="MPN">MMBFJ110</field>
+        <field name="MPN">MMBF4392LT1G</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="Q_NJFET_DSG" description=""/>
       <sheetpath names="/headphone/" tstamps="/5F5FD115/"/>
@@ -3198,7 +3198,7 @@
       <value>100uF</value>
       <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
       <fields>
-        <field name="MPN">UWX1C101MCL1GB</field>
+        <field name="MPN">107SML016M</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="CP_Small" description=""/>
       <sheetpath names="/headphone/" tstamps="/5F5FD115/"/>
@@ -3218,7 +3218,7 @@
       <value>100uF</value>
       <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
       <fields>
-        <field name="MPN">UWX1C101MCL1GB</field>
+        <field name="MPN">107SML016M</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="CP_Small" description=""/>
       <sheetpath names="/headphone/" tstamps="/5F5FD115/"/>
