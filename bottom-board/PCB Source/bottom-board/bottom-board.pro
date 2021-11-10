@@ -1,4 +1,4 @@
-update=Fri 05 Mar 2021 06:37:28 PM CET
+update=Wed 10 Nov 2021 12:34:57 PM CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -245,7 +245,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=./
+PlotDirectoryName=./Dwarf_schematic
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

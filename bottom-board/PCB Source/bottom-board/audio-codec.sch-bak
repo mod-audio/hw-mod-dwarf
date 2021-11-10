@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 11
 Title "MOD Dwarf - Main Board"
-Date "2021-04-07"
-Rev "1.2"
+Date "2021-09-06"
+Rev "1.3"
 Comp "MOD Devices GmbH"
 Comment1 "Dwarf Audio processing board"
 Comment2 "https://github.com/moddevices/hw-mod-dwarf"
@@ -604,9 +604,9 @@ U 1 1 5F0A349C
 P 7870 4150
 F 0 "C20" H 7800 4210 50  0000 R CNN
 F 1 "10uF" H 7610 4130 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7870 4150 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7870 4150 60  0001 C CNN
 F 3 "" H 7870 4150 60  0000 C CNN
-F 4 "EMK107BBJ106MA-T" H 3420 2450 50  0001 C CNN "MPN"
+F 4 "GRM219R61E106KA12D" H 3420 2450 50  0001 C CNN "MPN"
 	1    7870 4150
 	-1   0    0    1   
 $EndComp
@@ -1216,9 +1216,9 @@ U 1 1 5FB9A105
 P 5770 4900
 F 0 "C96" H 5700 4960 50  0000 R CNN
 F 1 "10uF" H 5510 4880 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5770 4900 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5770 4900 60  0001 C CNN
 F 3 "" H 5770 4900 60  0000 C CNN
-F 4 "EMK107BBJ106MA-T" H 1320 3200 50  0001 C CNN "MPN"
+F 4 "GRM219R61E106KA12D" H 1320 3200 50  0001 C CNN "MPN"
 	1    5770 4900
 	-1   0    0    1   
 $EndComp
