@@ -1,7 +1,7 @@
 Title,MOD Dwarf - Main Board
-Revision,1.05
-Date,2021-11-10
-Generated,Wed 10 Nov 2021 12:33:11 PM CET
+Revision,1.3
+Date,2021-09-06
+Generated,Thu 11 Nov 2021 01:36:21 PM CET
 Company,MOD Devices GmbH
 Comment 1,Dwarf Audio processing board
 Comment 2,https://github.com/moddevices/hw-mod-dwarf
@@ -81,8 +81,8 @@ U2 ,1,TL750M10CKVURG3,Package_TO_SOT_SMD:TO-252-3_TabPin2,,TL750M10CKVURG3
 U3 ,1,CS4265,Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm,,CS4265-CNZ
 U4 ,1,AT24CS08-STUM,Package_TO_SOT_SMD:SOT-23-5,,AT24CS08-STUM
 U5 ,1,LM4562,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,LM4562MAX/NOPB
-U6 ,1,LM833DT,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,OPA1678IDR
-U7 ,1,LM833DT,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,LM833DT
+U6 ,1,OPA1678IDR,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,OPA1678IDR
+U7 ,1,OPA1678IDR,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,LM833DT
 U8 ,1,LM4811,Package_SO:TSSOP-10_3x3mm_P0.5mm,,LM4811MM/NOPB
 U9 ,1,LD1117S50TR,Package_TO_SOT_SMD:SOT-223-3_TabPin2,,LD1117S50TR
 U10 ,1,TPS2001DDBVR,Package_TO_SOT_SMD:SOT-23-5,,TPS2001DDBVR
@@ -95,4 +95,4 @@ X1 ,1,24.576MHz,Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm,,DO NOT PLA
 
 
 Property of MOD Devices (https://www.moddevices.com)
-Generated Wed 10 Nov 2021 12:33:11 PM CET
+Generated Thu 11 Nov 2021 01:36:21 PM CET
