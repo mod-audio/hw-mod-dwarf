@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/../lib/footprints.pretty)(options "")(descr ""))
+  (lib (name footprints-local)(type KiCad)(uri C:/Users/Lenovo/Documents/GitHub/mod-hw-cb-adapter/footprints-local)(options "")(descr ""))
+)

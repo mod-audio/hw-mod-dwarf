@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ICnova_A20_SODIMM
+D dual cortex-a7 computer module, SODIMM-200, A20 CPU, 2GB DDR3-RAM, 4GB NAND-Flash
+K ICnova A20 SODIMM CPU computer SOM SoMPi
+F http://wiki.in-circuit.de/images/f/fa/305000073A_ICnova_A20_SODIMM.pdf
+$ENDCMP
+#
+#End Doc Library

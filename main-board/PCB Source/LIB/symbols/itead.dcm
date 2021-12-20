@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Core_AW204x
+D dual cortex-a7 computer module, SODIMM-204, A20 CPU, 1GB/2GB DDR3-RAM, 4GB NAND-Flash
+K itead coreboard AW204x
+F http://wiki.iteadstudio.com/Core_AW204x
+$ENDCMP
+#
+#End Doc Library
