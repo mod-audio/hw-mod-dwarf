@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/../lib/footprints.pretty)(options "")(descr ""))
-  (lib (name footprints-local)(type KiCad)(uri C:/Users/Lenovo/Documents/GitHub/mod-hw-cb-adapter/footprints-local)(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/../lib/footprints.pretty")(options "")(descr ""))
+  (lib (name "footprints-local")(type "KiCad")(uri "C:/Users/Lenovo/Documents/GitHub/mod-hw-cb-adapter/footprints-local")(options "")(descr ""))
+  (lib (name "F51L-1A7H1-11024")(type "KiCad")(uri "/home/mod-xps/MOD_REPOS/HW/mod-hw-duoX/hw-design/bottom-board/Documentation/Components/LSF0204DPWR/F51L-1A7H1-11024.pretty")(options "")(descr ""))
 )
