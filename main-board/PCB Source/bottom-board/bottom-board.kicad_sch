@@ -1199,6 +1199,12 @@
     (path "/00000000-0000-0000-0000-000054f72c8d/4c1deecf-097a-4ab1-9a10-623d267c2e5d"
       (reference "C110") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
+    (path "/00000000-0000-0000-0000-000054f72c8d/19333e5d-0a7a-48a1-9d13-ecbb060696bb"
+      (reference "C111") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
+    (path "/00000000-0000-0000-0000-000054f72c8d/69cde7fe-5628-476e-bafc-fc8b189120e6"
+      (reference "C112") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
     (path "/00000000-0000-0000-0000-000054f7244b/00000000-0000-0000-0000-00005c9a22b7"
       (reference "D1") (unit 1) (value "RSX205LAM30TR") (footprint "Diode_SMD:D_SOD-128")
     )
@@ -1212,19 +1218,19 @@
       (reference "D4") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-000054f72c8d/00000000-0000-0000-0000-00005f2342b0"
-      (reference "D5") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D5") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-000054f72c8d/00000000-0000-0000-0000-00005f17bbd7"
-      (reference "D6") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D6") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-000054f7244b/00000000-0000-0000-0000-00005d6de753"
       (reference "D7") (unit 1) (value "TSSA3U45 R3G") (footprint "Diode_SMD:D_MELF")
     )
     (path "/00000000-0000-0000-0000-000054f72c8d/00000000-0000-0000-0000-00005f23430b"
-      (reference "D8") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D8") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-000054f72c8d/00000000-0000-0000-0000-00005f1dfdaa"
-      (reference "D9") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D9") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-000054f72b97/00000000-0000-0000-0000-00005efcb89e"
       (reference "D10") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -1242,10 +1248,10 @@
       (reference "D14") (unit 1) (value "PRTR5V0U2X") (footprint "Package_TO_SOT_SMD:SOT-143")
     )
     (path "/00000000-0000-0000-0000-000054f72fb4/00000000-0000-0000-0000-00005d5b626a"
-      (reference "D15") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D15") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-000054f72fb4/00000000-0000-0000-0000-00005d5ba7f0"
-      (reference "D16") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D16") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-00005f5fd115/00000000-0000-0000-0000-00005fcb3415"
       (reference "D17") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")

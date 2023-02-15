@@ -1,0 +1,7 @@
+### Module positions - created on Wed 15 Feb 2023 05:36:46 PM CET ###
+### Printed by Pcbnew version 6.0.10-86aedd382b~118~ubuntu22.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+IMG1      Logo      mod-logo          -154.6700   -90.7200  180.0000  bottom
+## End

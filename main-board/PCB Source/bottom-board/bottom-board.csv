@@ -1,99 +1,416 @@
-Title,MOD Dwarf - Main Board
-Revision,3.0
-Date,2021-09-06
-Generated,Tue 03 May 2022 11:11:52 PM CEST
-Company,MOD Devices GmbH
-Comment 1,Dwarf Audio processing board
-Comment 2,https://github.com/moddevices/hw-mod-dwarf
-Comment 3,Inp Power: 12V 500mA
-Comment 4,USB outp Power: 500mA
-Total Parts,316
-Total Unique Parts,78
+"Source:","/home/jan/MOD/hw-mod-dwarf/main-board/PCB Source/bottom-board/bottom-board.kicad_sch"
+"Date:","Wed 15 Feb 2023 05:39:18 PM CET"
+"Tool:","Eeschema 6.0.10-86aedd382b~118~ubuntu22.04.1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","318"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Field4","Field5","Field6","Field7","Field8","MPN","MPN2"
+"","","C1","100uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_6.3x7.7","","","","","","","107SML016M",""
+"","","C2","10uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_4x5.7","","","","","","","EEE-HB1C100R",""
+"","","C3","1000uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_10x10.5","","","","","","","UCM1C102MNL1GS",""
+"","","C4","1nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603X7R500-102KNP",""
+"","","C5","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C6","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C7","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C8","10uF","bottom-board-rescue:C_Small-Device","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"","","C9","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C10","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C11","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C12","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C13","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C14","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C15","2.2nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GRM1885C1H222JA01D",""
+"","","C16","2.2nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GRM1885C1H222JA01D",""
+"","","C17","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C18","47uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_5x5.4","","","","","","","EDK476M016A9DAA",""
+"","","C19","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C20","10uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"","","C21","100pF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603C101J3GACTU",""
+"","","C22","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C23","100pF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603C101J3GACTU",""
+"","","C24","1uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","TMK107B7105KA-T",""
+"","","C25","10uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"","","C26","1uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","TMK107B7105KA-T",""
+"","","C27","1uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","TMK107B7105KA-T",""
+"","","C28","100pF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603C101J3GACTU",""
+"","","C29","100pF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603C101J3GACTU",""
+"","","C30","22uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","CL21A226MPQNNNE",""
+"","","C31","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C32","470uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_8x10.5","","","","","","","UCW1C471MNL1GS",""
+"","","C33","10uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_4x5.7","","","","","","","EEE-HB1C100R",""
+"","","C34","10uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_4x5.7","","","","","","","EEE-HB1C100R",""
+"","","C35","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C36","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C37","10uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"","","C38","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C39","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C40","100pF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603C101J3GACTU",""
+"","","C41","10uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"","","C42","47uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_5x5.4","","","","","","","EDK476M016A9DAA",""
+"","","C43","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C44","100pF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603C101J3GACTU",""
+"","","C45","10uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"","","C46","100pF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603C101J3GACTU",""
+"","","C47","100pF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603C101J3GACTU",""
+"","","C48","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C49","10uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"","","C50","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C51","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C52","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C53","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C54","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C55","100pF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603C101J3GACTU",""
+"","","C56","100pF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603C101J3GACTU",""
+"","","C57","47uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_5x5.4","","","","","","","EDK476M016A9DAA",""
+"","","C58","22uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","CL21A226MPQNNNE",""
+"","","C59","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C60","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C61","10uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_4x5.7","","","","","","","EEE-HB1C100R",""
+"","","C62","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C63","10uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_4x5.7","","","","","","","EEE-HB1C100R",""
+"","","C64","10uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_4x5.7","","","","","","","EEE-HB1C100R",""
+"","","C65","10uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_4x5.7","","","","","","","EEE-HB1C100R",""
+"","","C66","10uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_4x5.7","","","","","","","EEE-HB1C100R",""
+"","","C67","10uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"","","C68","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C69","10uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"","","C70","100uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_6.3x7.7","","","","","","","107SML016M",""
+"","","C71","100uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_6.3x7.7","","","","","","","107SML016M",""
+"","","C72","47uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_5x5.4","","","","","","","EDK476M016A9DAA",""
+"","","C73","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C74","47uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_5x5.4","","","","","","","EDK476M016A9DAA",""
+"","","C75","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C76","10uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"","","C77","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C78","10uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"","","C79","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C80","10uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"","","C81","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C82","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C83","47uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_5x5.4","","","","","","","EDK476M016A9DAA",""
+"","","C84","47uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_5x5.4","","","","","","","EDK476M016A9DAA",""
+"","","C85","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C86","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C87","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C88","10uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_4x5.7","","","","","","","EEE-HB1C100R",""
+"","","C89","10uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_4x5.7","","","","","","","EEE-HB1C100R",""
+"","","C90","100pF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603C101J3GACTU",""
+"","","C91","100pF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603C101J3GACTU",""
+"","","C92","1nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603X7R500-102KNP",""
+"","","C93","1nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603X7R500-102KNP",""
+"","","C94","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","DO NOT PLACE",""
+"","","C95","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C96","10uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"","","C97","1uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","TMK107B7105KA-T",""
+"","","C98","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C99","22uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","CL21A226MPQNNNE",""
+"","","C100","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C101","22uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","CL21A226MPQNNNE",""
+"","","C102","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C103","1uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","TMK107B7105KA-T",""
+"","","C104","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C105","1uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","TMK107B7105KA-T",""
+"","","C106","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C107","1000uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_10x10.5","","","","","","","UCM1C102MNL1GS",""
+"","","C108","1nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603X7R500-102KNP",""
+"","","C109","100nF","bottom-board-rescue:C_Small-Device","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"","","C110","10uF","bottom-board-rescue:C_Small-Device","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"","","C111","1uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_1210_3225Metric","","","","","","","FCA1210C105M-G2",""
+"","","C112","1uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_1210_3225Metric","","","","","","","FCA1210C105M-G2",""
+"","","D1","RSX205LAM30TR","bottom-board-rescue:D_Schottky-Device","Diode_SMD:D_SOD-128","","","","","","","RSX205LAM30TR",""
+"","","D2","RSX205LAM30TR","bottom-board-rescue:D_Schottky-Device","Diode_SMD:D_SOD-128","","","","","","","RSX205LAM30TR",""
+"","","D3","BAT54S","bottom-board-rescue:BAT54S-Diode","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf","","","","","","BAT54SFILM",""
+"","","D4","BAT54S","bottom-board-rescue:BAT54S-Diode","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf","","","","","","BAT54SFILM",""
+"","","D5","1N4148","bottom-board-rescue:1N4148-Diode","Diode_SMD:D_SOD-323_HandSoldering","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf","","","","","","1N4148WS",""
+"","","D6","1N4148","bottom-board-rescue:1N4148-Diode","Diode_SMD:D_SOD-323_HandSoldering","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf","","","","","","1N4148WS",""
+"","","D7","TSSA3U45 R3G","bottom-board-rescue:D_Shockley-Device","Diode_SMD:D_MELF","","","","","","","	TSSA3U45 R3G",""
+"","","D8","1N4148","bottom-board-rescue:1N4148-Diode","Diode_SMD:D_SOD-323_HandSoldering","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf","","","","","","1N4148WS",""
+"","","D9","1N4148","bottom-board-rescue:1N4148-Diode","Diode_SMD:D_SOD-323_HandSoldering","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf","","","","","","1N4148WS",""
+"","","D10","BAT54S","bottom-board-rescue:BAT54S-Diode","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf","","","","","","BAT54SFILM",""
+"","","D11","BAT54S","bottom-board-rescue:BAT54S-Diode","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf","","","","","","BAT54SFILM",""
+"","","D12","BAT54S","bottom-board-rescue:BAT54S-Diode","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf","","","","","","BAT54SFILM",""
+"","","D13","PRTR5V0U2X","bottom-board-rescue:PRTR5V0U2X","Package_TO_SOT_SMD:SOT-143","","","","","","","PRTR5V0U2X,215",""
+"","","D14","PRTR5V0U2X","bottom-board-rescue:PRTR5V0U2X","Package_TO_SOT_SMD:SOT-143","","","","","","","PRTR5V0U2X,215",""
+"","","D15","1N4148","bottom-board-rescue:1N4148-Diode","Diode_SMD:D_SOD-323_HandSoldering","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf","","","","","","1N4148WS",""
+"","","D16","1N4148","bottom-board-rescue:1N4148-Diode","Diode_SMD:D_SOD-323_HandSoldering","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf","","","","","","1N4148WS",""
+"","","D17","BAT54S","bottom-board-rescue:BAT54S-Diode","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf","","","","","","BAT54SFILM",""
+"","","D18","BAT54S","bottom-board-rescue:BAT54S-Diode","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf","","","","","","BAT54SFILM",""
+"","","D19","BAT54S","bottom-board-rescue:BAT54S-Diode","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf","","","","","","BAT54SFILM",""
+"","","D20","BAT54S","bottom-board-rescue:BAT54S-Diode","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf","","","","","","BAT54SFILM",""
+"","","D21","BAT54S","bottom-board-rescue:BAT54S-Diode","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf","","","","","","BAT54SFILM",""
+"","","D22","BAT54S","bottom-board-rescue:BAT54S-Diode","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf","","","","","","BAT54SFILM",""
+"","","F1","FUSE","bottom-board-rescue:FUSE","Fuse:Fuse_2920_7451Metric","","","","","","","0ZCF0200FF2C",""
+"","","FB1","Ferrite_Bead","bottom-board-rescue:Ferrite_Bead-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","BLM18HD102SH1D",""
+"","","FB2","Ferrite_Bead","Device:Ferrite_Bead","Resistor_SMD:R_0603_1608Metric","","","","","","","BLM18HD102SH1D",""
+"","","FB3","Ferrite_Bead","Device:Ferrite_Bead","Resistor_SMD:R_0603_1608Metric","","","","","","","BLM18HD102SH1D",""
+"","","FB12","Ferrite_Bead","bottom-board-rescue:Ferrite_Bead-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","BLM18HD102SH1D",""
+"","","FB13","Ferrite_Bead","bottom-board-rescue:Ferrite_Bead-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","BLM18HD102SH1D",""
+"","","FB14","Ferrite_Bead","bottom-board-rescue:Ferrite_Bead-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","BLM18HD102SH1D",""
+"","","FB15","Ferrite_Bead","bottom-board-rescue:Ferrite_Bead-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","BLM18HD102SH1D",""
+"","","FID1","FIDUCIAL","bottom-board-rescue:FIDUCIAL-local-components","Uno:fiducial_in-circuit","","","","","","","",""
+"","","FID2","FIDUCIAL","bottom-board-rescue:FIDUCIAL-local-components","Uno:fiducial_in-circuit","","","","","","","",""
+"","","FID3","FIDUCIAL","bottom-board-rescue:FIDUCIAL-local-components","Uno:fiducial_in-circuit","","","","","","","",""
+"","","H1","HOLE","bottom-board-rescue:HOLE-local-components","Uno:Hole_3.5mm","","","","","","","",""
+"","","H2","HOLE","bottom-board-rescue:HOLE-local-components","Uno:Hole_3.5mm","","","","","","","",""
+"","","H3","HOLE","bottom-board-rescue:HOLE-local-components","Uno:Hole_3.5mm","","","","","","","",""
+"","","H4","HOLE","bottom-board-rescue:HOLE-local-components","Uno:Hole_3.5mm","","","","","","","",""
+"","","H5","MountingHole_Pad","bottom-board-rescue:MountingHole_Pad-Mechanical","MountingHole:MountingHole_3.2mm_M3_DIN965_Pad","","","","","","","",""
+"","","H6","MountingHole_Pad","bottom-board-rescue:MountingHole_Pad-Mechanical","MountingHole:MountingHole_3.2mm_M3_DIN965_Pad","","","","","","","9774030243R",""
+"","","H7","MountingHole_Pad","bottom-board-rescue:MountingHole_Pad-Mechanical","MountingHole:MountingHole_3.2mm_M3_DIN965_Pad","","","","","","","9774030243R",""
+"","","J1","AS0A823-H4SB-7H","bottom-board-rescue:AS0A823-H4SB-7H","Uno:TE_2309409-1","None","AS0A823-H4SB-7H","AS Series 260 Pin Single Row DDR4 SODIMM Connector","Foxconn","Unavailable","None","TE_2309409-1",""
+"","","J2","Conn_01x25","Connector_Generic:Conn_01x25","F51L-1A7H1-11024:F51L-1A7H1-11024","~","","","","","","F51L-1A7H1-11024",""
+"","","JP1","Jumper","bottom-board-rescue:Jumper-Device","Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm","","","","","","","",""
+"","","L1","1mH","bottom-board-rescue:INDUCTOR-pspice","Inductor_SMD:L_Bourns_SRR1260","","","","","","","SRR1260-102K",""
+"","","L2","47UH 2A 135 MOHM","bottom-board-rescue:INDUCTOR-pspice","Uno:SRN8040TA","https://www.digikey.com/product-detail/en/bourns-inc/SRN8040TA-470M/SRN8040TA-470MTR-ND/6155133","","","","","","SRN8040TA-470M",""
+"","","P1","USB_B","bottom-board-rescue:USB_B-RESCUE-bottom-board","Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal","","","","","","","61729-1011BLF",""
+"","","P2","USB_A","bottom-board-rescue:USB_A-RESCUE-bottom-board","Uno:USB_A_Vertical","","","","","","","KUSBX-SLAS1N-B",""
+"","","P3","BARREL_JACK","bottom-board-rescue:BARREL_JACK","Connector_BarrelJack:BarrelJack_Horizontal","","","","","","","PJ-002AH",""
+"","","P6","AudioJack3","bottom-board-rescue:AudioJack3-Connector","Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal","","","","","","","SJ-3523-SMT-TR",""
+"","","P7","AudioJack3","bottom-board-rescue:AudioJack3-Connector","Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal","","","","","","","SJ-3523-SMT-TR",""
+"","","P8","SERIAL_DEBUG","bottom-board-rescue:CONN_01X03","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","","","","","","","DO NOT PLACE",""
+"","","P9","JACK_TRS_6PINS","bottom-board-rescue:AudioJack3_Switch-Connector","Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal","","","","","","","NYS215",""
+"","","P10","JACK_TRS_6PINS","bottom-board-rescue:AudioJack3_Switch-Connector","Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal","","","","","","","NYS215",""
+"","","P11","JACK_TRS_6PINS","bottom-board-rescue:AudioJack3_Switch-Connector","Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal","","","","","","","NYS215",""
+"","","P12","JACK_TRS_6PINS","bottom-board-rescue:AudioJack3_Switch-Connector","Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal","","","","","","","NYS215",""
+"","","P13","RJ45","bottom-board-rescue:RJ45-Connector","digikey-footprints:Ethernet_Jack_54602-908LF","","","","","","","54602-908LF",""
+"","","P14","AudioJack3","bottom-board-rescue:AudioJack3-Connector","Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal","","","","","","","SJ-3523-SMT-TR",""
+"","","Power1","TestPoint","bottom-board-rescue:TestPoint-Connector","TestPoint:TestPoint_Pad_D1.5mm","","","","","","","",""
+"","","Q1","2N7002","bottom-board-rescue:Q_NMOS_GSD","Package_TO_SOT_SMD:SOT-23","","","","","","","2N7002P,215",""
+"","","Q2","2N7002","bottom-board-rescue:Q_NMOS_GSD","Package_TO_SOT_SMD:SOT-23","","","","","","","2N7002P,215",""
+"","","Q3","MMBFJ211","bottom-board-rescue:Q_NJFET_DSG","Package_TO_SOT_SMD:SOT-23","","","","","","","MMBFJ211CT-ND",""
+"","","Q4","MMBFJ211","bottom-board-rescue:Q_NJFET_DSG","Package_TO_SOT_SMD:SOT-23","","","","","","","MMBFJ211CT-ND",""
+"","","Q5","MMBFJ211","bottom-board-rescue:Q_NJFET_DSG","Package_TO_SOT_SMD:SOT-23","","","","","","","MMBFJ211CT-ND",""
+"","","Q6","MMBFJ211","bottom-board-rescue:Q_NJFET_DSG","Package_TO_SOT_SMD:SOT-23","","","","","","","MMBFJ211CT-ND",""
+"","","Q7","2N7002","bottom-board-rescue:Q_NMOS_GSD","Package_TO_SOT_SMD:SOT-23","","","","","","","2N7002P,215",""
+"","","Q8","2N7002","bottom-board-rescue:Q_NMOS_GSD","Package_TO_SOT_SMD:SOT-23","","","","","","","2N7002P,215",""
+"","","Q9","MMBFJ211","bottom-board-rescue:Q_NJFET_DSG","Package_TO_SOT_SMD:SOT-23","","","","","","","MMBFJ211CT-ND",""
+"","","Q10","MMBFJ211","bottom-board-rescue:Q_NJFET_DSG","Package_TO_SOT_SMD:SOT-23","","","","","","","MMBFJ211CT-ND",""
+"","","Q12","2N7002","bottom-board-rescue:Q_NMOS_GSD","Package_TO_SOT_SMD:SOT-23","","","","","","","2N7002P,215",""
+"","","Q13","2N7002","bottom-board-rescue:Q_NMOS_GSD","Package_TO_SOT_SMD:SOT-23","","","","","","","2N7002P,215",""
+"","","R1","2K7","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F2K7",""
+"","","R2","2K7","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F2K7",""
+"","","R3","22R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT22R0",""
+"","","R4","22R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT22R0",""
+"","","R5","22R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT22R0",""
+"","","R6","22R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT22R0",""
+"","","R7","22R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT22R0",""
+"","","R8","100R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRD07100RL",""
+"","","R9","22R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT22R0",""
+"","","R10","22R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT22R0",""
+"","","R11","2K7","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F2K7",""
+"","","R12","100R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRD07100RL",""
+"","","R13","100R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRD07100RL",""
+"","","R14","100K","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT100K",""
+"","","R15","100K","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT100K",""
+"","","R16","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603BRD071ML",""
+"","","R17","47R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRE0747RL",""
+"","","R18","47R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRE0747RL",""
+"","","R19","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R20","2K7","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F2K7",""
+"","","R21","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R22","2K7","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F2K7",""
+"","","R23","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603BRD071ML",""
+"","","R24","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603BRD071ML",""
+"","","R25","100K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT100K",""
+"","","R26","100K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT100K",""
+"","","R27","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603BRD071ML",""
+"","","R28","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603BRD071ML",""
+"","","R29","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603BRD071ML",""
+"","","R30","10R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603J10R",""
+"","","R31","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603BRD071ML",""
+"","","R32","5K6","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","ERA-3AED562V",""
+"","","R33","5K6","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","ERA-3AED562V",""
+"","","R34","22K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRD0722KL",""
+"","","R35","22K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRD0722KL",""
+"","","R36","4K7","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRE074K7L",""
+"","","R37","4K7","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRE074K7L",""
+"","","R38","4K7","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRE074K7L",""
+"","","R39","4K7","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRE074K7L",""
+"","","R40","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603BRD071ML",""
+"","","R41","100R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRD07100RL",""
+"","","R42","10K","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R43","15K","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT15K0",""
+"","","R44","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603BRD071ML",""
+"","","R45","100R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRD07100RL",""
+"","","R46","10K","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R47","220R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RC0603FR-07220RL",""
+"","","R48","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603BRD071ML",""
+"","","R49","220R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RC0603FR-07220RL",""
+"","","R50","220R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RC0603FR-07220RL",""
+"","","R51","10K","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R52","10K","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R53","100K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT100K",""
+"","","R54","100K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT100K",""
+"","","R55","100R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRD07100RL",""
+"","","R56","100R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRD07100RL",""
+"","","R57","10K","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R58","10K","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R59","56R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F56R",""
+"","","R60","56R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F56R",""
+"","","R61","56R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F56R",""
+"","","R62","56R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F56R",""
+"","","R63","100R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRD07100RL",""
+"","","R64","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R65","2K7","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F2K7",""
+"","","R66","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R67","2K7","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F2K7",""
+"","","R68","2K7","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F2K7",""
+"","","R69","2K7","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F2K7",""
+"","","R70","1K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","ERJ-PB3D1001V",""
+"","","R71","1K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","ERJ-PB3D1001V",""
+"","","R72","0R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603ZT0R00",""
+"","","R73","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R74","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R75","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R76","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R77","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R78","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R79","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R80","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R81","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R82","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R83","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R84","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R85","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R86","150R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RC0603FR-07150RL",""
+"","","R87","150R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RC0603FR-07150RL",""
+"","","R88","100K","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT100K",""
+"","","R89","100K","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT100K",""
+"","","R90","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603BRD071ML",""
+"","","R91","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603BRD071ML",""
+"","","R92","56K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603FT56K0",""
+"","","R93","56K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603FT56K0",""
+"","","R94","22R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT22R0",""
+"","","R95","22R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT22R0",""
+"","","R96","75K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-753-D",""
+"","","R97","75K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-753-D",""
+"","","R98","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"","","R99","1K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","ERJ-PB3D1001V",""
+"","","R100","1K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","ERJ-PB3D1001V",""
+"","","R101","1K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","ERJ-PB3D1001V",""
+"","","R102","150R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RC0603FR-07150RL",""
+"","","R103","6R8","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603FT6R80",""
+"","","R104","6R8","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603FT6R80",""
+"","","R105","150R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RC0603FR-07150RL",""
+"","","R106","150R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RC0603FR-07150RL",""
+"","","R107","150R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RC0603FR-07150RL",""
+"","","R108","150R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RC0603FR-07150RL",""
+"","","R109","150R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RC0603FR-07150RL",""
+"","","R110","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","DO NOT PLACE",""
+"","","R111","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","DO NOT PLACE",""
+"","","R112","1K5","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","ERJ-PB3D1501V",""
+"","","Reset1","TestPoint","bottom-board-rescue:TestPoint-Connector","TestPoint:TestPoint_Pad_D1.5mm","","","","","","","",""
+"","","TP1","TestPoint","bottom-board-rescue:TestPoint-Connector","TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded","","","","","","","",""
+"","","TP2","TestPoint","bottom-board-rescue:TestPoint-Connector","TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded","","","","","","","",""
+"","","TP3","TestPoint","bottom-board-rescue:TestPoint-Connector","TestPoint:TestPoint_Pad_D1.0mm","","","","","","","",""
+"","","TP4","TestPoint","bottom-board-rescue:TestPoint-Connector","TestPoint:TestPoint_Pad_D1.0mm","","","","","","","",""
+"","","TP5","TestPoint","bottom-board-rescue:TestPoint-Connector","TestPoint:TestPoint_Pad_D1.0mm","","","","","","","",""
+"","","TP6","TestPoint","bottom-board-rescue:TestPoint-Connector","TestPoint:TestPoint_Pad_D1.0mm","","","","","","","",""
+"","","TP7","TestPoint","bottom-board-rescue:TestPoint-Connector","TestPoint:TestPoint_Pad_D2.0mm","","","","","","","",""
+"","","TP8","TestPoint","bottom-board-rescue:TestPoint-Connector","TestPoint:TestPoint_Pad_D2.0mm","","","","","","","",""
+"","","U1","TS2596","bottom-board-rescue:LM2596S-5-Regulator_Switching","Package_TO_SOT_SMD:TO-263-5_TabPin3","","","","","","","TS2596CM550 RNG",""
+"","","U2","TL750M10CKVURG3","bottom-board-rescue:LD1117S50TR_SOT223-Regulator_Linear","Package_TO_SOT_SMD:TO-252-3_TabPin2","","","","","","","TL750M10CKVURG3",""
+"","","U3","CS4265","bottom-board-rescue:CS4265-local-components-mdx","Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm","","","","","","","CS4265-CNZ",""
+"","","U4","AT24CS08-STUM","bottom-board-rescue:AT24CS08-STUM","Package_TO_SOT_SMD:SOT-23-5","","","","","","","AT24CS08-STUM",""
+"","","U5","LM4562","bottom-board-rescue:TL072-Amplifier_Operational","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.ti.com/lit/ds/symlink/tl071.pdf","","","","","","LM4562MAX/NOPB",""
+"","","U6","OPA1678IDR","bottom-board-rescue:TL072-Amplifier_Operational","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.ti.com/lit/ds/symlink/tl071.pdf","","","","","","OPA1678IDR",""
+"","","U7","OPA1678IDR","bottom-board-rescue:TL072-Amplifier_Operational","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.ti.com/lit/ds/symlink/tl071.pdf","","","","","","OPA1678IDR",""
+"","","U8","LM4811","bottom-board-rescue:LM4811-Amplifier_Audio","Package_SO:TSSOP-10_3x3mm_P0.5mm","http://www.ti.com/lit/ds/symlink/lm4811.pdf","","","","","","LM4811MM/NOPB",""
+"","","U9","LD1117S50TR","Regulator_Linear:LD1117S50TR_SOT223","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf","","","","","","LD1117S50TR",""
+"","","U10","TPS2001DDBVR","Power_Management:TPS2041B","Package_TO_SOT_SMD:SOT-23-5","http://www.ti.com/lit/ds/symlink/tps2041.pdf","","","","","","TPS2001DDBVR",""
+"","","U11","6N137S","bottom-board-rescue:6N136","Uno:6N137S","","","","","","","6N137S",""
+"","","U12","ISL83491","bottom-board-rescue:ISL83491","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","","","","","","","ISL83491IBZ",""
+"","","U13","AP2120N-3.3","bottom-board-rescue:AP2120N-3.3-local-components2","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/AP2120.pdf","","","","","","AP2120N-3.3TRG1",""
+"","","U14","LM833DR2G","bottom-board-rescue:LM4562-Amplifier_Operational","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.ti.com/lit/ds/symlink/opa1678.pdf","","","","","","LM833DR2G","OPA1678IDR"
+"","","X1","24.576MHz","Oscillator:ASCO","Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm","https://abracon.com/Oscillators/ASCO.pdf","","","","","","DO NOT PLACE",""
 
 
 
-Ref,Qty,Value,Footprint,MPN,MPN2,
-C15 C16 ,2,2.2nF,Capacitor_SMD:C_0603_1608Metric,GRM1885C1H222JA01D, 
-C17 C19 C73 C75 C77 C79 C81 C95 C6 C11 C13 C14 C22 C35 C36 C38 C53 C109 C39 C43 C54 C62 C31 C59 C60 C98 C100 C102 C104 C106 C68 C85 C86 C82 C5 C7 C9 C10 C12 C87 C48 C50 C51 C52 ,44,100nF,Capacitor_SMD:C_0603_1608Metric,GCM188R71C104KA37D, 
-C18 C72 C42 C57 C74 C83 C84 ,7,47uF,Capacitor_SMD:CP_Elec_5x5.4,EDK476M016A9DAA, 
-C20 C25 C76 C78 C80 C96 C37 C110 C41 C45 C67 C69 C8 C49 ,14,10uF,Capacitor_SMD:C_0805_2012Metric,GRM219R61E106KA12D, 
-C24 C26 C27 C97 C103 C105 ,6,1uF,Capacitor_SMD:C_0603_1608Metric,TMK107B7105KA-T, 
-C94 ,1,100nF,Capacitor_SMD:C_0603_1608Metric,DO NOT PLACE, 
-C21 C23 C28 C29 C40 C44 C46 C47 C55 C56 C90 C91 ,12,100pF,Capacitor_SMD:C_0603_1608Metric,C0603C101J3GACTU, 
-C33 C34 C88 C89 C61 C63 C64 C65 C66 C2 ,10,10uF,Capacitor_SMD:CP_Elec_4x5.7,EEE-HB1C100R, 
-C4 C108 C92 C93 ,4,1nF,Capacitor_SMD:C_0603_1608Metric,C0603X7R500-102KNP, 
-C30 C58 C99 C101 ,4,22uF,Capacitor_SMD:C_0805_2012Metric,CL21A226MPQNNNE, 
-C70 C71 C1 ,3,100uF,Capacitor_SMD:CP_Elec_6.3x7.7,107SML016M, 
-C3 C107 ,2,1000uF,Capacitor_SMD:CP_Elec_10x10.5,UCM1C102MNL1GS, 
-C32 ,1,470uF,Capacitor_SMD:CP_Elec_8x10.5,UCW1C471MNL1GS, 
-D10 D11 D3 D4 D19 D20 D21 D22 D17 D18 D12 ,11,BAT54S,Package_TO_SOT_SMD:SOT-23,BAT54SFILM, 
-D5 D6 D8 D9 D15 D16 ,6,1N4148,Diode_SMD:D_SOD-323,1N4148WS, 
-D1 D2 ,2,RSX205LAM30TR,Diode_SMD:D_SOD-128,RSX205LAM30TR, 
-D7 ,1,TSSA3U45 R3G,Diode_SMD:D_MELF,	TSSA3U45 R3G, 
-D13 D14 ,2,PRTR5V0U2X,Package_TO_SOT_SMD:SOT-143,PRTR5V0U2X 215, 
-F1 ,1,FUSE,Fuse:Fuse_2920_7451Metric,0ZCF0200FF2C, 
-FB1 FB2 FB3 FB12 FB13 FB14 FB15 ,7,Ferrite_Bead,Resistor_SMD:R_0603_1608Metric,BLM18HD102SH1D, 
-FID1 FID2 FID3 ,3,FIDUCIAL,Uno:fiducial_in-circuit, , 
-H1 H2 H3 H4 ,4,HOLE,Uno:Hole_3.5mm, , 
-H6 H7 ,2,MountingHole_Pad,MountingHole:MountingHole_3.2mm_M3_DIN965_Pad,9774030243R, 
-H5 ,1,MountingHole_Pad,MountingHole:MountingHole_3.2mm_M3_DIN965_Pad, , 
-J1 ,1,AS0A823-H4SB-7H,Uno:TE_2309409-1,TE_2309409-1, 
-J2 ,1,Conn_01x25,F51L-1A7H1-11024:F51L-1A7H1-11024,F51L-1A7H1-11024, 
-JP1 ,1,Jumper,Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm, , 
-L1 ,1,1mH,Inductor_SMD:L_Bourns_SRR1260,SRR1260-102K, 
-L2 ,1,47UH 2A 135 MOHM,Uno:SRN8040TA,SRN8040TA-470M, 
-P9 P10 P11 P12 ,4,JACK_TRS_6PINS,Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal,NYS215, 
-P13 ,1,RJ45,digikey-footprints:Ethernet_Jack_54602-908LF,54602-908LF, 
-P8 ,1,SERIAL_DEBUG,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,DO NOT PLACE, 
-P14 P6 P7 ,3,AudioJack3,Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal,SJ-3523-SMT-TR, 
-P3 ,1,BARREL_JACK,Connector_BarrelJack:BarrelJack_Horizontal,PJ-002AH, 
-P1 ,1,USB_B,Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal,61729-1011BLF, 
-P2 ,1,USB_A,Uno:USB_A_Vertical,KUSBX-SLAS1N-B, 
-Power1 Reset1 ,2,TestPoint,TestPoint:TestPoint_Pad_D1.5mm, , 
-Q1 Q2 Q7 Q8 Q12 Q13 ,6,2N7002,Package_TO_SOT_SMD:SOT-23,2N7002P 215, 
-Q3 Q4 Q5 Q6 Q9 Q10 ,6,MMBFJ211,Package_TO_SOT_SMD:SOT-23,MMBFJ211CT-ND, 
-R1 R2 R11 R20 R22 R65 R67 R68 R69 ,9,2K7,Resistor_SMD:R_0603_1608Metric,CRGCQ0603F2K7, 
-R3 R4 R5 R6 R7 R9 R10 R94 R95 ,9,22R,Resistor_SMD:R_0603_1608Metric,RMCF0603JT22R0, 
-R72 ,1,0R,Resistor_SMD:R_0603_1608Metric,RMCF0603ZT0R00, 
-R14 R15 R25 R26 R53 R54 R88 R89 ,8,100K,Resistor_SMD:R_0603_1608Metric,RMCF0603JT100K, 
-R17 R18 ,2,47R,Resistor_SMD:R_0603_1608Metric,RT0603DRE0747RL, 
-R19 R21 R64 R66 R73 R74 R75 R76 R77 R78 R79 R80 R81 R82 R83 R84 R85 R98 R57 R58 R51 R52 R42 R46 ,24,10K,Resistor_SMD:R_0603_1608Metric,RR0816P-103-D, 
-R23 R24 R27 R28 R29 R31 R40 R44 R90 R91 R16 R48 ,12,1M,Resistor_SMD:R_0603_1608Metric,RT0603BRD071ML, 
-R32 R33 ,2,5K6,Resistor_SMD:R_0603_1608Metric,ERA-3AED562V, 
-R34 R35 ,2,22K,Resistor_SMD:R_0603_1608Metric,RT0603DRD0722KL, 
-R36 R37 R38 R39 ,4,4K7,Resistor_SMD:R_0603_1608Metric,RT0603DRE074K7L, 
-R41 R45 R8 R55 R56 R63 R12 R13 ,8,100R,Resistor_SMD:R_0603_1608Metric,RT0603DRD07100RL, 
-R70 R71 R99 R100 R101 ,5,1K,Resistor_SMD:R_0603_1608Metric,ERJ-PB3D1001V, 
-R112 ,1,1K5,Resistor_SMD:R_0603_1608Metric,ERJ-PB3D1501V, 
-R86 R87 R102 R105 R106 R107 R108 R109 ,8,150R,Resistor_SMD:R_0603_1608Metric,RC0603FR-07150RL, 
-R59 R60 R61 R62 ,4,56R,Resistor_SMD:R_0603_1608Metric,CRGCQ0603F56R, 
-R30 ,1,10R,Resistor_SMD:R_0603_1608Metric,CRGCQ0603J10R, 
-R92 R93 ,2,56K,Resistor_SMD:R_0603_1608Metric,RMCF0603FT56K0, 
-R96 R97 ,2,75K,Resistor_SMD:R_0603_1608Metric,RR0816P-753-D, 
-R103 R104 ,2,6R8,Resistor_SMD:R_0603_1608Metric,RMCF0603FT6R80, 
-R110 R111 ,2,1M,Resistor_SMD:R_0603_1608Metric,DO NOT PLACE, 
-R47 R49 R50 ,3,220R,Resistor_SMD:R_0603_1608Metric,RC0603FR-07220RL, 
-R43 ,1,15K,Resistor_SMD:R_0603_1608Metric,RMCF0603JT15K0, 
-TP3 TP4 TP5 TP6 ,4,TestPoint,TestPoint:TestPoint_Pad_D1.0mm, , 
-TP7 TP8 ,2,TestPoint,TestPoint:TestPoint_Pad_D2.0mm, , 
-TP1 TP2 ,2,TestPoint,TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded, , 
-U3 ,1,CS4265,Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm,CS4265-CNZ, 
-U13 ,1,AP2120N-3.3,Package_TO_SOT_SMD:SOT-23,AP2120N-3.3TRG1, 
-U5 ,1,LM4562,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,LM4562MAX/NOPB, 
-U14 ,1,LM833DR2G,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,LM833DR2G,OPA1678IDR
-U6 U7 ,2,OPA1678IDR,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,OPA1678IDR, 
-U12 ,1,ISL83491,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,ISL83491IBZ, 
-U4 ,1,AT24CS08-STUM,Package_TO_SOT_SMD:SOT-23-5,AT24CS08-STUM, 
-U8 ,1,LM4811,Package_SO:TSSOP-10_3x3mm_P0.5mm,LM4811MM/NOPB, 
-U11 ,1,6N137S,Uno:6N137S,6N137S, 
-U1 ,1,TS2596,Package_TO_SOT_SMD:TO-263-5_TabPin3,TS2596CM550 RNG, 
-U2 ,1,TL750M10CKVURG3,Package_TO_SOT_SMD:TO-252-3_TabPin2,TL750M10CKVURG3, 
-U9 ,1,LD1117S50TR,Package_TO_SOT_SMD:SOT-223-3_TabPin2,LD1117S50TR, 
-U10 ,1,TPS2001DDBVR,Package_TO_SOT_SMD:SOT-23-5,TPS2001DDBVR, 
-X1 ,1,24.576MHz,Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm,DO NOT PLACE, 
+"Collated Components:"
 
-
-
-
-BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
-Generated Tue 03 May 2022 11:11:52 PM CEST
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Field4","Field5","Field6","Field7","Field8","MPN","MPN2"
+"1","3","C1, C70, C71","100uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_6.3x7.7","","","","","","","107SML016M",""
+"2","10","C2, C33, C34, C61, C63, C64, C65, C66, C88, C89","10uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_4x5.7","","","","","","","EEE-HB1C100R",""
+"3","2","C3, C107","1000uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_10x10.5","","","","","","","UCM1C102MNL1GS",""
+"4","4","C4, C92, C93, C108","1nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603X7R500-102KNP",""
+"5","44","C5, C6, C7, C9, C10, C11, C12, C13, C14, C17, C19, C22, C31, C35, C36, C38, C39, C43, C48, C50, C51, C52, C53, C54, C59, C60, C62, C68, C73, C75, C77, C79, C81, C82, C85, C86, C87, C94, C95, C98, C100, C102, C104, C106","100nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"6","2","C8, C110","10uF","bottom-board-rescue:C_Small-Device","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"7","2","C15, C16","2.2nF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","GRM1885C1H222JA01D",""
+"8","7","C18, C42, C57, C72, C74, C83, C84","47uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_5x5.4","","","","","","","EDK476M016A9DAA",""
+"9","12","C20, C25, C37, C41, C45, C49, C67, C69, C76, C78, C80, C96","10uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","GRM219R61E106KA12D",""
+"10","12","C21, C23, C28, C29, C40, C44, C46, C47, C55, C56, C90, C91","100pF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","C0603C101J3GACTU",""
+"11","6","C24, C26, C27, C97, C103, C105","1uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0603_1608Metric","","","","","","","TMK107B7105KA-T",""
+"12","4","C30, C58, C99, C101","22uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_0805_2012Metric","","","","","","","CL21A226MPQNNNE",""
+"13","1","C32","470uF","bottom-board-rescue:CP_Small","Capacitor_SMD:CP_Elec_8x10.5","","","","","","","UCW1C471MNL1GS",""
+"14","1","C109","100nF","bottom-board-rescue:C_Small-Device","Capacitor_SMD:C_0603_1608Metric","","","","","","","GCM188R71C104KA37D",""
+"15","2","C111, C112","1uF","bottom-board-rescue:C_Small","Capacitor_SMD:C_1210_3225Metric","","","","","","","FCA1210C105M-G2",""
+"16","2","D1, D2","RSX205LAM30TR","bottom-board-rescue:D_Schottky-Device","Diode_SMD:D_SOD-128","","","","","","","RSX205LAM30TR",""
+"17","11","D3, D4, D10, D11, D12, D17, D18, D19, D20, D21, D22","BAT54S","bottom-board-rescue:BAT54S-Diode","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf","","","","","","BAT54SFILM",""
+"18","6","D5, D6, D8, D9, D15, D16","1N4148","bottom-board-rescue:1N4148-Diode","Diode_SMD:D_SOD-323_HandSoldering","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf","","","","","","1N4148WS",""
+"19","1","D7","TSSA3U45 R3G","bottom-board-rescue:D_Shockley-Device","Diode_SMD:D_MELF","","","","","","","	TSSA3U45 R3G",""
+"20","2","D13, D14","PRTR5V0U2X","bottom-board-rescue:PRTR5V0U2X","Package_TO_SOT_SMD:SOT-143","","","","","","","PRTR5V0U2X,215",""
+"21","1","F1","FUSE","bottom-board-rescue:FUSE","Fuse:Fuse_2920_7451Metric","","","","","","","0ZCF0200FF2C",""
+"22","5","FB1, FB12, FB13, FB14, FB15","Ferrite_Bead","bottom-board-rescue:Ferrite_Bead-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","BLM18HD102SH1D",""
+"23","2","FB2, FB3","Ferrite_Bead","Device:Ferrite_Bead","Resistor_SMD:R_0603_1608Metric","","","","","","","BLM18HD102SH1D",""
+"24","3","FID1, FID2, FID3","FIDUCIAL","bottom-board-rescue:FIDUCIAL-local-components","Uno:fiducial_in-circuit","","","","","","","",""
+"25","4","H1, H2, H3, H4","HOLE","bottom-board-rescue:HOLE-local-components","Uno:Hole_3.5mm","","","","","","","",""
+"26","3","H5, H6, H7","MountingHole_Pad","bottom-board-rescue:MountingHole_Pad-Mechanical","MountingHole:MountingHole_3.2mm_M3_DIN965_Pad","","","","","","","9774030243R",""
+"27","1","J1","AS0A823-H4SB-7H","bottom-board-rescue:AS0A823-H4SB-7H","Uno:TE_2309409-1","None","AS0A823-H4SB-7H","AS Series 260 Pin Single Row DDR4 SODIMM Connector","Foxconn","Unavailable","None","TE_2309409-1",""
+"28","1","J2","Conn_01x25","Connector_Generic:Conn_01x25","F51L-1A7H1-11024:F51L-1A7H1-11024","~","","","","","","F51L-1A7H1-11024",""
+"29","1","JP1","Jumper","bottom-board-rescue:Jumper-Device","Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm","","","","","","","",""
+"30","1","L1","1mH","bottom-board-rescue:INDUCTOR-pspice","Inductor_SMD:L_Bourns_SRR1260","","","","","","","SRR1260-102K",""
+"31","1","L2","47UH 2A 135 MOHM","bottom-board-rescue:INDUCTOR-pspice","Uno:SRN8040TA","https://www.digikey.com/product-detail/en/bourns-inc/SRN8040TA-470M/SRN8040TA-470MTR-ND/6155133","","","","","","SRN8040TA-470M",""
+"32","1","P1","USB_B","bottom-board-rescue:USB_B-RESCUE-bottom-board","Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal","","","","","","","61729-1011BLF",""
+"33","1","P2","USB_A","bottom-board-rescue:USB_A-RESCUE-bottom-board","Uno:USB_A_Vertical","","","","","","","KUSBX-SLAS1N-B",""
+"34","1","P3","BARREL_JACK","bottom-board-rescue:BARREL_JACK","Connector_BarrelJack:BarrelJack_Horizontal","","","","","","","PJ-002AH",""
+"35","3","P6, P7, P14","AudioJack3","bottom-board-rescue:AudioJack3-Connector","Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal","","","","","","","SJ-3523-SMT-TR",""
+"36","1","P8","SERIAL_DEBUG","bottom-board-rescue:CONN_01X03","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","","","","","","","DO NOT PLACE",""
+"37","4","P9, P10, P11, P12","JACK_TRS_6PINS","bottom-board-rescue:AudioJack3_Switch-Connector","Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal","","","","","","","NYS215",""
+"38","1","P13","RJ45","bottom-board-rescue:RJ45-Connector","digikey-footprints:Ethernet_Jack_54602-908LF","","","","","","","54602-908LF",""
+"39","2","Power1, Reset1","TestPoint","bottom-board-rescue:TestPoint-Connector","TestPoint:TestPoint_Pad_D1.5mm","","","","","","","",""
+"40","6","Q1, Q2, Q7, Q8, Q12, Q13","2N7002","bottom-board-rescue:Q_NMOS_GSD","Package_TO_SOT_SMD:SOT-23","","","","","","","2N7002P,215",""
+"41","6","Q3, Q4, Q5, Q6, Q9, Q10","MMBFJ211","bottom-board-rescue:Q_NJFET_DSG","Package_TO_SOT_SMD:SOT-23","","","","","","","MMBFJ211CT-ND",""
+"42","5","R1, R2, R11, R68, R69","2K7","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F2K7",""
+"43","9","R3, R4, R5, R6, R7, R9, R10, R94, R95","22R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT22R0",""
+"44","3","R8, R41, R45","100R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRD07100RL",""
+"45","5","R12, R13, R55, R56, R63","100R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRD07100RL",""
+"46","4","R14, R15, R88, R89","100K","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT100K",""
+"47","14","R16, R23, R24, R27, R28, R29, R31, R40, R44, R48, R90, R91, R110, R111","1M","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603BRD071ML",""
+"48","2","R17, R18","47R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRE0747RL",""
+"49","18","R19, R21, R64, R66, R73, R74, R75, R76, R77, R78, R79, R80, R81, R82, R83, R84, R85, R98","10K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"50","4","R20, R22, R65, R67","2K7","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F2K7",""
+"51","4","R25, R26, R53, R54","100K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT100K",""
+"52","1","R30","10R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603J10R",""
+"53","2","R32, R33","5K6","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","ERA-3AED562V",""
+"54","2","R34, R35","22K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRD0722KL",""
+"55","4","R36, R37, R38, R39","4K7","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RT0603DRE074K7L",""
+"56","6","R42, R46, R51, R52, R57, R58","10K","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-103-D",""
+"57","1","R43","15K","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603JT15K0",""
+"58","3","R47, R49, R50","220R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RC0603FR-07220RL",""
+"59","4","R59, R60, R61, R62","56R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","CRGCQ0603F56R",""
+"60","5","R70, R71, R99, R100, R101","1K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","ERJ-PB3D1001V",""
+"61","1","R72","0R","bottom-board-rescue:R_Small","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603ZT0R00",""
+"62","8","R86, R87, R102, R105, R106, R107, R108, R109","150R","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RC0603FR-07150RL",""
+"63","2","R92, R93","56K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603FT56K0",""
+"64","2","R96, R97","75K","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RR0816P-753-D",""
+"65","2","R103, R104","6R8","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","RMCF0603FT6R80",""
+"66","1","R112","1K5","bottom-board-rescue:R_Small-Device","Resistor_SMD:R_0603_1608Metric","","","","","","","ERJ-PB3D1501V",""
+"67","2","TP1, TP2","TestPoint","bottom-board-rescue:TestPoint-Connector","TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded","","","","","","","",""
+"68","4","TP3, TP4, TP5, TP6","TestPoint","bottom-board-rescue:TestPoint-Connector","TestPoint:TestPoint_Pad_D1.0mm","","","","","","","",""
+"69","2","TP7, TP8","TestPoint","bottom-board-rescue:TestPoint-Connector","TestPoint:TestPoint_Pad_D2.0mm","","","","","","","",""
+"70","1","U1","TS2596","bottom-board-rescue:LM2596S-5-Regulator_Switching","Package_TO_SOT_SMD:TO-263-5_TabPin3","","","","","","","TS2596CM550 RNG",""
+"71","1","U2","TL750M10CKVURG3","bottom-board-rescue:LD1117S50TR_SOT223-Regulator_Linear","Package_TO_SOT_SMD:TO-252-3_TabPin2","","","","","","","TL750M10CKVURG3",""
+"72","1","U3","CS4265","bottom-board-rescue:CS4265-local-components-mdx","Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm","","","","","","","CS4265-CNZ",""
+"73","1","U4","AT24CS08-STUM","bottom-board-rescue:AT24CS08-STUM","Package_TO_SOT_SMD:SOT-23-5","","","","","","","AT24CS08-STUM",""
+"74","1","U5","LM4562","bottom-board-rescue:TL072-Amplifier_Operational","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.ti.com/lit/ds/symlink/tl071.pdf","","","","","","LM4562MAX/NOPB",""
+"75","2","U6, U7","OPA1678IDR","bottom-board-rescue:TL072-Amplifier_Operational","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.ti.com/lit/ds/symlink/tl071.pdf","","","","","","OPA1678IDR",""
+"76","1","U8","LM4811","bottom-board-rescue:LM4811-Amplifier_Audio","Package_SO:TSSOP-10_3x3mm_P0.5mm","http://www.ti.com/lit/ds/symlink/lm4811.pdf","","","","","","LM4811MM/NOPB",""
+"77","1","U9","LD1117S50TR","Regulator_Linear:LD1117S50TR_SOT223","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf","","","","","","LD1117S50TR",""
+"78","1","U10","TPS2001DDBVR","Power_Management:TPS2041B","Package_TO_SOT_SMD:SOT-23-5","http://www.ti.com/lit/ds/symlink/tps2041.pdf","","","","","","TPS2001DDBVR",""
+"79","1","U11","6N137S","bottom-board-rescue:6N136","Uno:6N137S","","","","","","","6N137S",""
+"80","1","U12","ISL83491","bottom-board-rescue:ISL83491","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","","","","","","","ISL83491IBZ",""
+"81","1","U13","AP2120N-3.3","bottom-board-rescue:AP2120N-3.3-local-components2","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/AP2120.pdf","","","","","","AP2120N-3.3TRG1",""
+"82","1","U14","LM833DR2G","bottom-board-rescue:LM4562-Amplifier_Operational","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.ti.com/lit/ds/symlink/opa1678.pdf","","","","","","LM833DR2G","OPA1678IDR"
+"83","1","X1","24.576MHz","Oscillator:ASCO","Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm","https://abracon.com/Oscillators/ASCO.pdf","","","","","","DO NOT PLACE",""

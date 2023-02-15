@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/mod-xps/MOD_REPOS/HW/hw-mod-dwarf/main-board/PCB Source/bottom-board/bottom-board.kicad_sch</source>
-    <date>Tue 03 May 2022 11:11:52 PM CEST</date>
-    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
+    <source>/home/jan/MOD/hw-mod-dwarf/main-board/PCB Source/bottom-board/bottom-board.kicad_sch</source>
+    <date>Wed 15 Feb 2023 05:39:18 PM CET</date>
+    <tool>Eeschema 6.0.10-86aedd382b~118~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>MOD Dwarf - Main Board</title>
@@ -948,6 +948,32 @@
       <sheetpath names="/audio-inputs/" tstamps="/00000000-0000-0000-0000-000054f72c8d/"/>
       <tstamps>4c1deecf-097a-4ab1-9a10-623d267c2e5d</tstamps>
     </comp>
+    <comp ref="C111">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="MPN">FCA1210C105M-G2</field>
+      </fields>
+      <libsource lib="bottom-board-rescue" part="C_Small" description=""/>
+      <property name="MPN" value="FCA1210C105M-G2"/>
+      <property name="Sheetname" value="audio-inputs"/>
+      <property name="Sheetfile" value="audio-inputs.kicad_sch"/>
+      <sheetpath names="/audio-inputs/" tstamps="/00000000-0000-0000-0000-000054f72c8d/"/>
+      <tstamps>19333e5d-0a7a-48a1-9d13-ecbb060696bb</tstamps>
+    </comp>
+    <comp ref="C112">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="MPN">FCA1210C105M-G2</field>
+      </fields>
+      <libsource lib="bottom-board-rescue" part="C_Small" description=""/>
+      <property name="MPN" value="FCA1210C105M-G2"/>
+      <property name="Sheetname" value="audio-inputs"/>
+      <property name="Sheetfile" value="audio-inputs.kicad_sch"/>
+      <sheetpath names="/audio-inputs/" tstamps="/00000000-0000-0000-0000-000054f72c8d/"/>
+      <tstamps>69cde7fe-5628-476e-bafc-fc8b189120e6</tstamps>
+    </comp>
     <comp ref="D3">
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
@@ -978,7 +1004,7 @@
     </comp>
     <comp ref="D5">
       <value>1N4148</value>
-      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <fields>
         <field name="MPN">1N4148WS</field>
@@ -992,7 +1018,7 @@
     </comp>
     <comp ref="D6">
       <value>1N4148</value>
-      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <fields>
         <field name="MPN">1N4148WS</field>
@@ -1006,7 +1032,7 @@
     </comp>
     <comp ref="D8">
       <value>1N4148</value>
-      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <fields>
         <field name="MPN">1N4148WS</field>
@@ -1020,7 +1046,7 @@
     </comp>
     <comp ref="D9">
       <value>1N4148</value>
-      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <fields>
         <field name="MPN">1N4148WS</field>
@@ -1765,7 +1791,7 @@
       <property name="Sheetname" value="audio-inputs"/>
       <property name="Sheetfile" value="audio-inputs.kicad_sch"/>
       <sheetpath names="/audio-inputs/" tstamps="/00000000-0000-0000-0000-000054f72c8d/"/>
-      <tstamps>00000000-0000-0000-0000-00005f12ec0e 00000000-0000-0000-0000-00005f1318fc 00000000-0000-0000-0000-00005f12aff4</tstamps>
+      <tstamps>00000000-0000-0000-0000-00005f1318fc 00000000-0000-0000-0000-00005f12ec0e 00000000-0000-0000-0000-00005f12aff4</tstamps>
     </comp>
     <comp ref="U14">
       <value>LM833DR2G</value>
@@ -3568,7 +3594,7 @@
     </comp>
     <comp ref="D15">
       <value>1N4148</value>
-      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <fields>
         <field name="MPN">1N4148WS</field>
@@ -3582,7 +3608,7 @@
     </comp>
     <comp ref="D16">
       <value>1N4148</value>
-      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <fields>
         <field name="MPN">1N4148WS</field>
@@ -5279,7 +5305,7 @@
       <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="bottom-board-rescue">
-      <uri>/home/mod-xps/MOD_REPOS/HW/hw-mod-dwarf/main-board/PCB Source/bottom-board/bottom-board-rescue.lib</uri>
+      <uri>/home/jan/MOD/hw-mod-dwarf/main-board/PCB Source/bottom-board/bottom-board-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -5912,36 +5938,40 @@
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="U3" pin="12" pinfunction="VQ" pintype="output"/>
     </net>
-    <net code="59" name="Net-(C21-Pad1)">
-      <node ref="C21" pin="1" pintype="passive"/>
-      <node ref="C26" pin="2" pintype="passive"/>
-      <node ref="R17" pin="1" pintype="passive"/>
-      <node ref="R23" pin="2" pintype="passive"/>
-    </net>
-    <net code="60" name="Net-(C22-Pad1)">
+    <net code="59" name="Net-(C22-Pad1)">
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q5" pin="3" pinfunction="G" pintype="input"/>
       <node ref="R40" pin="2" pintype="passive"/>
     </net>
-    <net code="61" name="Net-(C23-Pad1)">
+    <net code="60" name="Net-(C23-Pad1)">
+      <node ref="C112" pin="2" pintype="passive"/>
       <node ref="C23" pin="1" pintype="passive"/>
       <node ref="C27" pin="2" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="R24" pin="2" pintype="passive"/>
     </net>
-    <net code="62" name="Net-(C25-Pad2)">
+    <net code="61" name="Net-(C25-Pad2)">
       <node ref="C25" pin="2" pintype="passive"/>
       <node ref="FB1" pin="2" pintype="passive"/>
       <node ref="U13" pin="2" pinfunction="VO" pintype="passive"/>
     </net>
-    <net code="63" name="Net-(C26-Pad1)">
+    <net code="62" name="Net-(C26-Pad1)">
+      <node ref="C111" pin="1" pintype="passive"/>
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="D3" pin="3" pintype="passive"/>
       <node ref="R28" pin="2" pintype="passive"/>
       <node ref="U5" pin="5" pinfunction="+" pintype="input"/>
     </net>
+    <net code="63" name="Net-(C26-Pad2)">
+      <node ref="C111" pin="2" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
     <net code="64" name="Net-(C27-Pad1)">
+      <node ref="C112" pin="1" pintype="passive"/>
       <node ref="C27" pin="1" pintype="passive"/>
       <node ref="D4" pin="3" pintype="passive"/>
       <node ref="R31" pin="2" pintype="passive"/>
