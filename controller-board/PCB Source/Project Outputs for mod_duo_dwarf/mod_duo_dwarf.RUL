@@ -1,7 +1,0 @@
-DRC Rules Export File for PCB: C:\Users\jantj\Documents\MOD\HW\Dwarf controller\MOD-ELE-002[20222904]\PCB Source\mod_duo_dwarf.PcbDoc
-RuleKind=Clearance|RuleName=Clearance_pwr|Scope=Board|Minimum=15.00
-RuleKind=Clearance|RuleName=Clearance_poly|Scope=Board|Minimum=10.00
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

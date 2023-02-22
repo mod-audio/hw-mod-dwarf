@@ -1,1 +1,6 @@
-Record=TopLevelDocument|FileName=[1]-PWR_12VIN.SchDoc
+Record=TopLevelDocument|FileName=[1]-PWR_12VIN.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=[1]-PWR_12VIN.SchDoc|FileName=[2]-MCU_LPC1778FBD144.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=[1]-PWR_12VIN.SchDoc|FileName=[3]-GLCD_128X64.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=[1]-PWR_12VIN.SchDoc|FileName=[4]-MECH_BUTTONS.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=[1]-PWR_12VIN.SchDoc|FileName=[5]-BUTTONS_ILLUMINATION.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=[1]-PWR_12VIN.SchDoc|FileName=[6]-PEAKMETER_LEDS.SchDoc|SheetNumber=6
